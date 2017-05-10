@@ -140,7 +140,22 @@ def parse_arguments():
       '--department_link_list',
       action='append',
       help='A list of department links to scan for courses.')
-  return parser.parse_args()
+
+  args = parser.parse_args()
+
+  # Validate campus list values.
+  campus_list = args.campus_list
+  if campus_list:
+    for campus in campus_list:
+      if campus not in COURSE_INDICES:
+        raise Exception(
+            'Invalid campus selection: %s. Valid selections include: %s' %
+            (campus, ', '.join(COURSE_INDICES.keys())))
+  else:
+    # Set campus list default values.
+    args.campus_list = COURSE_INDICES.keys()
+
+  return args
 
 
 def extract_courses(campus_list, department_link_list):
@@ -156,12 +171,11 @@ def extract_courses(campus_list, department_link_list):
   courses = []
   for campus in campus_list:
     url = urllib.parse.urlparse(COURSE_INDICES[campus])
-    if not department_link_list:
-      department_link_list = get_department_links(url)
-
+    depts = department_link_list if department_link_list else get_department_links(
+        url)
     courses += list(
         itertools.chain.from_iterable(
-            [get_courses(url, campus, i) for i in department_link_list]))
+            [get_courses(url, campus, i) for i in depts]))
 
   return courses
 
@@ -169,11 +183,7 @@ def extract_courses(campus_list, department_link_list):
 def main():
   """Extracts UW course descriptions and exports them to CSV."""
   args = parse_arguments()
-  campus_list = args.campus_list
-  if not campus_list:
-    campus_list = COURSE_INDICES.keys()
-
-  courses = extract_courses(campus_list, args.department_link_list)
+  courses = extract_courses(args.campus_list, args.department_link_list)
   output = io.StringIO()
   export_courses(courses, output)
   print(output.getvalue())
