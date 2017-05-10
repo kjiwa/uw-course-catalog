@@ -1,5 +1,6 @@
 """Extracts UW course descriptions and exports them to CSV."""
 
+import argparse
 import collections
 import csv
 import io
@@ -125,18 +126,54 @@ def export_courses(courses, output):
     ])
 
 
-def main():
-  """Extracts UW course descriptions and exports them to CSV."""
+def parse_arguments():
+  """Parses command line arguments.
 
-  # Extract UW courses.
+  Returns: An object containing values for command line arguments.
+  """
+  parser = argparse.ArgumentParser()
+  parser.add_argument(
+      '--campus_list',
+      action='append',
+      help='A list of campuses to scan for courses.')
+  parser.add_argument(
+      '--department_link_list',
+      action='append',
+      help='A list of department links to scan for courses.')
+  return parser.parse_args()
+
+
+def extract_courses(campus_list, department_link_list):
+  """Extracts course descriptions from the given campus and department links.
+
+  Args:
+    campus_list: A list of campuses from which to extract course descriptions.
+    department_link_list: A list of department links from which to extract
+        course descriptions.
+
+  Returns: A list of courses.
+  """
   courses = []
-  for key in COURSE_INDICES:
-    url = urllib.parse.urlparse(COURSE_INDICES[key])
+  for campus in campus_list:
+    url = urllib.parse.urlparse(COURSE_INDICES[campus])
+    if not department_link_list:
+      department_link_list = get_department_links(url)
+
     courses += list(
         itertools.chain.from_iterable(
-            [get_courses(url, key, i) for i in get_department_links(url)]))
+            [get_courses(url, campus, i) for i in department_link_list]))
 
-  # Export courses to CSV.
+  return courses
+
+
+def main():
+  """Extracts UW course descriptions and exports them to CSV."""
+  args = parse_arguments()
+  campus_list = args.campus_list
+  if not campus_list:
+    campus_list = COURSE_INDICES.keys()
+
+  courses = extract_courses(campus_list, args.department_link_list)
   output = io.StringIO()
   export_courses(courses, output)
   print(output.getvalue())
