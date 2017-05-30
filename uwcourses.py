@@ -58,10 +58,9 @@ def parse_prerequisites(course_description):
   Returns:
     The course prerequisite codes.
   """
+  parts = course_description.split('Offered:')
   return sorted(
-      set([
-          k.strip() for k in re.findall(r'([A-Z& ]+ \d+)', course_description)
-      ]))
+      set([k.strip() for k in re.findall(r'([A-Z& ]+ \d+)', parts[0])]))
 
 
 def parse_course(course_node, campus):
