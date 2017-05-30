@@ -81,7 +81,7 @@ def parse_course(course_node, campus):
   p = re.compile(r'^([A-Z& ]+ \d+) (.+) \((.+).*\)(.*)$')
   m = p.match(s)
   if not m:
-    logging.warning('Unable to parse title: %s', i)
+    logging.warning('Unable to parse title: %s', s)
     return
 
   code = m.group(1)
@@ -112,7 +112,8 @@ def get_department_links(url):
   tree = lxml.html.fromstring(response.read())
   client.close()
 
-  depts = tree.xpath('//*[contains(@class, "uw-content")]/ul/li//a')
+  depts = tree.xpath(
+      '/html/body/*/*/*/*/div[contains(@class, "uw-content")]//li/a')
   return set([i.get('href') for i in depts])
 
 
@@ -131,8 +132,9 @@ def get_courses(url, campus, dept_link):
   client.request('GET', '%s%s' % (url.path, dept_link))
   response = client.getresponse()
   if response.status != 200:
-    raise Exception('Error reading category: %d %s' % (response.status,
-                                                       response.read()))
+    logging.warning('Error reading category (%s): %d %s', dept_link,
+                    response.status, response.read())
+    return
 
   tree = lxml.html.fromstring(response.read())
   client.close()
@@ -171,6 +173,22 @@ def export_courses(courses, output):
     ])
 
 
+def validate_campus_list(campus_list):
+  """Ensures that values in the campus list are valid.
+
+  Args:
+    campus_list: The list of campus values.
+
+  Raises:
+    ValueError: If an invalid campus value is found.
+  """
+  invalid_campuses = [i for i in campus_list if i not in COURSE_INDICES]
+  if invalid_campuses:
+    raise ValueError(
+        'Invalid campus selections: %s. Valid selections include: %s' %
+        (', '.join(invalid_campuses), ', '.join(COURSE_INDICES.keys())))
+
+
 def parse_arguments():
   """Parses command line arguments.
 
@@ -192,11 +210,7 @@ def parse_arguments():
   # Validate campus list values.
   campus_list = args.campus_list
   if campus_list:
-    for campus in campus_list:
-      if campus not in COURSE_INDICES:
-        raise Exception(
-            'Invalid campus selection: %s. Valid selections include: %s' %
-            (campus, ', '.join(COURSE_INDICES.keys())))
+    validate_campus_list(campus_list)
   else:
     # Set campus list default values.
     args.campus_list = COURSE_INDICES.keys()

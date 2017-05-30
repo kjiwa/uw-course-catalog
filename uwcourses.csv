@@ -2537,6 +2537,14 @@ Seattle,BA RM 580,Applied Econometrics I,4,,"STAT 342,STAT 395,STAT 481"
 Seattle,BA RM 581,Applied Econometrics II,4,,BA RM 580
 Seattle,BA RM 590,Behavioral Research Methods - Theory and Design,4,,"STAT 361,STAT 362"
 Seattle,BA RM 591,Behavioral Research Methods - Approaches and Applications,4,,"STAT 361,STAT 362"
+Seattle,BCS 401,First Year Bosnian/Croatian/Serbian,5,,
+Seattle,BCS 402,First Year Bosnian/Croatian/Serbian,5,,BCS 401
+Seattle,BCS 403,First Year Bosnian/Croatian/Serbian,5,,BCS 402
+Seattle,BCS 404,Second-Year Bosnian/Croatian/Serbian,5,VLPA,BCS 403
+Seattle,BCS 405,Second-Year Bosnian/Croatian/Serbian,5,VLPA,BCS 404
+Seattle,BCS 406,Second-Year Bosnian/Croatian/Serbian,5,VLPA,BCS 405
+Seattle,BCS 410,Intensive Third Year Bosnian/Croatian/Serbian,10,VLPA,BCS 406
+Seattle,BCS 420,"Literature, Film, and Culture of the Former Yugoslavia and the Yugoslav Successor States",5,VLPA,
 Seattle,BENG 101,Elementary Bengali,5,,
 Seattle,BENG 102,Elementary Bengali,5,,BENG 101
 Seattle,BENG 103,Elementary Bengali,5,,BENG 102
@@ -3019,6 +3027,12 @@ Seattle,BSE 489,Foreign Study,,,
 Seattle,BSE 490,Special Topics,,,
 Seattle,BSE 497,Pulp and Paper Internship,1,,
 Seattle,BSE 499,Undergraduate Research,,,
+Seattle,BULGR 401,First-Year Bulgarian,5,,
+Seattle,BULGR 402,First-Year Bulgarian,5,,BULGR 401
+Seattle,BULGR 403,First-Year Bulgarian,5,,BULGR 402
+Seattle,BULGR 404,Second-Year Bulgarian,5,VLPA,BULGR 403
+Seattle,BULGR 405,Second-Year Bulgarian,5,VLPA,BULGR 404
+Seattle,BULGR 406,Second-Year Bulgarian,5,VLPA,BULGR 405
 Seattle,C ENV 110,Introduction to Food and the Environment,5,"I&S,NW",
 Seattle,C ENV 190,Introductory Topics in Environment,,,
 Seattle,C ENV 410,MESA Introductory Tutor Training Workshop,1,,
@@ -3028,6 +3042,80 @@ Seattle,C ENV 430,MESA Advanced Tutor Training Seminar,,,
 Seattle,C ENV 490,Special Topics in Environment,,,
 Seattle,C ENV 500,Communicating Science to the Public Effectively,3,,
 Seattle,C ENV 590,Special Topics in Environment,,,
+Seattle,C LIT 200,Introduction to Literature,,VLPA,
+Seattle,C LIT 210,Literature and Science,5,VLPA,
+Seattle,C LIT 230,Introduction to Folklore Studies,5,"I&S,VLPA",
+Seattle,C LIT 240,Writing in Comparative Literature,5,C,
+Seattle,C LIT 250,Introduction to Comparative Literature: Literature and Culture,5,"I&S,VLPA",
+Seattle,C LIT 251,Introduction to Comparative Literature: Themes,5,VLPA,
+Seattle,C LIT 252,Introduction to Comparative Literature: Genres,5,VLPA,
+Seattle,C LIT 266,Literature and Technology,5,VLPA,
+Seattle,C LIT 295,Comparative Literature Study Abroad,,,
+Seattle,C LIT 300,"Introduction to Comparative Literature: Forms, Genres, History",5,VLPA,
+Seattle,C LIT 318,Literature and the Holocaust,5,"DIV,VLPA",
+Seattle,C LIT 320,Studies in European Literature,5,VLPA,
+Seattle,C LIT 321,Studies in Literature of the Americas,5,VLPA,
+Seattle,C LIT 322,Studies in Asian and Western Literatures,5,VLPA,
+Seattle,C LIT 323,Studies in the Literature of Emerging Nations,5,"DIV,VLPA",
+Seattle,C LIT 330,The European Fairy Tale,5,VLPA,
+Seattle,C LIT 331,Folk Narrative,5,VLPA,
+Seattle,C LIT 334,Immigrant and Ethnic Folklore,5,"I&S,VLPA",
+Seattle,C LIT 350,Themes in World Literature: Parents and Children,5,VLPA,
+Seattle,C LIT 352,Themes in World Literature: Death and Transfiguration,5,VLPA,
+Seattle,C LIT 357,Literature and Film,,VLPA,
+Seattle,C LIT 360,Topics in Ancient and Medieval Literature,5,VLPA,
+Seattle,C LIT 361,Topics in Early Modern Literature,5,VLPA,
+Seattle,C LIT 362,Topics in Modern Literature,5,VLPA,
+Seattle,C LIT 371,Literature and the Visual Arts,5,VLPA,
+Seattle,C LIT 375,Images of Women in Literature,5,"DIV,VLPA",
+Seattle,C LIT 395,Comparative Literature Study Abroad,,,
+Seattle,C LIT 396,Special Studies in Comparative Literature,,VLPA,
+Seattle,C LIT 400,Introduction to Theory and Criticism,5,VLPA,
+Seattle,C LIT 410,Studies in Literary History,5,VLPA,
+Seattle,C LIT 421,Studies in Connections: Literature and Other Disciplines,5,VLPA,
+Seattle,C LIT 422,Studies in Genre,5,VLPA,
+Seattle,C LIT 424,The Epic Tradition,5,VLPA,
+Seattle,C LIT 430,Readings in Folklore,5,VLPA,
+Seattle,C LIT 431,The Northern European Ballad,5,VLPA,
+Seattle,C LIT 432,Technology and Culture in the Making of Contemporary Empires,5,I&S,
+Seattle,C LIT 441,Literature and the Holocaust,5,VLPA,
+Seattle,C LIT 474,Scandinavian Auteurs,5,VLPA,
+Seattle,C LIT 490,Directed Study or Research,,,
+Seattle,C LIT 491,Internship,,,
+Seattle,C LIT 493,Comparative Literature Honors Seminar,5,VLPA,
+Seattle,C LIT 495,Honors Thesis,5,VLPA,
+Seattle,C LIT 496,Special Studies in Comparative Literature,,VLPA,
+Seattle,C LIT 500,The Theory of Literature I: The Literary Text,5,,
+Seattle,C LIT 501,The Theory of Literature II: History of Literature,5,,
+Seattle,C LIT 502,The Theory of Literature III: Special Topics,5,,
+Seattle,C LIT 507,History of Literary Criticism and Theory I,5,,
+Seattle,C LIT 508,History of Literary Criticism and Theory II,5,,
+Seattle,C LIT 509,History of Literary Criticism and Theory III,5,,
+Seattle,C LIT 510,History of Literary Criticism and Theory IV,5,,
+Seattle,C LIT 511,Literary Translation,5,,
+Seattle,C LIT 516,Colloquium in Criticism,5,,
+Seattle,C LIT 530,Cultural Criticism and Ideology Critique I,5,,
+Seattle,C LIT 535,Cultural Criticism and Ideology Critique II,5,,
+Seattle,C LIT 545,Medieval Studies,,,
+Seattle,C LIT 546,Studies in Renaissance and Baroque,,,
+Seattle,C LIT 547,Studies in Eighteenth-Century Literature,,,
+Seattle,C LIT 548,Studies in Nineteenth-Century Literature,,,
+Seattle,C LIT 549,Twentieth-Century Literature,,,
+Seattle,C LIT 551,Textual Theory,5,,
+Seattle,C LIT 552,Manuscript Studies,5,,
+Seattle,C LIT 553,Studies in Print Culture and Publication,5,,
+Seattle,C LIT 554,Digital Literary and Textual Studies,5,,
+Seattle,C LIT 570,The Novel: Theory and Practice,,,
+Seattle,C LIT 571,The Lyric: Theory and Practice,,,
+Seattle,C LIT 573,The Drama: Theory and Practice,,,
+Seattle,C LIT 574,Scandinavian Auteurs,5,VLPA,
+Seattle,C LIT 576,Seminar in East-West Literary Relations,,,
+Seattle,C LIT 590,Master of Arts Essay,,,
+Seattle,C LIT 596,Special Studies in Comparative Literature,,,
+Seattle,C LIT 599,Special Seminar or Conference,,,
+Seattle,C LIT 600,Independent Study or Research,,,
+Seattle,C LIT 700,Master's Thesis,,,
+Seattle,C LIT 800,Doctoral Dissertation,,,
 Seattle,C MED 499,Undergraduate Laboratory Research,,,
 Seattle,C MED 512,Introduction to the Anatomical Analysis of Animal Disease,2,,"PATH 444,PATH 445"
 Seattle,C MED 514,Comparative Pathology Conference,1,,PATH 500
@@ -3043,6 +3131,167 @@ Seattle,C MED 592,Comparative Pathology for the Scientist,3,,
 Seattle,C MED 600,Independent Study or Research,,,
 Seattle,C MED 601,Internship Rotation - Laboratory Animal Medicine,,,
 Seattle,C MED 700,Master's Thesis,,,
+Seattle,CEE 100,Twenty-First Century Civil and Environmental Engineering,1,,
+Seattle,CEE 220,Introduction to Mechanics of Materials,4,NW,A A 210
+Seattle,CEE 250,Environmental Processes and Flows,3,NW,"MATH 120,MATH 124"
+Seattle,CEE 291,Introduction to AutoCAD for Civil Engineers,2,NW,"MATH 112,MATH 124"
+Seattle,CEE 297,Foreign Study,,,
+Seattle,CEE 298,Special Topics in Civil and Environmental Engineering,,,
+Seattle,CEE 299,Independent Project,,,
+Seattle,CEE 307,Construction Engineering,5,,
+Seattle,CEE 317,GeoSurveying,5,,"MATH 126,MATH 134,MATH 135,MATH 136"
+Seattle,CEE 327,Transportation Engineering,5,,"MATH 126,MATH 134,MATH 135,MATH 136,PHYS 121"
+Seattle,CEE 337,Construction Materials,5,,CEE 220
+Seattle,CEE 347,Introduction to Fluid Mechanics,5,,"CEE 220,M E 230,PHYS 122"
+Seattle,CEE 348,Hydrology and Environmental Fluid Mechanics,4,,"CEE 347,PHYS 123"
+Seattle,CEE 349,Case Studies in Environmental Engineering,3,,CHEM 162
+Seattle,CEE 350,Mass and Energy Balances in Environmental Engineering,4,,"AMATH 351,CHEM 162,MATH 307,PHYS 122"
+Seattle,CEE 352,Introduction to Environmental Chemistry and Microbiology,4,,"AA 260,BIOL 180,CHEM 162,CHEM E 326,ME 323"
+Seattle,CEE 354,Environmental Engineering Applications,5,,"CEE 350,CEE 352,CHEM 223,CHEM 237,CHEME 310"
+Seattle,CEE 356,Quantitative and Conceptual Tools for Sustainability,4,,
+Seattle,CEE 357,Environmental Engineering,5,,"CHEM 142,MATH 126,MATH 134,MATH 135,MATH 136"
+Seattle,CEE 367,Geotechnical Engineering,5,,CEE 347
+Seattle,CEE 377,Introduction to Structural Design,5,,
+Seattle,CEE 404,Infrastructure Construction,4,,CEE 307
+Seattle,CEE 409,Engineering Rome: Study Abroad,5,,
+Seattle,CEE 410,Traffic Engineering Fundamentals,3,,CEE 327
+Seattle,CEE 412,Transportation Data Management,3,,CEE 327
+Seattle,CEE 416,Urban Transportation Planning and Design,3,,CEE 327
+Seattle,CEE 418,Computer-Aided Planning of Urban Systems,3,,
+Seattle,CEE 420,Engineering With Developing Communities,3,DIV,
+Seattle,CEE 421,Pavement Design & Construction,4,,CEE 337
+Seattle,CEE 422,Energy and Transportation,3,,CEE 327
+Seattle,CEE 424,GIS for Civil Engineers,3,,CEE 317
+Seattle,CEE 425,Reinforced Concrete Construction,3,,"CEE 291,CEE 428,CEE 452"
+Seattle,CEE 428,Lightweight Cementitious Composites,,,
+Seattle,CEE 429,Sustainability in Building Infrastructure,3,,CEE 307
+Seattle,CEE 431,Seismology and Earthquake Engineering,3,NW,"ESS 310,MATH 126,MATH 134,MATH 307,MATH 308"
+Seattle,CEE 436,Foundation Design,3,,CEE 367
+Seattle,CEE 437,Engineering Geology I,3,,
+Seattle,CEE 440,Professional Practice Studio,2,,
+Seattle,CEE 441,Transportation and Construction Capstone Design Project,5,,"CEE 327,CEE 404,CEE 410,CEE 412,CEE 416,CEE 421,CEE 424,CEE 425,CEE 440"
+Seattle,CEE 442,Structural Geotechnical Capstone Design Project,5,,"CEE 436,CEE 440,CEE 451,CEE 452,CEE 453,CEE 454,CEE 456,CEE 457"
+Seattle,CEE 444,Water Resources and Hydraulic Engineering Capstone Design Project,5,,"CEE 345,CEE 347,CEE 440,CEE 475,CEE 476,CEE 482,CEE 483,CEE 484"
+Seattle,CEE 445,Environmental Engineering Capstone Design Project,5,,"CEE 345,CEE 347,CEE 440,CEE 473,CEE 475,CEE 476,CEE 481,CEE 482,CEE 483,CEE 484"
+Seattle,CEE 451,Design of Metal Structures,3,,CEE 377
+Seattle,CEE 452,Design of Reinforced Concrete Structures,3,,CEE 377
+Seattle,CEE 453,Prestressed Concrete Design,3,,CEE 452
+Seattle,CEE 454,Design of Timber Structures,3,,CEE 377
+Seattle,CEE 455,Structural Unit Masonry,3,,CEE 377
+Seattle,CEE 456,Structural Analysis,5,,CEE 377
+Seattle,CEE 457,Advanced Structures I,3,,CEE 456
+Seattle,CEE 458,Advanced Structures II,3,,CEE 456
+Seattle,CEE 459,Advanced Structural Mechanics,3,,CEE 377
+Seattle,CEE 462,Applied Limnology and Pollutant Effects on Freshwater,3,NW,
+Seattle,CEE 463,Limnology Laboratory,2,NW,"BIOL 473,CEE 462,FISH 473"
+Seattle,CEE 472,Introduction to Hydraulics in Water Resources,3,,CEE 347
+Seattle,CEE 473,Coastal Engineering I,3,,CEE 347
+Seattle,CEE 474,Hydraulics of Sediment Transport,3,,CEE 347
+Seattle,CEE 475,Analysis Techniques for Groundwater Flow,3,,CEE 347
+Seattle,CEE 476,Physical Hydrology,3,,CEE 347
+Seattle,CEE 477,Open-Channel Flow,3,,CEE 347
+Seattle,CEE 480,Air-Quality Modeling,3,NW,MATH 125
+Seattle,CEE 481,Hydraulic Design for Environmental Engineering,3,,"CEE 347,CEE 357"
+Seattle,CEE 482,Wastewater Reuse and Resource Recovery,3,,CEE 357
+Seattle,CEE 483,Drinking Water Treatment,3,,CEE 357
+Seattle,CEE 484,Decentralized and On-Site Wastewater Management and Reuse,3,,CEE 357
+Seattle,CEE 487,Solid-Waste Disposal,3,,
+Seattle,CEE 488,Hazardous Waste Engineering,3,,CEE 357
+Seattle,CEE 489,Water and Air Quality Sampling,2,,CEE 462
+Seattle,CEE 490,Air-Pollution Control,4,,
+Seattle,CEE 491,Deterministic Systems,3,,
+Seattle,CEE 492,Stochastic Systems,3,,CEE 491
+Seattle,CEE 493,Air-Pollution Source Testing and Equipment Evaluation,3,,
+Seattle,CEE 494,Air-Pollution Control Equipment Design,3,,
+Seattle,CEE 495,Sustainability and Design for Environment,3,,
+Seattle,CEE 496,Fate and Transport of Chemicals in the Environment,3,,
+Seattle,CEE 497,Engineering Jordan: Water in an Arid Land Study Abroad,5,,
+Seattle,CEE 498,Special Topics,,,
+Seattle,CEE 499,Independent Study/Research,,,
+Seattle,CEE 500,Civil and Environmental Engineering Seminars,1,,
+Seattle,CEE 501,Structural Mechanics,6,,
+Seattle,CEE 502,Structural Dynamics,3,,CEE 501
+Seattle,CEE 503,Materials Modeling,3,,
+Seattle,CEE 504,Finite Element Methods in Structural Mechanics,3,,CEE 501
+Seattle,CEE 505,Engineering Computing,3,,
+Seattle,CEE 506,Nonlinear Analysis of Structural Systems,3,,CEE 501
+Seattle,CEE 507,Structural Stability,3,,CEE 501
+Seattle,CEE 509,Engineering Rome: Study Abroad,5,,
+Seattle,CEE 511,Advanced Reinforced Concrete,3,,CEE 452
+Seattle,CEE 512,Advanced Structural Systems,3,,"CEE 453,CEE 502"
+Seattle,CEE 513,Advanced Steel I,3,,CEE 501
+Seattle,CEE 515,Earthquake Engineering I,3,,"CEE 501,CEE 502"
+Seattle,CEE 516,Earthquake Engineering II,3,,CEE 515
+Seattle,CEE 517,Wind Engineering Design,3,,
+Seattle,CEE 518,Reliability and Design,3,,
+Seattle,CEE 521,Seepage and Consolidation,3,,CEE 367
+Seattle,CEE 522,Shear Strength and Slope Stability,3,,CEE 367
+Seattle,CEE 523,Advanced Foundation Engineering,3,,"CEE 522,CEE 527"
+Seattle,CEE 524,Lateral Earth Pressures and Retaining Structures,3,,"CEE 523,CEE 527"
+Seattle,CEE 525,Soil Dynamics,3,,
+Seattle,CEE 526,Geotechnical Earthquake Engineering,3,,CEE 525
+Seattle,CEE 527,Advanced Geotechnical Laboratory,4,,CEE 367
+Seattle,CEE 528,Geosynthetic Engineering,3,,"CEE 522,CEE 523"
+Seattle,CEE 529,Foundation Soil Improvement,3,,CEE 523
+Seattle,CEE 530,Engineering Geology II,3,,CEE 437
+Seattle,CEE 531,Rock Engineering,3,,CEE 437
+Seattle,CEE 540,Microbiological Process Fundamentals,3,,
+Seattle,CEE 541,Biological Treatment Systems,3,,"CEE 482,CEE 540"
+Seattle,CEE 543,Aquatic Chemistry,4,,
+Seattle,CEE 544,Physical-Chemical Treatment Processes,4,,
+Seattle,CEE 545,Environmental Organic Chemistry,3,,CEE 543
+Seattle,CEE 546,Topics in Ecological Effects of Wastewater,3,,"BIOL 473,CEE 462"
+Seattle,CEE 547,Lake and Watershed Management,3,,"BIOL 473,CEE 462,FISH 434"
+Seattle,CEE 549,"Advanced Topics in Environmental Engineering, Chemistry, and Biology",3,,"CEE 540,CEE 541"
+Seattle,CEE 550,Environmental Chemical Modeling,3,,CEE 551
+Seattle,CEE 551,Fate and Transport of Chemicals in the Environment,3,,
+Seattle,CEE 552,Environmental Regulations,3,I&S,
+Seattle,CEE 553,Seminar - Topics in Atmospheric Chemistry,,,ATM S 301
+Seattle,CEE 554,Acoustics of Environmental Noise,4,,
+Seattle,CEE 555,Topics in Environmental Health,3,,
+Seattle,CEE 557,Air Resources Management,3,,
+Seattle,CEE 560,Risk Assessment for Environmental Health Hazards,,,
+Seattle,CEE 561,Transportation Planning and Design,5,,
+Seattle,CEE 562,Livable Communities and Design,4,,
+Seattle,CEE 563,Transportation Choices and Technology,4,,
+Seattle,CEE 564,Sustainable Transportation From a Systems Perspective,5,,
+Seattle,CEE 565,Climate Change and Energy,5,,
+Seattle,CEE 566,Environmental Analysis and Assessment,5,,
+Seattle,CEE 567,Health and Sustainable Transportation,5,,
+Seattle,CEE 568,Transportation Economics,5,,
+Seattle,CEE 569,"Policy Development, Finance, and Sustainable Transportation",5,,
+Seattle,CEE 570,Hydrodynamics,4,,CEE 357
+Seattle,CEE 571,Hydrodynamics in Water Quality,3,,CEE 342
+Seattle,CEE 572,Water Wave Mechanics for Coastal Engineers,4,,CEE 347
+Seattle,CEE 573,Snow Hydrology,3,,
+Seattle,CEE 574,Advanced Hydrology,3,,
+Seattle,CEE 576,Water Resources Planning,3,,
+Seattle,CEE 577,Water-Quality Management,3,,
+Seattle,CEE 578,Water Resource System Management and Operations,3,,
+Seattle,CEE 579,Advanced Traffic Detection Systems,3,,
+Seattle,CEE 580,Urban Transportation Planning,4,,
+Seattle,CEE 581,Travel Demand Forecasting,4,,
+Seattle,CEE 582,Intelligent Transportation Systems,3,,
+Seattle,CEE 583,Transportation Energy and Sustainability,3,,
+Seattle,CEE 584,Analytical Methods in Transportation I,3,,"IND E 315,MATH 390,STAT 390"
+Seattle,CEE 585,Analytical Methods in Transportation II,3,,CEE 584
+Seattle,CEE 586,"Pedestrian Travel, Land Use, and Urban Form",3,,
+Seattle,CEE 587,"Global Trade, Transportation, and Logistics Management",4,,
+Seattle,CEE 588,Energy Infrastructure and the Environment,3,,
+Seattle,CEE 589,Transit Systems Planning,3,,
+Seattle,CEE 590,Traffic Systems Operations,3,,CEE 327
+Seattle,CEE 591,Freight Transportation,3,,
+Seattle,CEE 592,Statistical Fundamentals for Construction and Materials Applications,3,,
+Seattle,CEE 593,Construction Labor Law,3,,
+Seattle,CEE 594,Computer-Aided Construction,3,,
+Seattle,CEE 595,Construction Materials,3,,
+Seattle,CEE 596,Pavement Construction,3,,
+Seattle,CEE 598,Engineering Jordan: Water in an Arid Land Study Abroad,5,,
+Seattle,CEE 599,Special Topics in Civil and Environmental Engineering,,,
+Seattle,CEE 600,Independent Study or Research,,,
+Seattle,CEE 601,Internship,2,,
+Seattle,CEE 700,Master's Thesis,,,
+Seattle,CEE 800,Doctoral Dissertation,,,
 Seattle,CEP 200,Introduction to Community and Environmental Planning,5,I&S,
 Seattle,CEP 300,CEP Retreat,1,,
 Seattle,CEP 301,The Idea of Community,5,I&S,
@@ -3059,6 +3308,23 @@ Seattle,CEP 490,Senior Project Prep Seminar I: Research and Project Scoping,,,
 Seattle,CEP 491,Senior Project Prep Seminar II: Methods and Actualization,,,
 Seattle,CEP 498,Special Topics,,I&S,
 Seattle,CEP 499,Undergraduate Independent Study or Research,,,
+Seattle,CESI 501,Distributed Renewable Power Systems,3,,
+Seattle,CESI 502,Geomatics in Energy Infrastructure,3,,
+Seattle,CESI 503,Operation of a Power Plant,3,,
+Seattle,CESI 504,"Buildings, LEED, and Energy Use",3,,
+Seattle,CESI 505,Air Pollution Control and Occupational Safety and Health,3,,
+Seattle,CESI 506,"Management of Site Remediation, Hazardous Waste, and On-Site Treatment",3,,
+Seattle,CESI 508,Accounting and Finance for Construction,3,,
+Seattle,CESI 510,Electric Grids,1,,
+Seattle,CESI 511,Grid Integration of Variable Sources of Generation,1,,
+Seattle,CESI 512,Regulating Electric Utilities,1,,
+Seattle,CESI 513,Operation and Maintenance of a Wind Farm,1,,
+Seattle,CESI 514,Hydroelectric Project Relicensing,1,,
+Seattle,CESI 519,Trends and Applications in E-Construction,1,,
+Seattle,CESI 520,Electricity Fundamentals,1,,
+Seattle,CESI 521,Introduction to AutoCAD and Bluebeam,1,,
+Seattle,CESI 522,Introduction to AutoTURN,1,,
+Seattle,CESI 524,Statistical Methods for Construction,1,,
 Seattle,CFRM 405,Mathematical Methods for Quantitative Finance,3,"NW,QSR",
 Seattle,CFRM 410,Probability and Statistics for Computational Finance,3,,
 Seattle,CFRM 415,Introduction to Financial Markets,3,,"CFRM 405,CFRM 410"
@@ -3283,6 +3549,15 @@ Seattle,CHEM E 599,Current Topics in Chemical Engineering,,,
 Seattle,CHEM E 600,Independent Study or Research,,,
 Seattle,CHEM E 700,Master's Thesis,,,
 Seattle,CHEM E 800,Doctoral Dissertation,,,
+Seattle,CHGTAI 401,Chagatai I,5,VLPA,"KAZAKH 205,TKIC 405,TKIC 423,TKIC 429,UYGUR 203,UZBEK 203"
+Seattle,CHGTAI 402,Chagatai II,5,VLPA,CHGTAI 401
+Seattle,CHGTAI 490,Supervised Study,,,CHGTAI 402
+Seattle,CHGTAI 496,Special Studies in Chagatai,,VLPA,
+Seattle,CHGTAI 499,Undergraduate Research,,,
+Seattle,CHGTAI 541,Chagatai I,5,,
+Seattle,CHGTAI 542,Chagatai II,5,,CHGTAI 541
+Seattle,CHGTAI 596,Special Studies in Chagatai,,,
+Seattle,CHGTAI 600,Independent Study or Research,,,
 Seattle,CHID 101,Introduction to the Comparative History of Ideas,2,,
 Seattle,CHID 110,The Question of Human Nature,5,"I&S,VLPA",
 Seattle,CHID 120,Yoga: Past and Present,5,"DIV,I&S,VLPA",
@@ -3559,6 +3834,36 @@ Seattle,CM 590,Research Methods in Construction Engineering,2,,
 Seattle,CM 598,Special Topics,,,
 Seattle,CM 600,Independent Study or Research,,,
 Seattle,CM 700,Master's Thesis,,,
+Seattle,CMS 270,Perspectives on Film: Introduction,5,VLPA,
+Seattle,CMS 271,Perspectives on Film: Great Directors,5,VLPA,
+Seattle,CMS 272,Perspectives on Film: Genre,5,VLPA,
+Seattle,CMS 273,Perspectives on Television: Analysis,5,VLPA,
+Seattle,CMS 274,Perspectives on Media: Critical Concepts,5,VLPA,
+Seattle,CMS 275,"Perspectives on Visual Culture: Sex, Race and Power",5,"DIV,I&S,VLPA",
+Seattle,CMS 295,Study Abroad,,VLPA,
+Seattle,CMS 301,Film and Media Studies: Analysis,5,VLPA,
+Seattle,CMS 302,Media Arts and Cultures,5,VLPA,
+Seattle,CMS 303,Genre Studies,5,VLPA,
+Seattle,CMS 304,Television Studies,5,VLPA,
+Seattle,CMS 310,History of Film: 1895-1929,5,VLPA,
+Seattle,CMS 311,History of Film: 1930-1959,5,VLPA,
+Seattle,CMS 312,History of Film: 1960 - 1988,5,VLPA,
+Seattle,CMS 313,History of Film: 1989-Present,5,VLPA,
+Seattle,CMS 314,History of Television,5,VLPA,
+Seattle,CMS 315,History of New Media,5,VLPA,
+Seattle,CMS 320,Cinema and Nation,,VLPA,
+Seattle,CMS 321,Oppositional Cinema/Media,5,,
+Seattle,CMS 370,Basic Screenwriting,5,VLPA,
+Seattle,CMS 395,Study Abroad,,VLPA,
+Seattle,CMS 397,Special Topics in Cinema and Media Studies,,"I&S,VLPA",
+Seattle,CMS 423,East European Film,5,VLPA,
+Seattle,CMS 470,Advanced Screenwriting,5,VLPA,
+Seattle,CMS 480,Senior Capstone,5,VLPA,
+Seattle,CMS 490,Directed Study or Research,,,
+Seattle,CMS 491,Internship,,,
+Seattle,CMS 497,Special Topics in Cinema and Media Studies,,VLPA,
+Seattle,CMS 520,Methods and Issues in Cinema and Media Studies,5,,
+Seattle,CMS 597,Special Topics in Cinema and Media Studies,,,
 Seattle,COM 201,Introduction to Communication I,5,I&S,
 Seattle,COM 202,Introduction to Communication II,5,"I&S,VLPA",
 Seattle,COM 210,Introductory Communication Topics,5,,
@@ -4058,6 +4363,13 @@ Seattle,CSE P 590,Special Topics in Computer Science,,,
 Seattle,CSE P 595,Software Entrepreneurship,4,,
 Seattle,CSE P 596,Business Basics Computer Science Professionals,4,,
 Seattle,CSE P 600,Independent Study or Research,,,
+Seattle,CZECH 401,First-Year Czech,5,,
+Seattle,CZECH 402,First-Year Czech,5,,CZECH 401
+Seattle,CZECH 403,First-Year Czech,5,,CZECH 402
+Seattle,CZECH 404,Second-Year Czech,5,VLPA,CZECH 403
+Seattle,CZECH 405,Second-Year Czech,5,VLPA,CZECH 404
+Seattle,CZECH 406,Second-Year Czech,5,VLPA,CZECH 405
+Seattle,CZECH 420,Modern Czech Literature in English,5,VLPA,
 Seattle,D HYG 500,Dental Hygiene Program Seminar,,,
 Seattle,D HYG 501,Dental Hygiene Capstone I,,,
 Seattle,D HYG 502,Dental Hygiene Capstone II,,,
@@ -4162,6 +4474,21 @@ Seattle,DANCE 570,Dance Production Seminar,3,,
 Seattle,DANCE 590,Dance Teaching Methodologies,,,
 Seattle,DANCE 595,Master's Project,3,,
 Seattle,DANCE 600,Independent Study or Research,,,
+Seattle,DANISH 101,First Year Danish 1,5,VLPA,
+Seattle,DANISH 102,Elementary Danish,5,,DANISH 101
+Seattle,DANISH 103,Elementary Danish,5,,DANISH 102
+Seattle,DANISH 199,Foreign Study: Elementary Danish,,,
+Seattle,DANISH 201,Second-Year Danish,5,VLPA,
+Seattle,DANISH 202,Second-Year Danish,5,VLPA,DANISH 201
+Seattle,DANISH 203,Second-Year Danish,5,VLPA,DANISH 202
+Seattle,DANISH 299,Foreign Study: Intermediate Danish,,VLPA,
+Seattle,DANISH 310,Topics in Danish Short Prose,5,VLPA,
+Seattle,DANISH 311,Topics in Danish Literature and Culture,5,VLPA,
+Seattle,DANISH 312,Topics in the Danish Novel,5,VLPA,
+Seattle,DANISH 395,Foreign Study: Danish Area Studies,,I&S,
+Seattle,DANISH 399,Foreign Study: Topics in Danish Literature and Culture,,VLPA,
+Seattle,DANISH 411,Danish for Professionals,3,VLPA,
+Seattle,DANISH 490,Supervised Reading,,,
 Seattle,DATA 501,Data Science Visualization Lab,1,,
 Seattle,DATA 512,Human-Centered Data Science,5,,
 Seattle,DATA 514,Data Management for Data Science,5,,
@@ -6048,6 +6375,18 @@ Seattle,ESS 600,Independent Study or Research,,,
 Seattle,ESS 601,Internship,,,
 Seattle,ESS 700,Master's Thesis,,,
 Seattle,ESS 800,Doctoral Dissertation,,,
+Seattle,ESTO 101,Elementary Estonian,5,,
+Seattle,ESTO 102,Elementary Estonian,5,,ESTO 101
+Seattle,ESTO 103,Elementary Estonian,5,,ESTO 102
+Seattle,ESTO 111,Basic Estonian,3,,
+Seattle,ESTO 112,Basic Estonian,3,,ESTO 111
+Seattle,ESTO 113,Basic Estonian,3,,ESTO 112
+Seattle,ESTO 150,Intensive Estonian,15,,
+Seattle,ESTO 201,Second-Year Estonian,5,VLPA,"ESTO 103,ESTO 150"
+Seattle,ESTO 202,Second-Year Estonian,5,VLPA,ESTO 201
+Seattle,ESTO 203,Second-Year Estonian,5,VLPA,ESTO 202
+Seattle,ESTO 250,Intensive Intermediate Estonian,15,VLPA,"ESTO 103,ESTO 150"
+Seattle,ESTO 490,Supervised Reading,,,
 Seattle,FAMED 499,Undergraduate Research,,,
 Seattle,FAMED 501,P-Introduction to Family Medicine: Preceptorship,2,,
 Seattle,FAMED 502,P-Preclinical Continuity Preceptorship in Family Medicine,,,
@@ -6180,6 +6519,20 @@ Seattle,FIN 591,Doctoral Seminar in Corporate Finance,4,,"BA RM 581,ECON 582,FIN
 Seattle,FIN 592,Doctoral Seminar in Financial Research,4,,"BA RM 581,ECON 582,FIN 590"
 Seattle,FIN 599,Doctoral Seminar in Finance,1,,
 Seattle,FIN 600,Independent Study or Research,,,
+Seattle,FINN 101,Elementary Finnish,5,,
+Seattle,FINN 102,Elementary Finnish,5,,FINN 101
+Seattle,FINN 103,Elementary Finnish,5,,FINN 102
+Seattle,FINN 150,Intensive First-Year Finnish,15,,
+Seattle,FINN 199,Foreign Study: Elementary Finnish,,,
+Seattle,FINN 201,Second-Year Finnish,5,VLPA,"FINN 103,FINN 150"
+Seattle,FINN 202,Second-Year Finnish,5,VLPA,FINN 201
+Seattle,FINN 203,Second-Year Finnish,5,VLPA,FINN 202
+Seattle,FINN 250,Intensive Second-Year Finnish,15,VLPA,"FINN 103,FINN 150"
+Seattle,FINN 299,Foreign Study: Intermediate Finnish,,VLPA,
+Seattle,FINN 310,Topics in Finnish Language and Culture,5,VLPA,
+Seattle,FINN 395,Foreign Study: Finnish Area Studies,,I&S,
+Seattle,FINN 399,Foreign Study: Topics in Finnish Literature and Culture,,VLPA,
+Seattle,FINN 490,Supervised Reading,,,
 Seattle,FISH 101,Water and Society,5,"I&S,NW",
 Seattle,FISH 230,Economics of Fisheries and Oceans,5,"I&S,NW,QSR",
 Seattle,FISH 250,Marine Biology,,"I&S,NW",
@@ -8688,6 +9041,31 @@ Seattle,JSIS E 428,Perspectives on East Asia for Teachers,3,I&S,
 Seattle,JSIS E 429,East Asia for Educators,6,I&S,
 Seattle,JSIS E 478,Readings in the Social Sciences in Japanese,,I&S,JAPAN 313
 Seattle,JSIS E 547,Readings on Japan in the Social Sciences,5,,JAPAN 313
+Seattle,KAZAKH 101,Elementary Kazakh,5,,
+Seattle,KAZAKH 102,Elementary Kazakh,5,,KAZAKH 101
+Seattle,KAZAKH 103,Elementary Kazakh,5,,KAZAKH 102
+Seattle,KAZAKH 105,Intensive Elementary Kazakh,15,,
+Seattle,KAZAKH 201,Intermediate Kazakh,5,VLPA,"KAZAKH 103,KAZAKH 105"
+Seattle,KAZAKH 202,Intermediate Kazakh,5,VLPA,KAZAKH 201
+Seattle,KAZAKH 203,Intermediate Kazakh,5,VLPA,KAZAKH 202
+Seattle,KAZAKH 205,Intensive Intermediate Kazakh,15,VLPA,"KAZAKH 103,KAZAKH 105"
+Seattle,KAZAKH 401,Kazakh Through Culture I,5,VLPA,KAZAKH 203
+Seattle,KAZAKH 402,Kazakh Through Culture II,5,VLPA,KAZAKH 401
+Seattle,KAZAKH 403,Kazakh Through Culture III,5,VLPA,KAZAKH 402
+Seattle,KAZAKH 490,Supervised Study,,,"KAZAKH 205,TKIC 405"
+Seattle,KAZAKH 496,Special Studies in Kazakh,,VLPA,
+Seattle,KAZAKH 499,Undergraduate Research,,,
+Seattle,KAZAKH 511,Elementary Kazakh,5,,
+Seattle,KAZAKH 512,Elementary Kazakh,5,,KAZAKH 511
+Seattle,KAZAKH 513,Elementary Kazakh,5,,KAZAKH 512
+Seattle,KAZAKH 521,Intermediate Kazakh,5,,KAZAKH 513
+Seattle,KAZAKH 522,Intermediate Kazakh,5,,KAZAKH 521
+Seattle,KAZAKH 523,Intermediate Kazakh,5,,KAZAKH 522
+Seattle,KAZAKH 541,Kazakh Through Culture I,5,,KAZAKH 523
+Seattle,KAZAKH 542,Kazakh Through Culture II,5,,KAZAKH 541
+Seattle,KAZAKH 543,Kazakh Through Culture III,5,,KAZAKH 522
+Seattle,KAZAKH 596,Special Studies in Kazakh,,,
+Seattle,KAZAKH 600,Independent Study or Research,,,
 Seattle,KOREAN 101,First-Year Korean,5,,
 Seattle,KOREAN 102,First-Year Korean,5,,KOREAN 101
 Seattle,KOREAN 103,First-Year Korean,5,,KOREAN 102
@@ -8719,6 +9097,24 @@ Seattle,KOREAN 495,Foreign Study: Advanced Korean Literature and Linguistics,,VL
 Seattle,KOREAN 499,Undergraduate Independent Study,,,
 Seattle,KOREAN 531,Advanced Readings in Modern Korean Literature,5,,
 Seattle,KOREAN 532,Advanced Readings in Traditional Vernacular Korean Literature,5,,
+Seattle,KYRGYZ 101,Elementary Kyrgyz,5,,
+Seattle,KYRGYZ 102,Elementary Kyrgyz,5,,KYRGYZ 101
+Seattle,KYRGYZ 103,Elementary Kyrgyz,5,,KYRGYZ 102
+Seattle,KYRGYZ 105,Intensive Elementary Kyrgyz,15,,
+Seattle,KYRGYZ 201,Intermediate Kyrgyz,5,VLPA,KYRGYZ 103
+Seattle,KYRGYZ 202,Intermediate Kyrgyz,5,VLPA,KYRGYZ 201
+Seattle,KYRGYZ 203,Intermediate Kyrgyz,5,VLPA,KYRGYZ 202
+Seattle,KYRGYZ 490,Supervised Study,,,"KYRGYZ 105,TKIC 403"
+Seattle,KYRGYZ 496,Special Studies in Krygyz,,VLPA,
+Seattle,KYRGYZ 499,Undergraduate Research,,,
+Seattle,KYRGYZ 511,Elementary Kyrgyz,5,,
+Seattle,KYRGYZ 512,Elementary Kyrgyz,5,,KYRGYZ 511
+Seattle,KYRGYZ 513,Elementary Kyrgyz,5,,KYRGYZ 512
+Seattle,KYRGYZ 521,Intermediate Kyrgyz,5,,KYRGYZ 513
+Seattle,KYRGYZ 522,Intermediate Kyrgyz,5,,KYRGYZ 521
+Seattle,KYRGYZ 523,Intermediate Kyrgyz,5,,KYRGYZ 523
+Seattle,KYRGYZ 596,Special Studies in Kyrgyz,,,
+Seattle,KYRGYZ 600,Independent Study or Research,,,
 Seattle,L ARCH 200,Landscape Architecture Field Trips,2,"I&S,VLPA",
 Seattle,L ARCH 212,Designing the Future,5,VLPA,
 Seattle,L ARCH 300,Introductory Landscape Architecture Design Studio,6,VLPA,
@@ -8863,6 +9259,19 @@ Seattle,LATIN 540,Topics in Latin Literary History,5,,
 Seattle,LATIN 565,Seminar in Rome,5,,
 Seattle,LATIN 590,Supervised Study,,,
 Seattle,LATIN 600,Independent Study or Research,,,
+Seattle,LATV 101,Elementary Latvian,5,,
+Seattle,LATV 102,Elementary Latvian,5,,LATV 101
+Seattle,LATV 103,Elementary Latvian,5,,LATV 102
+Seattle,LATV 111,Basic Latvian,3,,
+Seattle,LATV 112,Basic Latvian,3,,LATV 111
+Seattle,LATV 113,Basic Latvian,3,,LATV 112
+Seattle,LATV 150,Intensive Latvian,15,,
+Seattle,LATV 201,Second-Year Latvian,5,VLPA,"LATV 103,LATV 150"
+Seattle,LATV 202,Second-Year Latvian,5,VLPA,LATV 201
+Seattle,LATV 203,Second-Year Latvian,5,VLPA,LATV 202
+Seattle,LATV 250,Intensive Intermediate Latvian,15,VLPA,"LATV 103,LATV 150"
+Seattle,LATV 310,Topics in Latvian Literature,5,VLPA,
+Seattle,LATV 490,Supervised Reading,,VLPA,
 Seattle,LAW 100,Introduction to American Law,,I&S,
 Seattle,LAW 300,Introduction to Law,,I&S,
 Seattle,LAW 301,Introduction to Common Law Legal Reasoning,3,I&S,
@@ -9412,6 +9821,19 @@ Seattle,LIS 595,Current Issues in Law Librarianship,,,
 Seattle,LIS 596,Professional Portfolio,3,,
 Seattle,LIS 598,Special Topics in Information and Library Science,,,
 Seattle,LIS 600,Independent Study or Research,,,
+Seattle,LITH 101,Elementary Lithuanian,5,,
+Seattle,LITH 102,Elementary Lithuanian,5,,LITH 101
+Seattle,LITH 103,Elementary Lithuanian,5,,LITH 102
+Seattle,LITH 111,Basic Lithuanian,3,,
+Seattle,LITH 112,Basic Lithuanian,3,,LITH 111
+Seattle,LITH 113,Basic Lithuanian,3,,LITH 112
+Seattle,LITH 150,Intensive Lithuanian,15,,
+Seattle,LITH 201,Second-Year Lithuanian,5,VLPA,"LITH 103,LITH 150"
+Seattle,LITH 202,Second-Year Lithuanian,5,VLPA,LITH 201
+Seattle,LITH 203,Second-Year Lithuanian,5,VLPA,LITH 202
+Seattle,LITH 250,Intensive Intermediate Lithuanian,15,VLPA,"LITH 103,LITH 150"
+Seattle,LITH 310,Topics in Lithuanian Literature and Culture,5,VLPA,
+Seattle,LITH 490,Supervised Reading,,,
 Seattle,LSJ 200,"Introduction to Law, Societies, and Justice",5,I&S,
 Seattle,LSJ 230,Introduction to Disability Studies,5,"DIV,I&S",
 Seattle,LSJ 301,Internship,,,
@@ -10919,6 +11341,19 @@ Seattle,N SCI 402,Naval Leadership and Ethics,3,I&S,
 Seattle,N SCI 403,Naval Organization and Management,3,,N SCI 402
 Seattle,N SCI 421,Amphibious Warfare,3,I&S,N SCI 321
 Seattle,N&MES 800,Doctoral Dissertation,,,
+Seattle,NBIO 301,Introduction to Cellular and Molecular Neurobiology,5,NW,BIOL 220
+Seattle,NBIO 302,Introduction to Systems and Behavioral Neurobiology,,NW,NBIO 301
+Seattle,NBIO 303,Neuronal Coding and Computation,,,MATH 125
+Seattle,NBIO 401,Systems Neurobiology,3,NW,NBIO 301
+Seattle,NBIO 402,Diseases of the Nervous System,3,NW,NBIO 401
+Seattle,NBIO 403,Systems and Behavioral Neurobiology,3,NW,NBIO 401
+Seattle,NBIO 404,Neuropharmacology,3,NW,NBIO 401
+Seattle,NBIO 405,Neural Computation and Engineering Laboratory,3,NW,"AMATH 301,AMATH 345,AMATH 352,BIOL 162,BIOL 220,MATH 308"
+Seattle,NBIO 440,Topics in Current Neurobiology Research,2,NW,NBIO 302
+Seattle,NBIO 450,Current Research Literature in Neurobiology,2,NW,BIOL 220
+Seattle,NBIO 490,Seminar in Computational Neuroscience,,NW,
+Seattle,NBIO 496,Peer Teaching Facilitator in Neurobiology,5,,
+Seattle,NBIO 499,Individual Research in Neurobiology,,,NBIO 302
 Seattle,NCLIN 302,Practicum: Health Assessment,,,
 Seattle,NCLIN 306,Practicum: Basic Skills of Nursing Practice,4,,NCLIN 302
 Seattle,NCLIN 403,Practicum: Pediatric Nursing,4,,NURS 401
@@ -11212,6 +11647,22 @@ Seattle,NMETH 600,Independent Study or Research,,,
 Seattle,NMETH 700,Master's Thesis,,,
 Seattle,NMETH 800,Doctoral Dissertation,,,
 Seattle,NMETH 801,Practice Doctorate Project/Capstone,,,
+Seattle,NORW 101,Elementary Norwegian,5,,
+Seattle,NORW 102,Elementary Norwegian,5,,
+Seattle,NORW 103,Elementary Norwegian,5,,
+Seattle,NORW 150,Intensive First-Year Norwegian,15,,
+Seattle,NORW 199,Foreign Study: Elementary Norwegian,,,
+Seattle,NORW 201,Second-Year Norwegian,5,VLPA,
+Seattle,NORW 202,Second-Year Norwegian,5,VLPA,
+Seattle,NORW 203,Second-Year Norwegian,5,VLPA,
+Seattle,NORW 299,Foreign Study: Intermediate Norwegian,,VLPA,
+Seattle,NORW 310,The Norwegian Short Story,5,VLPA,
+Seattle,NORW 311,Drama After Ibsen,5,VLPA,
+Seattle,NORW 312,Topics in Norwegian Literature and Culture,5,VLPA,
+Seattle,NORW 321,The Plays of Henrik Ibsen,5,VLPA,
+Seattle,NORW 395,Foreign Study: Norwegian Area Studies,,I&S,
+Seattle,NORW 399,Foreign Study: Topics in Norwegian Literature and Culture VLPA,,VLPA,
+Seattle,NORW 490,Supervised Reading,,,
 Seattle,NSG 432,Infants and Children: Risk and Resilience,5,I&S,
 Seattle,NSG 505,Applied Occupational Health and Safety,3,,
 Seattle,NSG 506,Occupational Safety Management,4,,
@@ -12147,6 +12598,121 @@ Seattle,PHG 595,Master's Practicum,,,
 Seattle,PHG 600,Independent Study or Research,,,
 Seattle,PHG 700,Master's Thesis,,,
 Seattle,PHG 800,Doctoral Dissertation,,,
+Seattle,PHIL 100,Introduction to Philosophy,5,I&S,
+Seattle,PHIL 102,Contemporary Moral Problems,5,"I&S,VLPA",
+Seattle,PHIL 110,Introduction to Social and Political Philosophy,5,I&S,
+Seattle,PHIL 114,Philosophical Issues in the Law,5,I&S,
+Seattle,PHIL 115,Practical Reasoning,5,"I&S,QSR",
+Seattle,PHIL 120,Introduction to Logic,5,"I&S,NW,QSR",
+Seattle,PHIL 160,"Why Do We Believe in Quarks, Evolution, and Other Crazy Things? Perspectives on Science, Reason, and Reality",5,"I&S,NW",
+Seattle,PHIL 200,Topics in Philosophy,,I&S,
+Seattle,PHIL 205,Philosophy for Children,5,I&S,
+Seattle,PHIL 206,Philosophy of Feminism,5,"DIV,I&S",
+Seattle,PHIL 207,Issues of Global Justice,5,"DIV,I&S",
+Seattle,PHIL 240,Introduction to Ethics,5,"I&S,VLPA",
+Seattle,PHIL 241,Topics in Ethics,5,"I&S,VLPA",
+Seattle,PHIL 242,Introduction to Medical Ethics,5,"I&S,VLPA",
+Seattle,PHIL 243,Environmental Ethics,5,"I&S,VLPA",
+Seattle,PHIL 267,Introduction to Philosophy of Religion,5,I&S,
+Seattle,PHIL 291,Ethics in Science,5,I&S,
+Seattle,PHIL 301,Intermediate Topics in Philosophy,,I&S,
+Seattle,PHIL 307,Justice Across Disciplinary Boundaries,5,I&S,
+Seattle,PHIL 314,Philosophy of Crime and Punishment,5,I&S,
+Seattle,PHIL 320,Ancient Philosophy,5,I&S,
+Seattle,PHIL 322,Modern Philosophy,5,I&S,
+Seattle,PHIL 325,Nineteenth-Century Philosophy,5,I&S,
+Seattle,PHIL 330,History of Ancient Political Philosophy,5,I&S,
+Seattle,PHIL 332,History of Modern Political Philosophy,5,I&S,
+Seattle,PHIL 335,Plato's Republic,5,"I&S,VLPA",
+Seattle,PHIL 338,Philosophy of Human Rights,5,I&S,
+Seattle,PHIL 340,History of Ancient Ethics,5,"I&S,VLPA",
+Seattle,PHIL 342,History of Modern Ethics,5,"I&S,VLPA",
+Seattle,PHIL 343,Ethics and the Environment,5,I&S,
+Seattle,PHIL 344,History of Recent Ethics,5,"I&S,VLPA",
+Seattle,PHIL 345,Moral Issues of Life and Death,5,"I&S,VLPA",
+Seattle,PHIL 346,Personal Values and Human Good,5,I&S,
+Seattle,PHIL 347,Philosophy in Literature,5,"I&S,VLPA",
+Seattle,PHIL 350,Introduction to Epistemology,5,I&S,
+Seattle,PHIL 356,Introduction to Metaphysics,5,I&S,
+Seattle,PHIL 360,Introductory Topics in Philosophy of Science,5,"I&S,NW",
+Seattle,PHIL 362,Topics in the Philosophy of Science,5,"I&S,NW",
+Seattle,PHIL 363,Introduction to the Philosophy of Mind,5,I&S,
+Seattle,PHIL 373,Introduction to Philosophy of Mathematics,5,I&S,
+Seattle,PHIL 399,Foreign Study,,,
+Seattle,PHIL 401,Advanced Topics in Philosophy,,I&S,
+Seattle,PHIL 406,Philosophical Topics in Feminism,5,"DIV,I&S",
+Seattle,PHIL 407,International Justice,5,,
+Seattle,PHIL 408,Philosophy of Diversity,5,"DIV,I&S",
+Seattle,PHIL 409,Philosophy of Disability,5,"DIV,I&S","CHID 332,CHID 433,CHID 434,LSJ 332,LSJ 433,LSJ 434"
+Seattle,PHIL 410,Social Philosophy,5,I&S,
+Seattle,PHIL 411,Justice in Health Care,5,"I&S,VLPA",
+Seattle,PHIL 412,Ethical Theory,5,I&S,
+Seattle,PHIL 413,Metaethical Theory,5,I&S,
+Seattle,PHIL 414,Philosophy of Law,5,I&S,
+Seattle,PHIL 415,Advanced Topics in Animal Welfare,5,I&S,
+Seattle,PHIL 416,Ethics and Climate Change,5,I&S,
+Seattle,PHIL 417,Advanced Topics in Environmental Philosophy,5,I&S,
+Seattle,PHIL 418,Jewish Philosophy,5,I&S,
+Seattle,PHIL 422,Studies in Continental Rationalism,5,I&S,
+Seattle,PHIL 426,Twentieth-Century Philosophy,5,I&S,
+Seattle,PHIL 430,Hellenistic Philosophy,3,I&S,
+Seattle,PHIL 431,Philosophy of Plato,3,I&S,
+Seattle,PHIL 433,Philosophy of Aristotle,3,I&S,
+Seattle,PHIL 436,British Empiricism,3,I&S,"PHIL 322,PHIL 350"
+Seattle,PHIL 437,Philosophy of Hume,3,I&S,
+Seattle,PHIL 438,Philosophy of Kant,5,I&S,
+Seattle,PHIL 440,Ethics,5,I&S,
+Seattle,PHIL 441,Public Health Ethics,5,I&S,
+Seattle,PHIL 442,Neuroethics,5,I&S,
+Seattle,PHIL 445,Philosophy of Art,5,"I&S,VLPA",
+Seattle,PHIL 446,Development of Aesthetic Theory,5,"I&S,VLPA",
+Seattle,PHIL 449,Philosophy of Film,5,"I&S,VLPA",
+Seattle,PHIL 450,Epistemology,5,I&S,
+Seattle,PHIL 453,Philosophy of Language,5,"I&S,VLPA",
+Seattle,PHIL 459,Philosophy of Medicine,5,I&S,
+Seattle,PHIL 460,Philosophy of Science,5,"I&S,NW",
+Seattle,PHIL 463,Philosophy of Mind,5,I&S,
+Seattle,PHIL 464,Philosophical Issues in the Cognitive Sciences,5,"I&S,NW",
+Seattle,PHIL 465,Philosophy of History,3,I&S,
+Seattle,PHIL 466,Philosophy of the Social Sciences,5,I&S,
+Seattle,PHIL 467,Philosophy of Religion,5,I&S,
+Seattle,PHIL 470,Intermediate Logic,5,"I&S,NW,QSR",
+Seattle,PHIL 471,Advanced Logic,5,"I&S,NW",PHIL 470
+Seattle,PHIL 472,Axiomatic Set Theory,5,"I&S,NW",
+Seattle,PHIL 473,Philosophy of Mathematics,5,"I&S,NW",
+Seattle,PHIL 474,Modal Logic,5,"I&S,NW",
+Seattle,PHIL 479,Semantics II,3,"I&S,NW,VLPA",LING 442
+Seattle,PHIL 481,Philosophy of Biology,5,"I&S,NW",
+Seattle,PHIL 482,Philosophy of Physical Science,5,"I&S,NW",
+Seattle,PHIL 483,Induction and Probability,5,"I&S,NW",PHIL 120
+Seattle,PHIL 484,Reading in Philosophy,,,
+Seattle,PHIL 490,Advanced Topics in Epistemology,5,I&S,"PHIL 350,PHIL 450"
+Seattle,PHIL 495,Philosophical Inquiry in Schools,5,I&S,
+Seattle,PHIL 498,Undergraduate Internship,,,
+Seattle,PHIL 500,Proseminar in Philosophy,5,,
+Seattle,PHIL 505,Seminar in Teaching Philosophy,1,,
+Seattle,PHIL 510,Seminar in Social Philosophy,5,,
+Seattle,PHIL 514,Seminar in Legal Philosophy,5,,
+Seattle,PHIL 520,Seminar in Ancient Philosophy,5,,
+Seattle,PHIL 522,Seminar in Modern Philosophy,5,,
+Seattle,PHIL 526,Seminar in Recent Philosophy,5,,
+Seattle,PHIL 538,Philosophy of Human Rights,5,,
+Seattle,PHIL 540,Seminar in Ethics,5,,
+Seattle,PHIL 545,Seminar in the Philosophy of Art,5,,
+Seattle,PHIL 550,Seminar in Epistemology,5,,
+Seattle,PHIL 556,Seminar in Metaphysics,5,,
+Seattle,PHIL 560,Seminar in the Philosophy of Science,5,,
+Seattle,PHIL 563,Seminar in the Philosophy of Mind,5,,
+Seattle,PHIL 564,Seminar in Philosophy of the Cognitive Sciences,5,,
+Seattle,PHIL 565,Seminar in the Philosophy of History,5,,
+Seattle,PHIL 566,Seminar in Philosophy of the Social Sciences,5,,
+Seattle,PHIL 570,Seminar in Logic,5,,PHIL 470
+Seattle,PHIL 574,Meta-Archaeology: Philosophy and Archaeology,,,
+Seattle,PHIL 584,Reading in Philosophy,,,
+Seattle,PHIL 587,Contemporary Analytic Philosophy,5,,
+Seattle,PHIL 595,Philosophical Inquiry in Schools,5,,
+Seattle,PHIL 600,Independent Study or Research,,,
+Seattle,PHIL 800,Doctoral Dissertation,,,
 Seattle,PHRMRA 524,Introduction to Clinical Trials,3,,
 Seattle,PHRMRA 525,Implementation and Conduct of Clinical Trials,3,,
 Seattle,PHRMRA 526,Project Management and the Business of Clinical Trials,3,,
@@ -12162,6 +12728,412 @@ Seattle,PHRMRA 554,Advanced Medical Products Regulation I,2,,
 Seattle,PHRMRA 555,Advanced Medical Products Regulation II,2,,
 Seattle,PHRMRA 560,Short Course in Multinational Biomedical Regulatory Affairs,2,,
 Seattle,PHRMRA 595,Special Topics in Regulation,,,
+Seattle,PHYS 101,Physical Science by Inquiry I,,"NW,QSR",
+Seattle,PHYS 104,Facilitated Group Inquiry I,2,NW,
+Seattle,PHYS 105,Facilitated Group Inquiry II,2,NW,
+Seattle,PHYS 106,Facilitated Group Inquiry III,2,NW,
+Seattle,PHYS 107,Physics Concepts for Non-Scientists,5,NW,
+Seattle,PHYS 110,Liberal Arts Physics,5,"NW,QSR",
+Seattle,PHYS 114,General Physics,4,"NW,QSR",
+Seattle,PHYS 115,General Physics,4,NW,"PHYS 114,PHYS 121"
+Seattle,PHYS 116,General Physics,4,NW,"PHYS 115,PHYS 122"
+Seattle,PHYS 117,General Physics Laboratory,1,NW,PHYS 114
+Seattle,PHYS 118,General Physics Laboratory,1,NW,PHYS 115
+Seattle,PHYS 119,General Physics Laboratory,1,NW,PHYS 116
+Seattle,PHYS 121,Mechanics,5,"NW,QSR","MATH 124,MATH 134"
+Seattle,PHYS 122,Electromagnetism,5,NW,"MATH 125,MATH 134,PHYS 121"
+Seattle,PHYS 123,Waves,5,NW,"MATH 126,MATH 134,PHYS 122"
+Seattle,PHYS 207,The Physics of Music,3,NW,
+Seattle,PHYS 210,Physics by Inquiry I,5,NW,"PHYS 116,PHYS 123"
+Seattle,PHYS 211,Physics by Inquiry I,5,NW,"PHYS 116,PHYS 123,PHYS 210"
+Seattle,PHYS 212,Physics by Inquiry I,5,NW,"PHYS 116,PHYS 123,PHYS 211"
+Seattle,PHYS 214,Light and Color,5,"NW,QSR",
+Seattle,PHYS 216,Science and Society,5,"I&S,NW",
+Seattle,PHYS 217,Energy Future: The Technical and Social Barriers to Large-Scale Sustainable Energy,5,"I&S,NW",
+Seattle,PHYS 224,Thermal Physics,3,NW,"MATH 126,MATH 136,PHYS 122"
+Seattle,PHYS 225,Introduction to Quantum Mechanics,3,NW,PHYS 227
+Seattle,PHYS 226,Particles and Symmetries,3,NW,PHYS 225
+Seattle,PHYS 227,Elementary Mathematical Physics,4,NW,"PHYS 121,PHYS 122,PHYS 123"
+Seattle,PHYS 228,Elementary Mathematical Physics,4,NW,PHYS 227
+Seattle,PHYS 231,Introductory Experimental Physics,3,NW,PHYS 123
+Seattle,PHYS 232,Introduction to Computational Physics,3,NW,PHYS 227
+Seattle,PHYS 248,Introductory Selected Topics,,NW,
+Seattle,PHYS 294,Introduction to Research: Frontiers of Physics,1,NW,
+Seattle,PHYS 321,Electromagnetism,4,NW,"AMATH 351,AMATH 352,AMATH 353,AMATH 401,MATH 307,MATH 308,MATH 309,MATH 324,MATH 326,PHYS 227,PHYS 228"
+Seattle,PHYS 322,Electromagnetism,4,NW,PHYS 321
+Seattle,PHYS 323,Electromagnetism,4,NW,PHYS 322
+Seattle,PHYS 324,Quantum Mechanics,4,NW,"PHYS 225,PHYS 228"
+Seattle,PHYS 325,Quantum Mechanics,4,NW,"B PHYS 324,PHYS 324"
+Seattle,PHYS 328,Statistical Physics,3,NW,PHYS 224
+Seattle,PHYS 329,Mathematical Methods and Classical Mechanics,3,NW,PHYS 228
+Seattle,PHYS 331,Optics Laboratory,3,NW,PHYS 228
+Seattle,PHYS 334,Electric Circuits Laboratory,3,NW,PHYS 123
+Seattle,PHYS 335,Electric Circuits Laboratory,3,NW,PHYS 334
+Seattle,PHYS 401,Special Problems,,,
+Seattle,PHYS 402,Special Problems,,,
+Seattle,PHYS 403,Special Problems,,,
+Seattle,PHYS 405,Physical Science by Inquiry II,,NW,"PHYS 116,PHYS 123"
+Seattle,PHYS 406,Physical Science by Inquiry II,,NW,"PHYS 116,PHYS 123"
+Seattle,PHYS 407,Physics by Inquiry II,5,NW,"PHYS 121,PHYS 122,PHYS 123"
+Seattle,PHYS 408,Physics by Inquiry II,5,NW,PHYS 407
+Seattle,PHYS 409,Physics by Inquiry II,5,NW,PHYS 408
+Seattle,PHYS 410,Physics by Inquiry for In-Service Teachers,,NW,
+Seattle,PHYS 411,Physics by Inquiry for Lead Teachers,,NW,"PHYS 405,PHYS 406,PHYS 407,PHYS 408,PHYS 409"
+Seattle,PHYS 412,Physics by Inquiry for Lead Teachers,,NW,"PHYS 405,PHYS 406,PHYS 407,PHYS 408,PHYS 409"
+Seattle,PHYS 413,Physics by Inquiry for Lead Teachers,,NW,"PHYS 405,PHYS 406,PHYS 407,PHYS 408,PHYS 409"
+Seattle,PHYS 421,Contemporary Atomic Physics,3,NW,"PHYS 322,PHYS 325"
+Seattle,PHYS 422,Contemporary Nuclear and Particle Physics,3,NW,"PHYS 226,PHYS 322,PHYS 325"
+Seattle,PHYS 423,Contemporary Condensed Matter Physics,3,NW,"B PHYS 324,PHYS 324"
+Seattle,PHYS 427,Applications of Physics,,NW,
+Seattle,PHYS 428,Selected Topics in Physics,,NW,
+Seattle,PHYS 429,Biophysics,3,,"PHYS 224,PHYS 225"
+Seattle,PHYS 431,Modern Physics Laboratory,3,NW,"PHYS 225,PHYS 334"
+Seattle,PHYS 432,Modern Physics Laboratory,3,NW,"PHYS 225,PHYS 334"
+Seattle,PHYS 433,Modern Physics Laboratory,3,NW,"PHYS 225,PHYS 334"
+Seattle,PHYS 434,Application of Computers to Physical Measurement,3,NW,PHYS 334
+Seattle,PHYS 436,Nonlinear Dynamics and Chaos,4,NW,MATH 309
+Seattle,PHYS 441,Quantum Physics,4,NW,
+Seattle,PHYS 451,Issues for Ethnic Minorities and Women in Science and Engineering,,I&S,
+Seattle,PHYS 460,Water in the Environment,3,NW,"ESS 310,MATH 126,MATH 136,PHYS 123"
+Seattle,PHYS 485,Senior Honors Seminar,1,NW,
+Seattle,PHYS 486,Senior Honors Seminar,1,NW,
+Seattle,PHYS 487,Senior Honors Seminar,1,NW,
+Seattle,PHYS 494,Seminar on Current Problems in Physics,1,NW,
+Seattle,PHYS 495,Seminar on Current Problems in Physics,1,NW,
+Seattle,PHYS 496,Seminar on Current Problems in Physics,1,NW,
+Seattle,PHYS 499,Undergraduate Research,,,
+Seattle,PHYS 501,Tutorials in Teaching Physics,1,,
+Seattle,PHYS 502,Tutorials in Teaching Physics,1,,
+Seattle,PHYS 503,Tutorials in Teaching Physics,1,,
+Seattle,PHYS 505,Mechanics,3,,
+Seattle,PHYS 506,Numerical Methods,3,,
+Seattle,PHYS 507,Physical Applications of Group Theory,3,,
+Seattle,PHYS 511,Topics in Contemporary Physics,3,,
+Seattle,PHYS 513,Electromagnetism and Relativity,3,,
+Seattle,PHYS 514,Electromagnetism and Relativity,4,,
+Seattle,PHYS 515,Electromagnetism and Relativity,4,,
+Seattle,PHYS 517,Quantum Mechanics,4,,
+Seattle,PHYS 518,Quantum Mechanics,4,,
+Seattle,PHYS 519,Quantum Mechanics,4,,
+Seattle,PHYS 520,Advanced Quantum Mechanics - Introduction to Quantum Field Theory,4,,
+Seattle,PHYS 521,Advanced Quantum Mechanics - Introduction to Quantum Field Theory,3,,
+Seattle,PHYS 522,Advanced Quantum Mechanics: Introduction to Modern Quantum Field Theory,3,,
+Seattle,PHYS 524,Thermodynamics and Statistical Mechanics,4,,
+Seattle,PHYS 525,Statistical Mechanics,3,,PHYS 524
+Seattle,PHYS 527,Current Problems in Physics,1,,
+Seattle,PHYS 528,Current Problems in Physics,1,,
+Seattle,PHYS 530,Laser Physics,4,,
+Seattle,PHYS 532,Liquid Crystal Devices,4,,
+Seattle,PHYS 536,Introduction to Acoustics and Digital Signal Processing,4,,"MATH 120,PHYS 123"
+Seattle,PHYS 541,Applications of Quantum Physics,4,,"PHYS 421,PHYS 441"
+Seattle,PHYS 542,Numerical Methods in Physics,4,,
+Seattle,PHYS 543,Electromagnetic Theory,4,,
+Seattle,PHYS 544,Applications of Electromagnetic Theory,4,,PHYS 543
+Seattle,PHYS 545,Contemporary Optics,4,,PHYS 543
+Seattle,PHYS 546,Condensed-Matter Physics,4,,PHYS 441
+Seattle,PHYS 547,Electronics for Physics Research,4,,
+Seattle,PHYS 549,Low-Temperature Physics and Cryogenics,4,,
+Seattle,PHYS 550,Atomic Physics,3,,PHYS 519
+Seattle,PHYS 551,Atomic Physics,3,,PHYS 519
+Seattle,PHYS 552,Introduction to Cosmic Ray Physics,3,,
+Seattle,PHYS 554,Nuclear Astrophysics,3,,
+Seattle,PHYS 555,Cosmology and Particle Astrophysics,3,,
+Seattle,PHYS 557,High Energy Physics,3,,PHYS 519
+Seattle,PHYS 558,High Energy Physics,3,,PHYS 519
+Seattle,PHYS 559,High Energy Physics,3,,PHYS 519
+Seattle,PHYS 560,Theoretical Nuclear Physics,3,,PHYS 519
+Seattle,PHYS 561,Theoretical Nuclear Physics,3,,PHYS 519
+Seattle,PHYS 564,General Relativity,3,,PHYS 515
+Seattle,PHYS 565,General Relativity,3,,PHYS 515
+Seattle,PHYS 567,Theory of Solids,3,,"PHYS 519,PHYS 524"
+Seattle,PHYS 568,Theory of Solids,3,,
+Seattle,PHYS 570,Quantum Field Theory,3,,PHYS 522
+Seattle,PHYS 571,Quantum Field Theory,3,,PHYS 522
+Seattle,PHYS 572,Modern Quantum Field Theory,3,,"PHYS 570,PHYS 571"
+Seattle,PHYS 575,Selected Topics in Applications of Physics,,,
+Seattle,PHYS 576,Selected Topics in Experimental Physics,,,
+Seattle,PHYS 578,Selected Topics in Theoretical Physics,,,
+Seattle,PHYS 580,Physics Colloquium,,,
+Seattle,PHYS 581,Seminar in High-Energy Physics,,,
+Seattle,PHYS 582,Seminar in Particle Theory,,,
+Seattle,PHYS 583,Seminar in Relativistic Astrophysics,,,
+Seattle,PHYS 584,Seminar in Recent Developments in Atomic Physics,,,
+Seattle,PHYS 585,Seminar in Experimental Nuclear Physics,,,
+Seattle,PHYS 586,Seminar in Condensed Matter Physics,,,
+Seattle,PHYS 587,Seminar in Nuclear Theory,,,
+Seattle,PHYS 588,Particle Astrophysics Seminar,,,
+Seattle,PHYS 589,Seminar in Problems of Physics Education,,,
+Seattle,PHYS 590,Seminar in Statistical Physics,,,
+Seattle,PHYS 600,Independent Study or Research,,,
+Seattle,PHYS 800,Doctoral Dissertation,,,
+Seattle,POL S 101,Introduction to Politics,5,I&S,
+Seattle,POL S 110,Political Argumentation,3,"I&S,VLPA",
+Seattle,POL S 120,Perspectives on Contemporary Public Policy Issues,3,I&S,
+Seattle,POL S 195,Study Abroad: Political Science,,I&S,
+Seattle,POL S 201,Introduction to Political Theory,5,I&S,
+Seattle,POL S 202,Introduction to American Politics,5,I&S,
+Seattle,POL S 203,Introduction to International Relations,5,I&S,
+Seattle,POL S 204,Introduction to Comparative Politics,5,I&S,
+Seattle,POL S 205,Political Science as a Social Science,5,"I&S,QSR",
+Seattle,POL S 207,Issues of Global Justice,5,"DIV,I&S",
+Seattle,POL S 212,Philosophy of Feminism,5,"DIV,I&S",
+Seattle,POL S 213,The Korean Peninsula and World Politics,5,I&S,
+Seattle,POL S 246,African American Politics,5,"DIV,I&S",
+Seattle,POL S 249,Introduction to Labor Studies,5,I&S,
+Seattle,POL S 270,Introduction to Political Economy,5,I&S,
+Seattle,POL S 273,The Concept of Political Power,5,I&S,
+Seattle,POL S 281,Literature and American Political Culture,5,"I&S,VLPA",
+Seattle,POL S 295,Study Abroad: Political Science,,I&S,
+Seattle,POL S 299,Special Topics in Political Science,,I&S,
+Seattle,POL S 301,Topics in Political Theory,5,I&S,
+Seattle,POL S 302,"Free Will, Nature, and Nurture in Politics and Society",5,I&S,
+Seattle,POL S 303,Public Policy Formation in the United States,5,I&S,
+Seattle,POL S 304,The Press and Politics in the United States,5,I&S,
+Seattle,POL S 305,The Politics of Mass Communication in America,5,I&S,
+Seattle,POL S 306,"Media, Society, and Political Identity I&S",5,I&S,
+Seattle,POL S 307,Religion and World Politics,5,I&S,
+Seattle,POL S 308,"The Western Tradition of Political Thought, Ancient and Medieval",5,I&S,
+Seattle,POL S 309,"The Western Tradition of Political Thought, Pre-Modern",5,I&S,
+Seattle,POL S 310,"The Western Tradition of Political Thought, Modern",5,I&S,
+Seattle,POL S 311,Individual and the State,5,I&S,
+Seattle,POL S 312,Survey of American Political Thought,5,I&S,"POL S 318,POL S 319"
+Seattle,POL S 313,Women in Politics,5,"DIV,I&S",
+Seattle,POL S 314,Israel: Dynamic Society and Global Flashpoint,5,"DIV,I&S",
+Seattle,POL S 315,Black Identities and Political Power,5,I&S,"AES 150,AFRAM 150,AFRAM 201,POL S 201"
+Seattle,POL S 316,African-American Political and Social Thought,5,"DIV,I&S",
+Seattle,POL S 317,The Politics of Race and Ethnicity in the United States,5,"DIV,I&S",
+Seattle,POL S 318,American Political Thought I,5,I&S,POL S 312
+Seattle,POL S 319,American Political Thought II,5,I&S,POL S 312
+Seattle,POL S 320,State-Society Relations in Third World Countries,5,"DIV,I&S",
+Seattle,POL S 321,American Foreign Policy,5,I&S,
+Seattle,POL S 322,International Political Economy of Latin America,5,I&S,
+Seattle,POL S 324,Europe in World Politics,5,I&S,
+Seattle,POL S 325,The Arab-Israeli Conflict,5,I&S,
+Seattle,POL S 326,Scandinavia in World Affairs,5,I&S,
+Seattle,POL S 327,Women's Rights as Human Rights,5,"DIV,I&S",
+Seattle,POL S 328,International Organizations,5,I&S,
+Seattle,POL S 329,Global Communication,5,I&S,
+Seattle,POL S 330,Communications in International Relations,5,I&S,
+Seattle,POL S 331,Government and Politics in the Middle East and North Africa,5,I&S,
+Seattle,POL S 332,Topics in Comparative Politics,5,,
+Seattle,POL S 333,Topics in International Relations,5,,
+Seattle,POL S 334,Topics in American Politics,5,,
+Seattle,POL S 335,Topics in Political Economy,5,,
+Seattle,POL S 337,Collective Violence and the State,5,"DIV,I&S",
+Seattle,POL S 338,Topics in Public Policy,5,,
+Seattle,POL S 340,"Politics of India, Pakistan, and South Asia",5,I&S,
+Seattle,POL S 341,Government and Politics of Canada,5,I&S,
+Seattle,POL S 342,Government and Politics of Latin America,5,I&S,
+Seattle,POL S 343,Politics and Change in Southeast Asia,5,I&S,
+Seattle,POL S 346,Governments of Western Europe,5,I&S,
+Seattle,POL S 348,European Union as Global Actor,5,I&S,
+Seattle,POL S 350,Government and Interest Groups in the United States,5,I&S,
+Seattle,POL S 351,The American Democracy,5,I&S,
+Seattle,POL S 352,American Political Parties,5,I&S,
+Seattle,POL S 353,United States Congress,5,I&S,
+Seattle,POL S 354,Elections and Voting in the United States,5,I&S,
+Seattle,POL S 355,The American Presidency,5,I&S,
+Seattle,POL S 356,Society and Politics,5,I&S,
+Seattle,POL S 357,Minority Representation and the Voting Rights Act,5,"DIV,I&S",
+Seattle,POL S 358,American Political Culture,5,,
+Seattle,POL S 359,U.S. Latino Politics,5,"DIV,I&S",
+Seattle,POL S 360,Introduction to United States Constitutional Law,5,I&S,
+Seattle,POL S 361,United States Courts and Civil Liberty,5,I&S,
+Seattle,POL S 363,Law in Society,5,I&S,
+Seattle,POL S 365,Lawyers in American Politics,5,I&S,
+Seattle,POL S 367,Comparative Law and Courts,5,I&S,
+Seattle,POL S 368,The Politics and Law of International Human Rights,5,"DIV,I&S",
+Seattle,POL S 370,Privacy,5,I&S,
+Seattle,POL S 381,Urban Politics and Policy in the United States,5,I&S,
+Seattle,POL S 382,State Government,5,I&S,
+Seattle,POL S 383,Environmental Politics and Policy in the United States,5,I&S,
+Seattle,POL S 384,Global Environmental Politics,5,I&S,
+Seattle,POL S 385,Political Ecology of the World Food System,5,"I&S,NW",
+Seattle,POL S 395,Study Abroad: Political Science,,I&S,
+Seattle,POL S 398,Honors Seminar,5,I&S,
+Seattle,POL S 401,Advanced Seminar in Political Theory,5,I&S,
+Seattle,POL S 402,Advanced Seminar in Human Rights,5,I&S,
+Seattle,POL S 403,Advanced Seminar in International Relations,5,I&S,
+Seattle,POL S 404,Topics in Public Policy,,I&S,
+Seattle,POL S 405,Advanced Seminar in American Politics,5,I&S,
+Seattle,POL S 406,Marxian Political Economy,5,I&S,
+Seattle,POL S 407,International Conflict,5,I&S,
+Seattle,POL S 409,Undergraduate Seminar in Political Economy,5,I&S,
+Seattle,POL S 410,"Technology, Politics, and the State",5,I&S,
+Seattle,POL S 411,Theories of the State,5,I&S,
+Seattle,POL S 412,Democratic Theory,5,I&S,
+Seattle,POL S 413,Contemporary Political Theory,5,I&S,
+Seattle,POL S 414,Politics and Culture,5,I&S,
+Seattle,POL S 415,Women's Rights in an Integrated Europe,5,I&S,
+Seattle,POL S 416,Economic Theory as Applied to the Political System,5,I&S,ECON 300
+Seattle,POL S 417,Political Economy of India,5,I&S,
+Seattle,POL S 418,Japanese Trade Politics,5,I&S,
+Seattle,POL S 419,United States-China Relations,5,I&S,
+Seattle,POL S 420,Soviet and Russian Foreign Policy,5,I&S,
+Seattle,POL S 421,Relations Among Communist and Post-Communist States,5,I&S,
+Seattle,POL S 422,International Environmental Politics Seminar,5,I&S,
+Seattle,POL S 424,International Relations of Japan,5,I&S,
+Seattle,POL S 425,Political Psychology and War,5,I&S,
+Seattle,POL S 426,World Politics,5,I&S,
+Seattle,POL S 427,International Political Economy,5,I&S,
+Seattle,POL S 428,Military Intervention,5,I&S,
+Seattle,POL S 429,Political Parties in Japan and East Asia,5,I&S,
+Seattle,POL S 430,Civil-Military Relations in Democracies,5,I&S,
+Seattle,POL S 431,International Relations in the Middle East,5,I&S,
+Seattle,POL S 432,Political Islam and Islamic Fundamentalism,5,I&S,
+Seattle,POL S 433,International Relations in Southeast Asia,5,I&S,
+Seattle,POL S 434,International Relations of South Asia,5,I&S,
+Seattle,POL S 435,Japanese Government and Politics,5,I&S,
+Seattle,POL S 436,Ethnic Politics and Nationalism in Multi-Ethnic Societies,5,I&S,
+Seattle,POL S 437,Politics in Scandinavia,5,I&S,
+Seattle,POL S 438,Politics in France,5,I&S,
+Seattle,POL S 439,Politics of Divided Korea,5,I&S,
+Seattle,POL S 440,European Fascism,5,I&S,
+Seattle,POL S 441,Government and Politics of Russia,5,I&S,
+Seattle,POL S 442,Government and Politics of China,5,I&S,
+Seattle,POL S 443,Comparative Political Societies,5,I&S,
+Seattle,POL S 444,Revolutionary Regimes,5,I&S,
+Seattle,POL S 445,Politics and Society in Eastern Europe,5,I&S,
+Seattle,POL S 447,Advanced Seminar in Comparative Politics,5,I&S,
+Seattle,POL S 448,Politics of the European Union,5,I&S,
+Seattle,POL S 449,Politics of Developing Areas,5,I&S,
+Seattle,POL S 451,Communication Technology and Politics,5,I&S,
+Seattle,POL S 452,Mass Media and Public Opinion,5,I&S,
+Seattle,POL S 453,The State Legislature,5,I&S,
+Seattle,POL S 454,Political Communication Seminar,5,I&S,
+Seattle,POL S 455,Political Deliberation,5,I&S,
+Seattle,POL S 456,Institutional Failure,5,I&S,
+Seattle,POL S 457,Topics in Labor Research,5,I&S,"HIST 249,POL S 249,SOC 266"
+Seattle,POL S 460,Political Economy of the European Union,5,I&S,
+Seattle,POL S 461,Mass Media Law,5,I&S,
+Seattle,POL S 462,The Supreme Court in American Politics,5,I&S,"POL S 360,POL S 361"
+Seattle,POL S 464,The Politics of American Criminal Justice,5,I&S,
+Seattle,POL S 465,Law and Public Policy in the United States,5,I&S,
+Seattle,POL S 467,Comparative Law in Society,5,I&S,
+Seattle,POL S 468,Comparative Media Systems,5,I&S,
+Seattle,POL S 469,Law and Rights in Authoritarian Regimes,5,I&S,
+Seattle,POL S 470,Public Bureaucracies in the American Political Order,5,I&S,
+Seattle,POL S 471,Politics of Risk,5,I&S,
+Seattle,POL S 472,Electoral Systems,5,I&S,
+Seattle,POL S 473,Decision-Making in Politics,5,I&S,
+Seattle,POL S 474,Government and the Economy,5,I&S,
+Seattle,POL S 475,Public Choice,5,I&S,
+Seattle,POL S 476,Strategy in Politics,5,I&S,
+Seattle,POL S 477,African Politcal Development,5,I&S,POL S 204
+Seattle,POL S 479,Contemporary Central Asian Politics,5,I&S,
+Seattle,POL S 480,Comparative Politics and Korea Studies,5,I&S,
+Seattle,POL S 481,Big City Politics,5,I&S,
+Seattle,POL S 488,Honors Senior Thesis,,I&S,
+Seattle,POL S 489,Honors Senior Thesis,,I&S,
+Seattle,POL S 495,Study Abroad: Political Science,,I&S,
+Seattle,POL S 496,Undergraduate Internship,,,
+Seattle,POL S 497,Political Internship in State Government,5,,
+Seattle,POL S 498,The Washington Center Internship,15,,
+Seattle,POL S 499,Undergraduate Readings and Research,,,
+Seattle,POL S 500,Political Research Design and Analysis,5,,
+Seattle,POL S 501,Advanced Political Research Design and Analysis,5,,
+Seattle,POL S 502,Qualitative Research Methods,5,,
+Seattle,POL S 503,Advanced Quantitative Political Methodology,5,,
+Seattle,POL S 504,Multi-Method Field Research,5,,
+Seattle,POL S 505,Comparative Politics Core,5,,
+Seattle,POL S 509,Political Theory Core,5,,
+Seattle,POL S 510,Maximum Likelihood Methods for the Social Sciences,5,,"CS&SS 501,CS&SS 503,POL S 501,POL S 503"
+Seattle,POL S 511,Seminar in Ethical and Political Theory,5,,
+Seattle,POL S 513,Issues in Feminist Theory,5,,
+Seattle,POL S 514,Selected Topics in Political Theory,5,,
+Seattle,POL S 515,Political Theory Research Seminar,5,,
+Seattle,POL S 516,Special Topics in American Political Thought,,,
+Seattle,POL S 517,Marxism and Critical Theory,5,,
+Seattle,POL S 519,Modern Scandinavian Politics,5,,
+Seattle,POL S 520,Seminar on Russian Foreign Policy,3,,
+Seattle,POL S 521,International Relations Core,5,,
+Seattle,POL S 522,International Political Economy,5,,POL S 521
+Seattle,POL S 524,International Security,5,,
+Seattle,POL S 525,International Law and Institutions,5,,
+Seattle,POL S 526,The Security of China,5,,
+Seattle,POL S 527,Special Topics in International Relations Research,5,,
+Seattle,POL S 530,Transatlantic Relations: The United States and Europe in World Politics,3,,
+Seattle,POL S 532,The Chinese Political System,5,,
+Seattle,POL S 533,Seminar on Contemporary Chinese Politics,5,,POL S 532
+Seattle,POL S 534,International Affairs,3,,
+Seattle,POL S 535,International Relations of Modern China,5,,
+Seattle,POL S 537,Approaches to East European Politics,,,
+Seattle,POL S 538,Government and Politics in the Middle East and North Africa,5,,
+Seattle,POL S 539,International Relations of Northeast Asia,5,,
+Seattle,POL S 540,Problems in South Asian Politics,3,,
+Seattle,POL S 541,"Institutions and Institutional Change in the Soviet Union, Russia, and the Newly Independent States",5,,
+Seattle,POL S 542,Seminar: State and Society,5,,
+Seattle,POL S 543,Latin American Politics,5,,
+Seattle,POL S 544,Problems in Comparative Government,5,,
+Seattle,POL S 547,Politics of Reform,5,,
+Seattle,POL S 548,Comparative Political Parties,5,,
+Seattle,POL S 549,Problems of Political Development,5,,
+Seattle,POL S 550,American Politics Core,5,,
+Seattle,POL S 551,Political Communication,5,,
+Seattle,POL S 552,Special Topics in Political Communication,5,,
+Seattle,POL S 553,Public Opinion,5,,
+Seattle,POL S 554,Legislative Politics,5,,
+Seattle,POL S 555,American Politics Topics,5,,
+Seattle,POL S 556,American Political Development,5,,
+Seattle,POL S 557,United States Party System,5,,
+Seattle,POL S 558,Political Deliberation,5,,
+Seattle,POL S 559,Special Topics in Political Methodology,5,,
+Seattle,POL S 560,Industrialization and International Relations,5,,
+Seattle,POL S 561,Law and Politics,5,,
+Seattle,POL S 562,"Law, Politics, and Social Control",5,,
+Seattle,POL S 563,Supreme Court in American Politics,5,,
+Seattle,POL S 564,Law and the Politics of Social Change,5,,
+Seattle,POL S 565,Special Topics in Public Law,5,,
+Seattle,POL S 566,Comparative Law and Politics,5,,
+Seattle,POL S 567,Discourse and the Politics of Resistance,5,,
+Seattle,POL S 569,Law and Rights in Authoritative Regimes,5,,
+Seattle,POL S 570,The American Racial State,5,,
+Seattle,POL S 571,American National Institutions,5,,
+Seattle,POL S 572,Electoral Systems,5,,
+Seattle,POL S 573,Topics in Public Policy,5,,
+Seattle,POL S 574,Environmental Regulation Policy,5,,
+Seattle,POL S 575,Public Policy Processes,5,,
+Seattle,POL S 576,Political Culture,5,,
+Seattle,POL S 577,The Politics of Social Movements,5,,
+Seattle,POL S 578,Health Politics and Policy,5,,
+Seattle,POL S 579,Contemporary Central Asian Politics,5,,
+Seattle,POL S 580,Comparative Politics and Korea Studies,5,,
+Seattle,POL S 582,Institutional Analysis,,,
+Seattle,POL S 583,Economic Theories of Politics,5,,
+Seattle,POL S 584,Comparative Political Economy,5,,
+Seattle,POL S 586,Topics in International Political Economy,5,,
+Seattle,POL S 587,Politics of Urban Reform,5,,
+Seattle,POL S 588,Special Topics in Comparative Political Economy,5,,
+Seattle,POL S 589,Special Topics in Political Economy,,,
+Seattle,POL S 590,Seminar in Political Behavior,5,,
+Seattle,POL S 593,Theories of Decision Making,5,,
+Seattle,POL S 594,"Political Communication Research Practicum: Community, Communication, and Civic Engagement",5,,
+Seattle,POL S 595,College Teaching of Political Science,1,,
+Seattle,POL S 597,Directed Readings,,,
+Seattle,POL S 598,Independent Writing I,,,
+Seattle,POL S 600,Independent Study or Research,,,
+Seattle,POL S 800,Doctoral Dissertation,,,
+Seattle,POLSH 320,Introduction to Contemporary Polish Culture,5,"I&S,VLPA",
+Seattle,POLSH 401,First-Year Polish,5,,
+Seattle,POLSH 402,First-Year Polish,5,,POLSH 401
+Seattle,POLSH 403,First-Year Polish,5,,POLSH 402
+Seattle,POLSH 404,Second-Year Polish,5,VLPA,POLSH 403
+Seattle,POLSH 405,Second-Year Polish,5,VLPA,POLSH 404
+Seattle,POLSH 406,Second-Year Polish,5,VLPA,POLSH 405
+Seattle,POLSH 420,Modern Polish Literature in English,5,VLPA,
+Seattle,PORT 103,Elementary Portuguese,5,,PORT 102
+Seattle,PORT 105,Intensive Portuguese for Spanish Speakers,6,VLPA,"SPAN 203,SPAN 216,SPAN 301,SPAN 302,SPAN 303,SPAN 314,SPAN 315,SPAN 316"
+Seattle,PORT 110,Accelerated Elementary Portuguese,5,,
+Seattle,PORT 199,Foreign Study: Elementary,,,
+Seattle,PORT 201,Intermediate Portuguese,5,VLPA,"PORT 103,PORT 105"
+Seattle,PORT 202,Intermediate Portuguese,5,VLPA,PORT 201
+Seattle,PORT 203,Intermediate Portuguese,5,VLPA,PORT 202
+Seattle,PORT 299,Foreign Study: Intermediate,,VLPA,
+Seattle,PORT 301,Advanced Portuguese,5,VLPA,PORT 203
+Seattle,PORT 310,Introduction to Lusophone Literature,3,VLPA,
+Seattle,PORT 335,Twentieth Century Brazilian Fiction in English,5,VLPA,
+Seattle,PORT 365,Mapping Luso-Brazilian Cultures,5,"I&S,VLPA",
+Seattle,PORT 366,Port-Language Track for Mapping Luso-Brazilian Cultures,2,,PORT 201
 Seattle,PPM 500,Proseminar in Public Policy and Management,1,,
 Seattle,PPM 502,Research Design,4,,
 Seattle,PPM 504,Institutional Perspectives on Management,4,,
@@ -12811,6 +13783,154 @@ Seattle,RHB PO 581,Outcome Measures for the Prosthetics and Orthotics Clinic,2,,
 Seattle,RHB PO 582,Critical Evaluation of the Prosthetics and Orthotics Literature,1,,
 Seattle,RHB PO 583,Evidence Based Practice I,3,,
 Seattle,RHB PO 584,Evidence Based Practice II,3,,
+Seattle,RUSS 101,First-Year Russian,5,,
+Seattle,RUSS 102,First-Year Russian,5,,RUSS 101
+Seattle,RUSS 103,First-Year Russian,5,,RUSS 102
+Seattle,RUSS 110,Introduction to Russian Culture and Civilization,5,"I&S,VLPA",
+Seattle,RUSS 111,First-Year Medical Russian,1,,RUSS 101
+Seattle,RUSS 112,First-Year Medical Russian,1,,"RUSS 102,RUSS 111"
+Seattle,RUSS 113,First-Year Medical Russian,1,,"RUSS 103,RUSS 112"
+Seattle,RUSS 120,Topics in Russian Literary and Cultural History,5,VLPA,
+Seattle,RUSS 150,Intensive First-Year Russian,15,,
+Seattle,RUSS 201,Second-Year Russian,5,VLPA,"RUSS 103,RUSS 150"
+Seattle,RUSS 202,Second-Year Russian,5,VLPA,RUSS 201
+Seattle,RUSS 203,Second-Year Russian,5,VLPA,RUSS 202
+Seattle,RUSS 210,"From Paganism to Christianity: Medieval Russian Mythology, Literature, and Culture",5,"I&S,VLPA",
+Seattle,RUSS 220,Topics in Russian Literary and Cultural History,5,VLPA,
+Seattle,RUSS 223,Russian Cinema,5,VLPA,
+Seattle,RUSS 230,Masterpieces of Russian Literature,5,VLPA,
+Seattle,RUSS 240,Vladimir Nabokov,5,VLPA,
+Seattle,RUSS 250,Intensive Second-Year Russian,15,VLPA,"RUSS 103,RUSS 150"
+Seattle,RUSS 260,Underworlds,5,VLPA,
+Seattle,RUSS 301,Third-Year Russian,5,VLPA,"RUSS 203,RUSS 250"
+Seattle,RUSS 302,Third-Year Russian,5,VLPA,RUSS 301
+Seattle,RUSS 303,Third-Year Russian,5,VLPA,RUSS 302
+Seattle,RUSS 304,Reading and Translation,1,VLPA,"RUSS 203,RUSS 250"
+Seattle,RUSS 313,Business Russian,5,VLPA,"RUSS 203,RUSS 250"
+Seattle,RUSS 314,Business Russian II,5,VLPA,"RUSS 203,RUSS 250"
+Seattle,RUSS 316,"Extended Russian Through Science, Technology, Engineering, and Math",5,VLPA,RUSS 301
+Seattle,RUSS 320,Topics in Russian Literary and Cultural History,5,VLPA,
+Seattle,RUSS 321,Eighteenth Century Russian Literature and Culture,5,VLPA,
+Seattle,RUSS 322,The Golden Age: Nineteenth Century Russian Literature and Culture,5,"I&S,VLPA",
+Seattle,RUSS 323,Revolution: Twentieth Century Russian Literature and Culture,5,"I&S,VLPA",
+Seattle,RUSS 324,Russian Folk Literature in English,5,"I&S,VLPA",
+Seattle,RUSS 340,Russia's Big Books,5,VLPA,
+Seattle,RUSS 350,Intensive Third-Year Russian,15,VLPA,"RUSS 203,RUSS 250"
+Seattle,RUSS 401,Fourth-Year Russian,5,VLPA,"RUSS 303,RUSS 350"
+Seattle,RUSS 402,Fourth-Year Russian,5,VLPA,RUSS 401
+Seattle,RUSS 403,Fourth-Year Russian,5,VLPA,RUSS 402
+Seattle,RUSS 420,Topics in Russian Literary and Cultural History,5,VLPA,
+Seattle,RUSS 421,Post-Soviet Literary and Cultural Scene,5,VLPA,
+Seattle,RUSS 422,Russian Literature in Emigration and Exile,5,VLPA,
+Seattle,RUSS 423,Russian Film,5,VLPA,
+Seattle,RUSS 424,Topics in Ethnicity and Cultural Identity,5,"I&S,VLPA",
+Seattle,RUSS 425,Russian Drama,5,VLPA,
+Seattle,RUSS 426,Russian Art and Architecture,5,VLPA,
+Seattle,RUSS 430,Major Authors,5,VLPA,
+Seattle,RUSS 450,Intensive Fourth-Year Russian,15,VLPA,"RUSS 303,RUSS 350"
+Seattle,RUSS 451,Structure of Russian,5,VLPA,"LING 200,LING 400,RUSS 303,RUSS 350"
+Seattle,RUSS 481,Russian Language in Russia,,VLPA,"RUSS 203,RUSS 250"
+Seattle,RUSS 482,Research Project in Russia,3,VLPA,"RUSS 203,RUSS 550"
+Seattle,RUSS 483,Russian Literature in Russia,3,VLPA,"RUSS 203,RUSS 250"
+Seattle,RUSS 486,Culture in Russia,3,"I&S,VLPA","RUSS 203,RUSS 250"
+Seattle,RUSS 490,Studies in Russian Literature,,VLPA,
+Seattle,RUSS 499,Directed Study or Research,,,
+Seattle,RUSS 501,Russian Language for Graduate Students,2,,RUSS 403
+Seattle,RUSS 502,Russian Translation,3,,RUSS 501
+Seattle,RUSS 512,Russian Literary Criticism,3,,
+Seattle,RUSS 520,Topics in Russian Literature and Culture,5,,
+Seattle,RUSS 521,Russian Literature to 1800,5,,
+Seattle,RUSS 522,Russian Literature of the Nineteenth Century,5,,
+Seattle,RUSS 523,Russian Literature of the Twentieth Century,5,,
+Seattle,RUSS 526,"Modern Russian Literary, Cultural, and Film Studies",5,,
+Seattle,RUSS 542,Seminar in Russian Poetry,5,,
+Seattle,RUSS 543,Seminar in Contemporary Russian Prose,5,,
+Seattle,RUSS 554,History of the Russian Literary Language,5,,SLAV 565
+Seattle,RUSS 570,Research Seminar in Russian Literature,5,,
+Seattle,RUSS 577,Russian Folk Literature,5,,
+Seattle,RUSS 600,Independent Study or Research,,,
+Seattle,SCAND 100,Introduction to Scandinavian Culture,5,"I&S,VLPA",
+Seattle,SCAND 150,Norwegian Literary and Cultural History,5,VLPA,
+Seattle,SCAND 151,Finnish Literary and Cultural History,5,VLPA,
+Seattle,SCAND 152,Latvian Literary and Cultural History,5,VLPA,
+Seattle,SCAND 153,Introduction to Lithuanian Literary and Cultural History,5,VLPA,
+Seattle,SCAND 154,Estonian Literary and Cultural History,5,,
+Seattle,SCAND 155,Danish Literary and Cultural History,5,VLPA,
+Seattle,SCAND 156,Introduction to Swedish Literary and Cultural History,5,VLPA,
+Seattle,SCAND 200,Scandinavia Today,5,"I&S,VLPA",
+Seattle,SCAND 230,Introduction to Folklore Studies,5,"I&S,VLPA",
+Seattle,SCAND 232,Hans Christian Andersen and the Fairy Tale Tradition,5,VLPA,
+Seattle,SCAND 251,Holberg and His Comedies in English,2,VLPA,
+Seattle,SCAND 270,Sagas of the Vikings,5,VLPA,
+Seattle,SCAND 275,Crime Scenes: Investigating the Cinema and Its Cultures,5,VLPA,
+Seattle,SCAND 280,Ibsen and His Major Plays in English,5,VLPA,
+Seattle,SCAND 312,Masterpieces of Scandinavian Literature,5,VLPA,
+Seattle,SCAND 315,Scandinavian Crime Fiction,5,VLPA,
+Seattle,SCAND 316,Child and School in Scandinavia,5,"I&S,VLPA",
+Seattle,SCAND 326,Scandinavia in World Affairs,5,I&S,
+Seattle,SCAND 327,Women in Scandinavian Society,5,"I&S,VLPA",
+Seattle,SCAND 330,Scandinavian Mythology,5,VLPA,
+Seattle,SCAND 331,Folk Narrative,5,VLPA,
+Seattle,SCAND 334,Immigrant and Ethnic Folklore,5,"I&S,VLPA",
+Seattle,SCAND 335,Scandinavian Children's Literature,5,VLPA,
+Seattle,SCAND 340,Kalevala and the Epic Tradition,5,VLPA,
+Seattle,SCAND 341,Sami Culture and History,5,"I&S,VLPA",
+Seattle,SCAND 344,The Baltic States and Scandinavia,5,I&S,
+Seattle,SCAND 345,Baltic Cultures,5,"I&S,VLPA",
+Seattle,SCAND 350,Environmental Norms in International Politics,5,I&S,
+Seattle,SCAND 351,"Scandinavia, the European Union, and Global Climate Change",5,I&S,
+Seattle,SCAND 360,Scandinavian Cinema,,VLPA,
+Seattle,SCAND 367,Sexuality in Scandinavia: Myth and Reality,5,"I&S,VLPA",
+Seattle,SCAND 370,The Vikings,5,"I&S,VLPA",
+Seattle,SCAND 380,History of Scandinavia to 1720,5,I&S,
+Seattle,SCAND 381,History of Scandinavia Since 1720,5,I&S,
+Seattle,SCAND 399,Foreign Study in Scandinavia,,,
+Seattle,SCAND 402,International Political Economy and Scandinavia,5,I&S,
+Seattle,SCAND 427,Scandinavian Women Writers in English Translation,5,"DIV,VLPA",
+Seattle,SCAND 430,Readings in Folklore,5,VLPA,
+Seattle,SCAND 431,The Northern European Ballad,5,VLPA,
+Seattle,SCAND 437,Politics in Scandinavia,5,I&S,
+Seattle,SCAND 445,"War and Occupation in Northern Europe: History, Fiction, and Memoir",5,"DIV,I&S,VLPA",
+Seattle,SCAND 450,Scandinavian Literary History,3,VLPA,
+Seattle,SCAND 454,Baltic History,5,I&S,
+Seattle,SCAND 455,Baltic States Since 1991,5,I&S,
+Seattle,SCAND 460,History of the Scandinavian Languages,5,VLPA,
+Seattle,SCAND 462,Isak Dinesen and Karen Blixen,5,VLPA,
+Seattle,SCAND 465,Translation Workshop in Nordic and Baltic Languages,5,VLPA,
+Seattle,SCAND 470,Scandinavian Auteurs,5,VLPA,
+Seattle,SCAND 479,Eco-Capitalism,5,I&S,
+Seattle,SCAND 480,Kierkegaard and Decadence in European Literature,5,VLPA,
+Seattle,SCAND 481,August Strindberg and European Cultural History,5,"I&S,VLPA",
+Seattle,SCAND 482,Knut Hamsun and Early European Modernism,5,VLPA,
+Seattle,SCAND 490,Special Topics,,,
+Seattle,SCAND 495,Foreign Study: Research Project,,,
+Seattle,SCAND 498,Senior Essay,5,VLPA,
+Seattle,SCAND 499,Independent Study or Research,,,
+Seattle,SCAND 500,Introductory Readings in Old Icelandic,5,,
+Seattle,SCAND 501,Old Icelandic Language and Literature,5,,
+Seattle,SCAND 503,Methods of Scandinavian Studies,5,,
+Seattle,SCAND 504,Contemporary Literary Theory,5,,
+Seattle,SCAND 505,Topics in Scandinavian Drama and Film,5,,
+Seattle,SCAND 508,Topics in Scandinavian Prose,5,,
+Seattle,SCAND 515,Pre-Nineteenth-Century Scandinavian Literature,5,,
+Seattle,SCAND 518,Foreign Language Teaching Methodology,2,,
+Seattle,SCAND 519,Modern Scandinavian Politics,5,,
+Seattle,SCAND 520,Topics in Scandinavian Poetry,5,,
+Seattle,SCAND 525,Topics in Scandinavian History,5,,
+Seattle,SCAND 530,Old Norse Literature,3,,
+Seattle,SCAND 533,Interdisciplinary Approaches to Community in Scandinavia,5,,
+Seattle,SCAND 565,Translation Workshop in Nordic and Baltic Languages,5,,
+Seattle,SCAND 570,Scandinavian Auteurs,5,VLPA,
+Seattle,SCAND 579,Eco-Capitalism,5,,
+Seattle,SCAND 580,Kierkegaard and Decadence in European Literature,5,,
+Seattle,SCAND 581,August Strindberg and European Cultural History,5,,
+Seattle,SCAND 582,Knut Hamsun and Early European Modernism,5,,
+Seattle,SCAND 590,Special Topics in Scandinavian Literature,,,
+Seattle,SCAND 594,Modern Methods and Materials in Teaching Scandinavian and Baltic Languages,3,,SCAND 518
+Seattle,SCAND 595,Teaching Assistant Workshop,1,,"SCAND 518,SCAND 594"
+Seattle,SCAND 600,Independent Study or Research,,,
+Seattle,SCAND 700,Master's Thesis,,,
+Seattle,SCAND 800,Doctoral Dissertation,,,
 Seattle,SCI T 501,Observational Science and Experimental Design for Teachers,2,,
 Seattle,SCI T 502,Data Analysis and Visualization for Teachers,2,,
 Seattle,SCI T 503,Science Communication for Teachers,2,,
@@ -12859,6 +13979,48 @@ Seattle,SEFS 600,Independent Study or Research,,,
 Seattle,SEFS 601,Internship,,,
 Seattle,SEFS 700,Master's Thesis,,,
 Seattle,SEFS 800,Doctoral Dissertation,,,
+Seattle,SLAVIC 101,Slavic Lands and Peoples,5,I&S,
+Seattle,SLAVIC 110,The Slavic Languages,5,VLPA,
+Seattle,SLAVIC 130,Introduction to Slavic Culture and Civilization,5,VLPA,
+Seattle,SLAVIC 175,The Slavic Text and Its Context,2,VLPA,
+Seattle,SLAVIC 200,Introduction to Slavic Literature,5,VLPA,
+Seattle,SLAVIC 210,Introduction to Bilingualism,5,"I&S,VLPA",
+Seattle,SLAVIC 223,East European Cinema,5,VLPA,
+Seattle,SLAVIC 320,The Other Europe: Post-World War II East European Fiction,5,VLPA,
+Seattle,SLAVIC 323,Masterpieces of East European Cinema,5,VLPA,
+Seattle,SLAVIC 351,History of the Slavic Languages,5,VLPA,"LING 200,LING 400,SLAVIC 110"
+Seattle,SLAVIC 370,"What Is in a Language Name? The Case of Bosnian, Croatian, Montenegrin, and Serbian",5,VLPA,
+Seattle,SLAVIC 401,Research Methods and Writing,2,,
+Seattle,SLAVIC 423,East European Film,5,VLPA,
+Seattle,SLAVIC 425,Ways of Meaning: Universal and Culture Specific Aspects of Language,5,"I&S,VLPA",
+Seattle,SLAVIC 426,Ways of Feeling: Expressions of Emotions Across Languages and Cultures,5,"I&S,VLPA",
+Seattle,SLAVIC 470,Special Topics in Slavic Linguistics,,VLPA,
+Seattle,SLAVIC 481,East European Language in Eastern Europe,,VLPA,
+Seattle,SLAVIC 482,Research Project in Eastern Europe,3,VLPA,
+Seattle,SLAVIC 483,East European Literature in Eastern Europe,3,VLPA,
+Seattle,SLAVIC 486,East European Culture in Eastern Europe,3,VLPA,
+Seattle,SLAVIC 490,Studies in Slavic Literatures,,VLPA,
+Seattle,SLAVIC 498,Senior Honors Thesis,,VLPA,
+Seattle,SLAVIC 499,Directed Study or Research,,,
+Seattle,SLAVIC 501,Using Slavic Resources,2,,
+Seattle,SLAVIC 518,Foreign Language Teaching Methodology,2,,
+Seattle,SLAVIC 519,Slavic Language Pedagogy,3,,
+Seattle,SLAVIC 520,New Trends in Literary Theory,5,,
+Seattle,SLAVIC 550,Synchronic Slavic Linguistics,5,,
+Seattle,SLAVIC 551,The Introduction to the Study of Slavic Languages,5,,"LING 200,LING 400,SLAVIC 110"
+Seattle,SLAVIC 561,History of the East Slavic Languages,5,,
+Seattle,SLAVIC 562,History of the West Slavic Languages,5,,
+Seattle,SLAVIC 563,History of the South Slavic Languages,5,,
+Seattle,SLAVIC 565,Old Church Slavic,5,,
+Seattle,SLAVIC 566,Readings in Old Church Slavic,4,,SLAVIC 565
+Seattle,SLAVIC 570,Special Topics in Slavic Linguistics,,,
+Seattle,SLAVIC 600,Independent Study or Research,,,
+Seattle,SLAVIC 800,Doctoral Dissertation,,,
+Seattle,SLVN 401,Introductory Slovene Language,,,"BCS 403,BULGR 403,CZECH 403,GERMAN 103,ITAL 103,POLISH 403,ROMN 403,RUSS 103,RUSS 150,UKR 403"
+Seattle,SLVN 402,Introductory Slovene Language,,,SLVN 401
+Seattle,SLVN 404,Second-Year Slovene Language,,,SLVN 402
+Seattle,SLVN 406,Second-Year Slovene Language II,,VLPA,SLVN 404
+Seattle,SLVN 499,Directed Study in Slovene,,,
 Seattle,SMEA 103,Society and the Oceans,5,"I&S,NW",
 Seattle,SMEA 407,International Organizations and Ocean Management,3,I&S,
 Seattle,SMEA 430,Development and the Environment,3,"DIV,I&S",
@@ -12929,6 +14091,177 @@ Seattle,SNKRT 560,Readings in Philosophical Sanskrit,5,,SNKRT 494
 Seattle,SNKRT 570,Seminar in Indian Epigraphy and Paleography,5,,"SNKRT 203,SNKRT 523"
 Seattle,SNKRT 581,Readings in Buddhist Texts,5,,
 Seattle,SNKRT 582,Readings in Buddhist Texts,5,,
+Seattle,SOC 110,Survey of Sociology,5,I&S,
+Seattle,SOC 111,American Society,5,I&S,
+Seattle,SOC 195,Study Abroad: Sociology,,I&S,
+Seattle,SOC 201,Introductory Topics in Sociology,,I&S,
+Seattle,SOC 211,Stability and Change in American Society,5,I&S,
+Seattle,SOC 212,Evolution and Revolution: An Introduction to the Study of Comparative Social Change,5,"DIV,I&S",
+Seattle,SOC 215,Introduction to Urban Sociology,5,I&S,
+Seattle,SOC 220,Introduction to Sociological Methods,5,"I&S,QSR",
+Seattle,SOC 221,Statistical Concepts and Methods for the Social Sciences,5,"NW,QSR",
+Seattle,SOC 222,Sociology of Sport,5,I&S,
+Seattle,SOC 223,Sociology of Rock and Roll,5,I&S,
+Seattle,SOC 230,Introduction to Racial and Ethnic Health Disparities in the United States,5,"DIV,I&S",
+Seattle,SOC 240,Introduction to Social Psychology,5,I&S,
+Seattle,SOC 247,Contemporary Social Movements,5,I&S,
+Seattle,SOC 260,African American Family,5,"DIV,I&S",
+Seattle,SOC 261,The African American Experience Through Literature,5,"I&S,VLPA",
+Seattle,SOC 266,Introduction to Labor Studies,5,I&S,
+Seattle,SOC 270,Social Problems,5,"DIV,I&S",
+Seattle,SOC 271,Introduction to the Sociology of Deviance and Social Control,5,I&S,
+Seattle,SOC 275,Murder,5,I&S,
+Seattle,SOC 287,Introduction of the Sociology of Sexuality,5,"DIV,I&S",
+Seattle,SOC 292,Who Gets Ahead? Public Schooling in America,5,"DIV,I&S",
+Seattle,SOC 299,Sociology Interest Group,2,I&S,
+Seattle,SOC 300,Foundations of Social Inquiry,5,I&S,
+Seattle,SOC 301,War,5,I&S,
+Seattle,SOC 316,Introduction to Sociological Theory,5,I&S,
+Seattle,SOC 320,Evaluating Social Science Evidence,5,"I&S,QSR",
+Seattle,SOC 321,Case-Based Social Statistics I,5,"I&S,QSR",
+Seattle,SOC 322,Case-Based Social Statistics II,5,"I&S,QSR","CS&SS 321,SOC 321,STAT 321"
+Seattle,SOC 328,Methodology of Sociological Research,,"I&S,QSR",
+Seattle,SOC 329,Methodology of Sociological Research,,"I&S,QSR",
+Seattle,SOC 330,Human Ecology,5,I&S,
+Seattle,SOC 331,Population and Society,5,I&S,
+Seattle,SOC 340,Symbolic Interaction,5,I&S,
+Seattle,SOC 341,Tutoring Sociology,,,
+Seattle,SOC 344,Cognitive Social Psychology,5,I&S,
+Seattle,SOC 345,"Sects and Violence: Cults, Religious Innovation, and Social Conflict",5,I&S,
+Seattle,SOC 346,Group Processes,5,I&S,
+Seattle,SOC 347,National Social Movements: Current Trends and Explanations,5,I&S,
+Seattle,SOC 351,Intimate Relationships,5,I&S,
+Seattle,SOC 352,The Family,5,I&S,
+Seattle,SOC 353,The Family in Cross-Cultural Perspective,5,I&S,
+Seattle,SOC 355,Social Change in Latin America,5,I&S,
+Seattle,SOC 356,Society and Politics,5,I&S,
+Seattle,SOC 357,Sociology of Religion,5,I&S,
+Seattle,SOC 360,Introduction to Social Stratification,5,"DIV,I&S",
+Seattle,SOC 362,Race Relations,5,"DIV,I&S",
+Seattle,SOC 363,"Ethnicity, Business, Unions, and Society",5,I&S,
+Seattle,SOC 364,Women in the Social Structure,5,I&S,
+Seattle,SOC 365,Urban Community,5,I&S,
+Seattle,SOC 366,Sociology of Organizations,5,I&S,
+Seattle,SOC 368,Sociology of Black Americans,5,I&S,
+Seattle,SOC 371,Criminology,5,I&S,
+Seattle,SOC 372,"Crime, Politics, and Justice",5,I&S,
+Seattle,SOC 374,Law and Society,5,I&S,
+Seattle,SOC 375,Sociology of Juvenile Justice,5,I&S,
+Seattle,SOC 376,Drugs and Society,5,I&S,
+Seattle,SOC 377,The American Jewish Community,5,"DIV,I&S",
+Seattle,SOC 378,Contemporary Jewish American Identities,5,"DIV,I&S",
+Seattle,SOC 379,Environmental Sociology,5,"I&S,NW",
+Seattle,SOC 395,Study Abroad: Sociology,,I&S,
+Seattle,SOC 399,Undergraduate Internship,,,
+Seattle,SOC 401,Special Topics in Sociology,5,I&S,
+Seattle,SOC 402,Sociology in Practice: Education Service Program,5,I&S,
+Seattle,SOC 403,Sociology in Practice: Applied Community Research Program,5,I&S,
+Seattle,SOC 404,Sociology in Practice: Community/Civic Internship Program,5,I&S,
+Seattle,SOC 410,History of Sociological Thought,5,I&S,
+Seattle,SOC 415,The City and Neighborhood Dynamics,5,I&S,
+Seattle,SOC 416,Sociological Theory,5,I&S,
+Seattle,SOC 420,Sociology of Food,5,I&S,
+Seattle,SOC 430,Social Determinates of Health and Health Disparities,5,"DIV,I&S",
+Seattle,SOC 432,Population and Modernization,3,I&S,
+Seattle,SOC 434,Demographic Issues in Asia,,I&S,
+Seattle,SOC 440,Comparative Social Problems,5,I&S,
+Seattle,SOC 445,Religious Movements: The Sociology of Cults and Sects,5,I&S,
+Seattle,SOC 447,Social Movements,5,I&S,
+Seattle,SOC 450,Political Economy of Women and Family in the Third World,5,I&S,
+Seattle,SOC 451,Theory and Process of Social Change,5,I&S,
+Seattle,SOC 456,Political Sociology,5,I&S,
+Seattle,SOC 460,Social Differentiation,5,I&S,
+Seattle,SOC 461,Comparative Ethnic Race Relations in the Americas,5,I&S,
+Seattle,SOC 462,Comparative Race and Ethnic Relations,5,"DIV,I&S",
+Seattle,SOC 463,African-American Political Thought,5,I&S,
+Seattle,SOC 464,Contemporary Society in the People's Republic of China,5,I&S,
+Seattle,SOC 465,Complex Organizations,5,I&S,
+Seattle,SOC 466,Economic Sociology,5,I&S,
+Seattle,SOC 467,Immigration and Ethnicity,5,"DIV,I&S",
+Seattle,SOC 468,Sociology of Occupations and Professions,5,I&S,
+Seattle,SOC 469,Balkan Societies,5,I&S,
+Seattle,SOC 470,Contemporary Southeast Asia,5,I&S,
+Seattle,SOC 472,Juvenile Delinquency,5,I&S,
+Seattle,SOC 476,Miscarriages of Justice,5,I&S,
+Seattle,SOC 481,Issues in Analytic Sociology,5,I&S,
+Seattle,SOC 482,Issues in Analytic Sociology,3,I&S,
+Seattle,SOC 483,Issues in Analytic Sociology,,I&S,
+Seattle,SOC 487,Sociology of Gender and Sexuality,5,I&S,
+Seattle,SOC 490,The Urban Underclass,5,I&S,
+Seattle,SOC 492,Sociology of Education,5,I&S,
+Seattle,SOC 494,Practicum,5,I&S,
+Seattle,SOC 495,Honors Senior Thesis,,I&S,
+Seattle,SOC 496,Honors Senior Seminar,,I&S,
+Seattle,SOC 497,Honors Senior Seminar,,I&S,
+Seattle,SOC 499,Undergraduate Independent Study or Research,,,
+Seattle,SOC 500,Teaching Sociology as a Teaching Assistant,1,,
+Seattle,SOC 501,Proseminar,,,
+Seattle,SOC 502,Seminar on Teaching Sociology,3,,
+Seattle,SOC 503,Seminar on Writing Social Science,3,,
+Seattle,SOC 504,Applied Social Statistics,,,
+Seattle,SOC 505,Applied Social Statistics,,,
+Seattle,SOC 506,Methodology: Quantitative Techniques in Sociology,3,,
+Seattle,SOC 507,Statistical Classification and Measurement,3,,
+Seattle,SOC 508,Logic of Social Inquiry,3,,
+Seattle,SOC 509,Practicum in Data Analysis,3,,
+Seattle,SOC 510,Seminar in Sociological Theory,3,,
+Seattle,SOC 511,Classical Social Theory,3,,
+Seattle,SOC 512,Review of Mathematics for Social Scientists,1,,
+Seattle,SOC 513,Demography and Ecology,3,,
+Seattle,SOC 514,Current Theories in Social Psychology,3,,
+Seattle,SOC 515,Current Research in Social Psychology,3,,
+Seattle,SOC 516,Organizations,3,,
+Seattle,SOC 517,Deviance and Social Control,3,,
+Seattle,SOC 518,Social Stratification,3,,
+Seattle,SOC 519,Fieldwork: Observation and Interviewing,,,
+Seattle,SOC 520,Fieldwork: Observation and Interviewing,,,
+Seattle,SOC 524,Master's Thesis Research Seminar,1,,
+Seattle,SOC 526,Causal Approach to Theory Building and Data Analysis,3,,
+Seattle,SOC 527,Measurement of Basic Sociological Concepts,3,,SOC 504
+Seattle,SOC 528,Seminar on Selected Statistical Problems in Social Research,3,,SOC 506
+Seattle,SOC 529,Structural Equation Models for the Social Sciences,3,,"SOC 504,SOC 505,SOC 506"
+Seattle,SOC 530,Urbanism and Urbanization,3,I&S,
+Seattle,SOC 531,Fertility and Mortality,3,I&S,
+Seattle,SOC 533,Research Methods in Demography,3,I&S,
+Seattle,SOC 534,Statistical Methods for Spatial Data,3,,
+Seattle,SOC 535,Foundations of Population Health and Health Disparities,3,,
+Seattle,SOC 536,Analysis of Categorical and Count Data,3,,"SOC 504,SOC 505,SOC 506"
+Seattle,SOC 537,Modeling Emergence: Social Simulation,3,,
+Seattle,SOC 538,Data Science and Population Processes,3,,
+Seattle,SOC 539,Selected Topics in Demography and Ecology,3,,
+Seattle,SOC 542,Selected Topics in Group Processes,3,,
+Seattle,SOC 543,Seminar on Group Solidarity,3,,
+Seattle,SOC 547,Social Cognition and Attribution,3,,SOC 514
+Seattle,SOC 551,Family and Gender Relations,3,,
+Seattle,SOC 553,Seminar on Gender and Sexuality,3,,
+Seattle,SOC 554,Seminar in the Sociology of Religion,3,,
+Seattle,SOC 555,"Methods in Macro, Comparative, and Historical Sociology",3,,
+Seattle,SOC 559,Seminar on Gender Roles,3,,
+Seattle,SOC 560,Hierarchical Modeling for the Social Sciences,4,,"SOC 504,SOC 505,SOC 506"
+Seattle,SOC 562,Seminar in Comparative Race Relations,3,,
+Seattle,SOC 565,Inequality: Current Trends and Explanations,3,,"SOC 504,SOC 505,SOC 506"
+Seattle,SOC 566,Seminar in Complex Organizations,3,,
+Seattle,SOC 567,Seminar in Complex Organizations,3,,
+Seattle,SOC 568,Social Mobility,3,,SOC 518
+Seattle,SOC 569,Demographic Studies of Stratification,3,,"SOC 513,SOC 518"
+Seattle,SOC 570,Seminar in Environmental Sociology,3,,
+Seattle,SOC 574,Seminar in Methods of Criminological Research,3,,
+Seattle,SOC 575,Social Movements: Politics and Organization,3,,
+Seattle,SOC 581,Special Topics in Theory and the History of Sociological Thought,3,,
+Seattle,SOC 582,Special Topics in Research Methods and Statistical Analysis in Sociology,3,,
+Seattle,SOC 583,Special Topics in Demography and Ecology,3,,
+Seattle,SOC 584,Special Topics in Social Psychology,3,,
+Seattle,SOC 585,Special Topics in Marriage and Family,3,,
+Seattle,SOC 586,Special Topics in Organization and Industrial Sociology,3,,
+Seattle,SOC 587,Special Topics in Deviance and Social Control,,,
+Seattle,SOC 588,Special Topics in Stratification and Race Relations,3,,
+Seattle,SOC 589,Special Topics in Macrosociology,3,,
+Seattle,SOC 590,Special Topics in Sociology,,,
+Seattle,SOC 591,Political Sociology,3,,
+Seattle,SOC 597,"Field Seminar in States, Markets, and Societies",5,,
+Seattle,SOC 600,Independent Study or Research,,,
+Seattle,SOC 700,Master's Thesis,,,
+Seattle,SOC 800,Doctoral Dissertation,,,
 Seattle,SOC W 500,Intellectual and Historical Foundations of Professional Social Work Practice,3,,
 Seattle,SOC W 501,Poverty and Inequality,3,,
 Seattle,SOC W 504,Social Work for Social Justice: Developing a Personal-Professional Stance,3,,
@@ -13074,6 +14407,159 @@ Seattle,SOC WL 598,Theory and Metatheory in Social Research,3,,
 Seattle,SOC WL 599,Theory Development for Social Research,3,,
 Seattle,SOC WL 600,Independent Study or Research,,,
 Seattle,SOC WL 800,Doctoral Dissertation,,,
+Seattle,SPAN 101,Elementary Spanish,5,,SPAN 121
+Seattle,SPAN 102,Elementary Spanish,5,,"SPAN 101,SPAN 122"
+Seattle,SPAN 103,Elementary Spanish,5,,"SPAN 102,SPAN 110,SPAN 123"
+Seattle,SPAN 110,Basic Spanish Review,5,,
+Seattle,SPAN 121,Spanish Immersion,5,,SPAN 101
+Seattle,SPAN 122,Spanish Immersion,5,,"SPAN 102,SPAN 121"
+Seattle,SPAN 123,Spanish Immersion,5,,"SPAN 103,SPAN 122"
+Seattle,SPAN 134,Intensive First-Year Spanish,15,,
+Seattle,SPAN 199,Foreign Study - Elementary,,,
+Seattle,SPAN 201,Intermediate Spanish,5,VLPA,"SPAN 103,SPAN 123,SPAN 134"
+Seattle,SPAN 202,Intermediate Spanish,5,VLPA,SPAN 201
+Seattle,SPAN 203,Intermediate Spanish,5,VLPA,"SPAN 202,SPAN 210"
+Seattle,SPAN 207,Culture and Civilization in Spain,5,"I&S,VLPA",SPAN 203
+Seattle,SPAN 216,Spanish for Heritage Learners,5,VLPA,
+Seattle,SPAN 224,Spanish for Health Professionals I,3,,SPAN 201
+Seattle,SPAN 225,Spanish for Health Professionals II,3,,SPAN 224
+Seattle,SPAN 226,Spanish for Healh Professionals III,3,,SPAN 225
+Seattle,SPAN 227,Intermediate Conversation,2,VLPA,"SPAN 103,SPAN 123,SPAN 134"
+Seattle,SPAN 237,Foreign Study - Intermediate Conversation,,VLPA,"SPAN 103,SPAN 123,SPAN 134"
+Seattle,SPAN 292,Experiential Learning in Spanish - Intermediate,,I&S,SPAN 103
+Seattle,SPAN 294,Special Topics in Spanish Literary/Cultural Studies,5,VLPA,
+Seattle,SPAN 299,Foreign Study - Intermediate,,VLPA,
+Seattle,SPAN 301,Advanced Spanish,5,VLPA,SPAN 203
+Seattle,SPAN 302,Advanced Spanish,5,VLPA,"SPAN 301,SPAN 310"
+Seattle,SPAN 303,Advanced Spanish,5,VLPA,"SPAN 302,SPAN 310"
+Seattle,SPAN 304,Survey of Spanish Literature: 1140-1498,3,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 305,Survey of Spanish Literature: 1498-1681,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 306,Survey of Spanish Literature: 1681 to the Present,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 307,Introduction to Latin American Literature: Colonial Era Through Early Independence,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 308,Introduction to Latin American Literature: Independence to the Present,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 309,Salamanders and Graffiti: Julio Cortazar's Fantastic Nightmares,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 313,Business Communication in Spanish,5,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 314,Spanish for Bilingual/Heritage Students,5,VLPA,
+Seattle,SPAN 315,Spanish for Bilingual/Heritage Students,5,VLPA,SPAN 314
+Seattle,SPAN 316,Stylistics and Composition for Heritage Students,5,VLPA,SPAN 315
+Seattle,SPAN 317,Spanish and Latin American Literature in English Translation,5,VLPA,
+Seattle,SPAN 318,Cervantes' Don Quixote in English,5,VLPA,
+Seattle,SPAN 319,Mexican Literature,3,"DIV,VLPA","SPAN 301,SPAN 302,SPAN 303,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 321,Introduction to Hispanic Literary Studies,5,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 322,Introduction to Hispanic Cultural Studies,5,"I&S,VLPA","SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 323,Introduction to Spanish Linguistics,5,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 327,Advanced Conversation,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 328,Spanish Cultural Studies,5,"I&S,VLPA","SPAN 301,SPAN 310,SPAN 314"
+Seattle,SPAN 329,Latin American Cultural Studies,5,"I&S,VLPA","SPAN 301,SPAN 310,SPAN 314"
+Seattle,SPAN 331,Themes in Mexican-American Studies,5,"I&S,VLPA","SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 332,Chicano Film and Narrative,5,"I&S,VLPA","SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 333,Hispanic Film Studies,5,"I&S,VLPA","SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 334,Latin American Film,5,"I&S,VLPA","SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 335,Spanish and Latin American Film,5,"I&S,VLPA","SPAN 301,SPAN 314"
+Seattle,SPAN 336,Creative Storytelling in Spanish,5,"I&S,VLPA",
+Seattle,SPAN 337,Foreign Study Advanced Conversation,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 339,Women Writers,3,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 340,Introduction to Latin American Poetry,3,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 350,Drama,3,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 351,Poetry,3,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 352,Fiction,3,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 360,Contemporary Spain,5,"I&S,VLPA","SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 390,Supervised Study,,,
+Seattle,SPAN 392,Experiential Learning in Spanish,,,SPAN 203
+Seattle,SPAN 393,Foreign Study,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 394,Special Topics in Spanish Literature,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 395,Special Topics in Latin American Literature,,VLPA,"SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 396,Special Topics in Spanish Cultural Studies,,"I&S,VLPA","SPAN 301,SPAN 302,SPAN 303,SPAN 310,SPAN 314,SPAN 315,SPAN 316,SPAN 330"
+Seattle,SPAN 398,Special Topics in Spanish Linguistics,,VLPA,"SPAN 301,SPAN 314"
+Seattle,SPAN 400,The Syntactic Structure of Spanish,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 401,The Morphological Structure of Spanish,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 402,The Phonological Structure of Spanish,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 403,The Evolution of the Spanish Language,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 404,Dialects of World Spanish,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 405,Hispanic Sociolinguistics,5,"DIV,I&S,VLPA","LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 406,Advanced Spanish Grammar,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 407,Bilinguismo: Made in USA,5,"I&S,VLPA","LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 408,Spanish Translation Workshop,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 409,Translation for Performance,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 410,Creative Writing in Spanish,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 414,Spanish Literature: Eighteenth Century,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 415,Spanish Literature: Nineteenth Century,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 416,Spanish Literature: 1900 to the Present,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 420,Spanish Poetry: Origins Through the Fifteenth Century,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 423,"Spanish Poetry: The Golden Age, Sixteenth Through Seventeenth Centuries",5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 424,Hispanic Poetry: 1870 - 1936,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 433,Golden Age Prose,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 436,Spanish Novel of the Nineteenth Century,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 438,Spanish Novel: 1900 - Present,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 439,Women Writers,5,"DIV,I&S,VLPA","SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 440,Spanish Drama: 1150-1600,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 441,Spanish Drama: 1600-1635,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 442,Latin American Colonial Theatre and Performance,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 445,"The Modern Theatre in Spain, 1700-1900",5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 446,Modern Spanish Theatre: 1900 to Present,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 447,Modern Latin American Theater,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 449,Spanish Drama and Play Production,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 453,Cervantes and His Times,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 457,"Food, Ethnicity, and Identity in Hispanic Culture",5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 322"
+Seattle,SPAN 458,Sexuality and Gender in Pre-Modern Spanish Culture,5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 322"
+Seattle,SPAN 459,Hispanic Food and Culture,5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 322"
+Seattle,SPAN 460,Sephardic Culture Before 1492,5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 322"
+Seattle,SPAN 461,Topics in Latin American Cultural Studies,5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 322"
+Seattle,SPAN 462,Topics in Spanish Cultural Studies,5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 322"
+Seattle,SPAN 464,Chicana Expressive Culture,5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 322"
+Seattle,SPAN 465,Contemporary Chicano Literature,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 466,Chicano Literature: Fiction,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 467,Spanish Women,5,"DIV,I&S,VLPA","SPAN 303,SPAN 316,SPAN 322"
+Seattle,SPAN 468,Latin American Women,5,"DIV,I&S,VLPA","SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 469,The Probable Improbability of Gabriel Garcia Marquez's Cien Anos De Soledad,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 472,Colonial Prose,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 473,Latin American Fiction: Nineteenth Century,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 474,Latin American Fiction: Twentieth Century,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 475,Latin American Poetry: Colonial Through Nineteenth Century,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 476,Contemporary Latin American Poetry,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 477,Latin American Essay,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 479,The City and Latin American Literature: Points of Departure,5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 480,Spanish Medieval Literature,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 481,Sixteenth- And Seventeenth-Century Spanish Literature,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 482,Eighteenth- Through Twentieth-Century Spanish Literature,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 483,Latin American Literature: Origins to Independence,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 484,Latin American Literature: Modernismo to the Present,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 485,Desmadre Patria: Latin American Myth in Film and Literature,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 486,Photography and Cultural Studies in Latin America,5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 322"
+Seattle,SPAN 487,Mexican Cinema,5,"I&S,VLPA","SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 488,The Fantastic in Latin American Literature,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 489,The Mexico-U.S. Border in Literature and Film,5,"DIV,I&S,VLPA","SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 490,Honors Seminar,,VLPA,
+Seattle,SPAN 491,Individual Authors and Special Topics in Spanish Literature,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 492,Individual Authors and Special Topics in Latin American Literature,5,VLPA,"SPAN 303,SPAN 316,SPAN 321"
+Seattle,SPAN 493,Foreign Study,,VLPA,"SPAN 303,SPAN 304,SPAN 305,SPAN 306,SPAN 307,SPAN 308,SPAN 316,SPAN 319,SPAN 321,SPAN 322,SPAN 330,SPAN 339,SPAN 340,SPAN 350,SPAN 351,SPAN 352,SPAN 394,SPAN 395"
+Seattle,SPAN 495,Study in Spain,,VLPA,"SPAN 303,SPAN 304,SPAN 305,SPAN 306,SPAN 307,SPAN 308,SPAN 316,SPAN 319,SPAN 321,SPAN 322,SPAN 330,SPAN 339,SPAN 340,SPAN 350,SPAN 351,SPAN 352,SPAN 394,SPAN 395"
+Seattle,SPAN 498,Special Topics in Spanish Linguistics,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPAN 499,Special Topics,,,
+Seattle,SPAN 510,Methodology of Spanish Language Teaching,5,,
+Seattle,SPAN 521,The Renaissance in Spain,5,,
+Seattle,SPAN 522,The Renaissance in Spain,5,,
+Seattle,SPAN 541,Topics in Spanish Applied Linguistics,5,,
+Seattle,SPAN 542,Topics in Spanish Second Language Acquisition,5,,
+Seattle,SPAN 561,Spanish-American Novel From 1940 to the Present,5,,
+Seattle,SPAN 571,The Modern Essay in Spanish America,5,,
+Seattle,SPAN 572,Twentieth-Century Spanish Poetry,5,,
+Seattle,SPAN 573,Twentieth-Century Spanish-American Poetry,5,,
+Seattle,SPAN 575,Literary Criticism,5,,
+Seattle,SPAN 577,Contemporary Literary Theory,5,,
+Seattle,SPAN 590,Special Seminar and Conference,,,
+Seattle,SPAN 591,Literary Problems: Middle Ages,5,,
+Seattle,SPAN 592,Literary Problems: Renaissance,5,,
+Seattle,SPAN 593,Literary Problems: Golden Age,5,,
+Seattle,SPAN 594,Literary Problems: Eighteenth Century,5,,
+Seattle,SPAN 595,Literary Problems: Nineteenth Century,5,,
+Seattle,SPAN 596,Literary Problems: Twentieth Century,5,,
+Seattle,SPAN 597,Literary Problems: Spanish-American Colonial Literature,5,,
+Seattle,SPAN 598,Literary Problems: Latin America,5,,
+Seattle,SPAN 600,Independent Study or Research,,,
+Seattle,SPAN 610,Reading Credit for Graduate Exams,5,,
+Seattle,SPAN 700,Master's Thesis,,,
+Seattle,SPAN 800,Doctoral Dissertation,,,
 Seattle,SPCI 505,Epidemiology of Biological and Chemical Hazards Mitigation I: Principles,3,,
 Seattle,SPCI 506,Strategic Planning Practicum I,3,,
 Seattle,SPCI 510,Strategic Planning Practicum II,3,,
@@ -13096,6 +14582,218 @@ Seattle,SPH 497,Public Health Special Electives,,,
 Seattle,SPH 499,Undergraduate Research,,,
 Seattle,SPH 589,Undoing Racism in Public Health,1,,
 Seattle,SPH 590,Selected Topics in Public Health,,,
+Seattle,SPHSC 100,Voice and Articulation Improvement,3,VLPA,
+Seattle,SPHSC 111,The American English Sound System,2,,
+Seattle,SPHSC 250,Human Communication and Its Disorders,5,"I&S,NW",
+Seattle,SPHSC 261,The Nature of Sound,4,NW,
+Seattle,SPHSC 302,Phonetics,3,VLPA,"LING 200,LING 400,SPHSC 303"
+Seattle,SPHSC 303,Language Science,3,VLPA,
+Seattle,SPHSC 304,Developmental Aspects of Communication,5,I&S,"ANTH 203,LING 200,LING 400,SPHSC 303"
+Seattle,SPHSC 305,Speech and Language Disorders,5,NW,"SPHSC 302,SPHSC 304,SPHSC 320"
+Seattle,SPHSC 308,Social-Cultural Aspects of Communication,3,I&S,
+Seattle,SPHSC 320,Anatomy and Physiology of Speech,5,NW,
+Seattle,SPHSC 371,Hearing Disorders,3,"I&S,NW",
+Seattle,SPHSC 405,Diagnosis of Speech and Language Disorders,3,NW,SPHSC 305
+Seattle,SPHSC 406,Treatment of Speech and Language Disorders,4,NW,SPHSC 405
+Seattle,SPHSC 411,Perceptual Development,5,"I&S,NW","PSYCH 206,PSYCH 306,PSYCH 414"
+Seattle,SPHSC 425,"Speech, Language, Hearing, and the Brain",4,"I&S,NW",
+Seattle,SPHSC 445,Models of Speech Processing,3,NW,
+Seattle,SPHSC 449,Special Studies in Speech Pathology and Audiology,,,
+Seattle,SPHSC 461,Introduction to Hearing Science,5,NW,"PSYCH 333,SPHSC 261"
+Seattle,SPHSC 462,Hearing Development,3,NW,SPHSC 461
+Seattle,SPHSC 471,Basic Audiometry,4,NW,"SPHSC 371,SPHSC 461"
+Seattle,SPHSC 481,Management of Hearing Loss,4,NW,SPHSC 471
+Seattle,SPHSC 491,Audiology Practicum in Schools,2,,SPHSC 371
+Seattle,SPHSC 498,Undergraduate Honors Research,,,
+Seattle,SPHSC 499,Undergraduate Research,,,
+Seattle,SPHSC 500,Clinical Methodology for Documenting Change,4,,
+Seattle,SPHSC 501,"Neural Bases of Speech, Language, and Hearing",4,,
+Seattle,SPHSC 503,Current Issues in Speech and Hearing Sciences,3,,
+Seattle,SPHSC 504,Research Methods in Speech and Hearing Sciences,3,,
+Seattle,SPHSC 506,Research Methods in Speech-Language Pathology,3,,
+Seattle,SPHSC 507,Evidence Based Practice,3,,
+Seattle,SPHSC 509,Advanced Hearing Science,3,,
+Seattle,SPHSC 510,Physiological Acoustics,3,,SPHSC 461
+Seattle,SPHSC 511,Psychoacoustics,3,,SPHSC 461
+Seattle,SPHSC 514,Speech Physiology,3,,SPHSC 560
+Seattle,SPHSC 518,Seminar in Speech and Hearing Sciences,1,,
+Seattle,SPHSC 519,Seminar in Speech Science,2,,
+Seattle,SPHSC 520,Advanced Instrumentation for Speech and Hearing Sciences,3,,
+Seattle,SPHSC 521,Instrumentation for Audiology,4,,
+Seattle,SPHSC 522,Hearing Instrument Modification/Repair,1,,
+Seattle,SPHSC 523,Special Topics in Audiology,3,,
+Seattle,SPHSC 525,Speech Signal Processing,3,,
+Seattle,SPHSC 526,Assessment and Treatment of Literacy Disorders,3,,SPHSC 536
+Seattle,SPHSC 529,Assessment and Treatment of Birth-To-4 Communication Disorders,4,,
+Seattle,SPHSC 531,Neurogenic Motor Speech Disorders,4,,SPHSC 501
+Seattle,SPHSC 532,Assessment and Treatment of Neurogenic Language Disorders,3,,SPHSC 501
+Seattle,SPHSC 533,Medical Speech Pathology,3,,"SPHSC 501,SPHSC 531,SPHSC 532"
+Seattle,SPHSC 534,Assessment and Treatment of Dysphagia,4,,SPHSC 501
+Seattle,SPHSC 535,Assessment and Treatment of Voice Disorders,4,,
+Seattle,SPHSC 536,Assessment and Treatment of School-Age Communication Disorders,4,,
+Seattle,SPHSC 537,Fluency Disorders,4,,
+Seattle,SPHSC 538,Assessment and Treatment of Cognitive-Communication Disorders,3,,
+Seattle,SPHSC 539,Childhood Speech and Phonological Disorders,4,,
+Seattle,SPHSC 540,Augmentative and Alternative Communication Foundations,4,,
+Seattle,SPHSC 541,Augmentative and Alternative Communication in the Medical Setting,2,,SPHSC 540
+Seattle,SPHSC 542,Counseling and Interactive Skills for Speech-Language Pathologists and Audiologists,3,,
+Seattle,SPHSC 543,Assessment and Treatment of Pediatric Dysphagia,2,,"SPHSC 501,SPHSC 534"
+Seattle,SPHSC 545,Assessment and Treatment of Voice Disorders in Medical Settings,2,,SPHSC 535
+Seattle,SPHSC 546,Advanced Neurological Language Disorders,2,,"SPHSC 501,SPSHC 532"
+Seattle,SPHSC 548,Traumatic Brain Injury Seminar,2,,"SPHSC 501,SPHSC 538"
+Seattle,SPHSC 549,Clinical Forum in Speech-Language Pathology,2,,
+Seattle,SPHSC 550,Public School Speech-Language Pathology and Audiology,3,,
+Seattle,SPHSC 551,Advanced Practicum in Speech Pathology Evaluation,,,
+Seattle,SPHSC 552,Advanced Practicum in Speech Pathology Management,,,
+Seattle,SPHSC 553,Advanced Practicum in Speech-Language Pathology,,,
+Seattle,SPHSC 554,Advanced Offsite Practicum in Speech-Language Pathology,,,SPHSC 553
+Seattle,SPHSC 555,Pre-Internship in Speech and Hearing Sciences,,,
+Seattle,SPHSC 556,Advanced Aural Rehabilitation,4,,
+Seattle,SPHSC 559,"Special Topics in Speech, Language, and Hearing",,,
+Seattle,SPHSC 560,Speech Science,3,,
+Seattle,SPHSC 561,Studies in Hearing Sciences and Disorders,3,,
+Seattle,SPHSC 562,Studies in Language Science and Disorders,3,,
+Seattle,SPHSC 563,Instructional Development Forum,1,,
+Seattle,SPHSC 564,Teaching Practicum,,,
+Seattle,SPHSC 565,Speech and Language Pathology Proseminar,,,
+Seattle,SPHSC 567,Research Seminar in Speech and Hearing Sciences,1,,
+Seattle,SPHSC 568,"Grant Writing in Hearing, Language, and Speech Science",3,,
+Seattle,SPHSC 570,Assessment of Auditory Dysfunction I,,,SPHSC 471
+Seattle,SPHSC 571,Assessment of Auditory Dysfunction II,,,SPHSC 570
+Seattle,SPHSC 572,Pediatric Audiology,4,,SPHSC 570
+Seattle,SPHSC 574,Assessment of Balance Function,4,,SPHSC 571
+Seattle,SPHSC 575,Medical Backgrounds in Audiology,3,,SPHSC 571
+Seattle,SPHSC 576,Otoacoustic Emissions,2,,"SPHSC 571,SPHSC 572,SPHSC 592"
+Seattle,SPHSC 577,Industrial and Community Hearing Conservation,2,,SPHSC 571
+Seattle,SPHSC 578,Hearing Screening,2,,"SPHSC 572,SPHSC 576,SPHSC 592"
+Seattle,SPHSC 579,Geriatric Audiology,2,,SPHSC 571
+Seattle,SPHSC 580,Rehabilitative Audiology,3,,"SPHSC 571,SPHSC 583"
+Seattle,SPHSC 581,Management of Hearing-Impaired Children,3,,
+Seattle,SPHSC 582,Hearing Aid Amplification,4,,"SPHSC 471,SPHSC 570"
+Seattle,SPHSC 583,Hearing Aid Selection,4,,SPHSC 582
+Seattle,SPHSC 584,Advanced Amplification,3,,"SPHSC 582,SPHSC 583"
+Seattle,SPHSC 585,Pediatric Amplification,2,,SPHSC 582
+Seattle,SPHSC 586,Cochlear Implants,5,,
+Seattle,SPHSC 587,Ethics,3,,
+Seattle,SPHSC 588,Audiology Proseminar,,,
+Seattle,SPHSC 591,Advanced Practicum in Audiology,,,
+Seattle,SPHSC 592,Electrophysiologic Assessment I,4,,"SPHSC 461,SPHSC 571"
+Seattle,SPHSC 593,Electrophysiologic Assessment II,3,,SPHSC 592
+Seattle,SPHSC 594,Capturing Brain Dynamics: A Combined Neuroscience and Engineering Approach,4,,
+Seattle,SPHSC 596,Clinical Education in Audiology,,,
+Seattle,SPHSC 599,Research Practicum,,,
+Seattle,SPHSC 600,Independent Study or Research,,,
+Seattle,SPHSC 601,Internship,,,
+Seattle,SPHSC 602,Internship in the Schools,,,
+Seattle,SPHSC 700,Master's Thesis,,,
+Seattle,SPHSC 800,Doctoral Dissertation,,,
+Seattle,SPHSC 801,Practice Doctorate Project/Capstone,,,
+Seattle,SPLING 400,The Syntactic Structure of Spanish,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPLING 401,The Morphological Structure of Spanish,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPLING 402,The Phonological Structure of Spanish,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPLING 403,The Evolution of the Spanish Language,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPLING 404,Dialects of World Spanish,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPLING 405,Hispanic Sociolinguistics,5,"DIV,I&S,VLPA","LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPLING 406,Advanced Spanish Grammar,5,VLPA,"LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,SPLING 407,Bilinguismo: Made in USA,5,"I&S,VLPA","LING 200,LING 400,SPAN 303,SPAN 316,SPAN 323"
+Seattle,STAT 100,Numbers and Reason,5,QSR,
+Seattle,STAT 111,Lectures in Applied Statistics,1,NW,
+Seattle,STAT 220,Principles of Statistical Reasoning,5,"NW,QSR",
+Seattle,STAT 221,Statistical Concepts and Methods for the Social Sciences,5,"NW,QSR",
+Seattle,STAT 302,Statistical Software and Its Applications,3,,"ECON 311,MATH 390,STAT 311,STAT 390"
+Seattle,STAT 311,Elements of Statistical Methods,5,"NW,QSR","MATH 111,MATH 120,MATH 124,MATH 127,MATH 144"
+Seattle,STAT 316,Design of Experiments and Regression Analysis,4,NW,IND E 315
+Seattle,STAT 320,Evaluating Social Science Evidence,5,"I&S,QSR",
+Seattle,STAT 321,Case-Based Social Statistics I,5,"I&S,QSR",
+Seattle,STAT 322,Case-Based Social Statistics II,5,"I&S,QSR","CS&SS 321,SOC 321,STAT 321"
+Seattle,STAT 340,Introduction to Probability and Mathematical Statistics I,4,QSR,"ECON 311,MATH 136,MATH 327,MATH 390,STAT 311,STAT 390"
+Seattle,STAT 341,Introduction to Probability and Mathematical Statistics II,4,NW,"ECON 311,MATH 136,MATH 327,MATH 390,MATH 394,MATH 395,STAT 340"
+Seattle,STAT 342,Introduction to Probability and Mathematical Statistics III,4,NW,STAT 341
+Seattle,STAT 390,Statistical Methods in Engineering and Science,4,NW,"MATH 126,MATH 136"
+Seattle,STAT 391,Quantitative Introductory Statistics for Data Science,4,,"CSE 312,MATH 394,MATH 395,STAT 394,STAT 395"
+Seattle,STAT 394,Probability I,3,NW,"MATH 126,MATH 136"
+Seattle,STAT 395,Probability II,3,NW,MATH 394
+Seattle,STAT 396,Probability III,3,NW,"MATH 395,STAT 340,STAT 341,STAT 395"
+Seattle,STAT 403,Introduction to Resampling Inference,4,NW,"ECON 311,ECON 481,MATH 390,Q SCI 381,Q SCI 482,STAT 311,STAT 341,STAT 390,STAT 481"
+Seattle,STAT 406,Research Design and Statistics for HIHIM,3,,
+Seattle,STAT 416,Introduction to Machine Learning,4,NW,"CSE 143,CSE 160,STAT 311,STAT 390"
+Seattle,STAT 421,Applied Statistics and Experimental Design,4,NW,"ECON 481,STAT 342,STAT 481"
+Seattle,STAT 423,Applied Regression and Analysis of Variance,4,NW,"ECON 481,STAT 342,STAT 421,STAT 481"
+Seattle,STAT 425,Introduction to Nonparametric Statistics,3,NW,"MATH 390,STAT 390"
+Seattle,STAT 427,Introduction to Analysis of Categorical Data,4,NW,"STAT 342,STAT 362,STAT 421"
+Seattle,STAT 428,Multivariate Analysis for the Social Sciences,4,NW,"STAT 342,STAT 362,STAT 421"
+Seattle,STAT 435,Introduction to Statistical Machine Learning,4,,"MATH 308,MATH 390,STAT 341,STAT 390,STAT 391"
+Seattle,STAT 441,Multivariate Statistical Methods,4,QSR,"MATH 308,MATH 390,STAT 341,STAT 391"
+Seattle,STAT 480,Sampling Theory for Biologists,3,NW,Q SCI 482
+Seattle,STAT 486,Experimental Design,4,NW,Q SCI 482
+Seattle,STAT 491,Introduction to Stochastic Processes,3,NW,"MATH 396,STAT 396"
+Seattle,STAT 492,Stochastic Calculus for Option Pricing,3,NW,"MATH 395,OR STAT 340,STAT 341,STAT 395"
+Seattle,STAT 495,Service Learning: K-12 Tutoring Experience,,,
+Seattle,STAT 498,Special Topics,,NW,
+Seattle,STAT 499,Undergraduate Research,,,
+Seattle,STAT 502,Design and Analysis of Experiments,4,,"CS&SS 509,ECON 481,ECON 580,MATH 308,MATH 390,STAT 342,STAT 390,STAT 481,STAT 509"
+Seattle,STAT 503,Practical Methods for Data Analysis,4,,"B A 500,QMETH 500"
+Seattle,STAT 504,Applied Regression,4,,"CS&SS 509,ECON 481,ECON 580,MATH 390,SOC 425,STAT 342,STAT 390,STAT 421,STAT 481,STAT 509"
+Seattle,STAT 506,Applied Probability and Statistics,4,,
+Seattle,STAT 509,Econometrics I: Introduction to Mathematical Statistics,4,,"ECON 311,ECON 580,MATH 126,MATH 136,MATH 308,MATH 309,STAT 311,STAT 390,STAT 481"
+Seattle,STAT 512,Statistical Inference,4,,"BIOST 512,STAT 395,STAT 421,STAT 423,STAT 504"
+Seattle,STAT 513,Statistical Inference,4,,STAT 512
+Seattle,STAT 516,Stochastic Modeling of Scientific Data,,,"STAT 342,STAT 396"
+Seattle,STAT 517,Stochastic Modeling of Scientific Data,,,STAT 516
+Seattle,STAT 518,Stochastic Modeling Project,3,,STAT 517
+Seattle,STAT 519,Time Series Analysis,3,,STAT 513
+Seattle,STAT 520,Spectral Analysis of Time Series,4,,"CS&SS 509,ECON 580,IND E 315,STAT 342,STAT 390,STAT 481,STAT 509"
+Seattle,STAT 521,Advanced Probability,3,,"MATH 426,MATH 576"
+Seattle,STAT 522,Advanced Probability,3,,"MATH 426,MATH 576"
+Seattle,STAT 523,Advanced Probability,3,,"MATH 426,MATH 576"
+Seattle,STAT 524,Design of Medical Studies,3,,"BIOST 511,BIOST 513,BIOST 518,EPI 512,STAT 421,STAT 423,STAT 512"
+Seattle,STAT 527,Nonparametric Regression and Classification,3,,"BIOST 514,BIOST 515,STAT 502,STAT 504"
+Seattle,STAT 528,Applied Statistics Capstone,3,,"STAT 502,STAT 504,STAT 536,STAT 570"
+Seattle,STAT 529,Sample Survey Techniques,3,,"BIOST 511,BIOST 517,QMETH 500,STAT 421,STAT 423,STAT 504"
+Seattle,STAT 530,"Wavelets: Data Analysis, Algorithms, and Theory",3,,"CS&SS 509,ECON 481,ECON 580,IND E 315,MATH 390,STAT 390,STAT 481,STAT 509,STAT 513"
+Seattle,STAT 533,Theory of Linear Models,3,,"BIOST 515,STAT 421,STAT 423,STAT 513"
+Seattle,STAT 534,Statistical Computing,3,,
+Seattle,STAT 535,"Statistical Learning: Modeling, Prediction, and Computing",3,,
+Seattle,STAT 536,Analysis of Categorical and Count Data,3,,"SOC 504,SOC 505,SOC 506"
+Seattle,STAT 538,"Statistical Learning: Modeling, Prediction, and Computing",3,,
+Seattle,STAT 539,"Statistical Learning: Modeling, Prediction and Computing",3,,"STAT 535,STAT 538"
+Seattle,STAT 542,Multivariate Analysis,3,,STAT 582
+Seattle,STAT 544,Bayesian Statistical Methods,3,,STAT 513
+Seattle,STAT 547,Options and Derivatives,4,,STAT 506
+Seattle,STAT 548,Machine Learning for Big Data,4,,"CSE 546,STAT 535"
+Seattle,STAT 549,Statistical Methods for Portfolios,4,,ECON 424
+Seattle,STAT 550,Statistical Genetics I: Mendelian Traits,3,,"STAT 390,STAT 394"
+Seattle,STAT 551,Statistical Genetics II: Quantitative Traits,3,,"BIOST 515,BIOST 550,STAT 423"
+Seattle,STAT 552,Statistical Genetics III: Design and Analysis,3,,"BIOST 551,GENOME 371"
+Seattle,STAT 554,Statistical Methods for Spatial Data,3,,
+Seattle,STAT 556,Introduction to Statistics and Probability,5,,
+Seattle,STAT 557,Applied Statistics and Experimental Design,5,,DATA 556
+Seattle,STAT 558,Statistical Machine Learning for Data Scientists,5,,DATA 557
+Seattle,STAT 559,Measure Theory,3,,"MATH 424,MATH 425,MATH 574,MATH 575"
+Seattle,STAT 560,Hierarchical Modeling for the Social Sciences,4,,"SOC 504,SOC 505,SOC 506"
+Seattle,STAT 561,Special Topics in Applied Statistics,,,
+Seattle,STAT 562,Special Topics in Applied Statistics,,,
+Seattle,STAT 564,Bayesian Statistics for the Social Sciences,4,,"SOC 504,SOC 505,SOC 506"
+Seattle,STAT 566,Causal Modeling,4,,"SOC 504,SOC 505,SOC 506"
+Seattle,STAT 567,Statistical Analysis of Social Networks,4,,"SOC 504,SOC 505,SOC 506"
+Seattle,STAT 570,Advanced Regression Methods for Independent Data,3,,"STAT 421,STAT 423,STAT 502,STAT 504,STAT 512,STAT 513,STAT 533"
+Seattle,STAT 571,Advanced Regression Methods for Dependent Data,3,,STAT 570
+Seattle,STAT 572,Advanced Regression Methods: Project,3,,STAT 571
+Seattle,STAT 576,Statistical Methods for Survival Data,3,,"BIOST 515,STAT 473,STAT 581"
+Seattle,STAT 578,Special Topics in Advanced Biostatistics,,,
+Seattle,STAT 579,Data Analysis and Reporting,2,,
+Seattle,STAT 581,Advanced Theory of Statistical Inference,3,,"MATH 426,MATH 576,STAT 513"
+Seattle,STAT 582,Advanced Theory of Statistical Inference,3,,STAT 581
+Seattle,STAT 583,Advanced Theory of Statistical Inference,3,,STAT 582
+Seattle,STAT 590,Statistics Seminar,,,
+Seattle,STAT 591,Special Topics in Statistics,,,
+Seattle,STAT 592,Special Topics in Statistics,,,
+Seattle,STAT 593,Special Topics in Statistics,,,
+Seattle,STAT 598,Techniques of Statistical Consulting,1,,
+Seattle,STAT 599,Statistical Consulting,,,
+Seattle,STAT 600,Independent Study or Research,,,
+Seattle,STAT 700,Master's Thesis,,,
+Seattle,STAT 800,Doctoral Dissertation,,,
 Seattle,STSS 591,"Science, Technology, and Society Studies in Action",2,,
 Seattle,STSS 602,"Science, Technology, and Society Studies Capstone Portfolio",2,,
 Seattle,SURG 498,Undergraduate Thesis,,,
@@ -13176,6 +14874,23 @@ Seattle,SWA 134,Intensive Basic Swahili,15,,
 Seattle,SWA 201,Intermediate Swahili,5,VLPA,"SWA 103,SWA 134"
 Seattle,SWA 202,Intermediate Swahili,5,VLPA,SWA 201
 Seattle,SWA 203,Intermediate Swahili,5,VLPA,SWA 202
+Seattle,SWED 101,Elementary Swedish,5,,
+Seattle,SWED 102,Elementary Swedish,5,,
+Seattle,SWED 103,Elementary Swedish,5,,
+Seattle,SWED 150,Intensive First-Year Swedish,15,,
+Seattle,SWED 199,Foreign Study: Elementary Swedish,,,
+Seattle,SWED 201,Second-Year Swedish,5,VLPA,
+Seattle,SWED 202,Second-Year Swedish,5,VLPA,
+Seattle,SWED 203,Second-Year Swedish,5,VLPA,
+Seattle,SWED 299,Foreign Study: Intermediate Swedish,,VLPA,
+Seattle,SWED 300,Swedish Women Writers,5,VLPA,
+Seattle,SWED 301,Topics in Swedish Literature and Culture,5,VLPA,
+Seattle,SWED 302,The Swedish Novel,5,VLPA,
+Seattle,SWED 352,Strindberg and His Works,5,VLPA,
+Seattle,SWED 395,Foreign Study: Swedish Area Studies,,I&S,
+Seattle,SWED 399,Foreign Study: Topics in Swedish Literature and Culture,,VLPA,
+Seattle,SWED 490,Supervised Reading,,,
+Seattle,SWED 510,Graduate Level Proficiency in Swedish,,,
 Seattle,TAGLG 101,Basic Tagalog,5,,
 Seattle,TAGLG 102,Basic Tagalog,5,,TAGLG 101
 Seattle,TAGLG 103,Basic Tagalog,5,,TAGLG 102
@@ -13271,6 +14986,11 @@ Seattle,UGARIT 203,Ugaritic III,5,VLPA,UGARIT 202
 Seattle,UGARIT 521,Ugaritic I,5,,"ARAB 513,ARAB 515,MODHEB 513,MODHEB 515"
 Seattle,UGARIT 522,Ugaritic II,5,,UGARIT 521
 Seattle,UGARIT 523,Ugaritic III,5,,UGARIT 522
+Seattle,UKR 320,Introduction to Ukrainian Literature and Culture,5,VLPA,
+Seattle,UKR 401,First-Year Ukrainian,5,,
+Seattle,UKR 402,First-Year Ukrainian,5,,UKR 401
+Seattle,UKR 403,First-Year Ukrainian,5,,UKR 402
+Seattle,UKR 420,"Literature, Film, and Culture of Ukraine",5,VLPA,
 Seattle,URBDP 200,Introduction to Urbanization: Planning and Designing Alternative Urban Futures,5,I&S,
 Seattle,URBDP 300,Introduction to Urban Planning,5,I&S,
 Seattle,URBDP 301,Database Management Fundamentals,3,,
@@ -13376,6 +15096,61 @@ Seattle,UROL 685,P-Urology Sub-Internship,,,MED 665
 Seattle,UROL 690,P-Urology Specialties,,,UROL 680
 Seattle,UROL 697,P-Urology Special Electives,,,
 Seattle,UROL 699,P-Wwami Urology Special Electives,,,
+Seattle,UYGUR 101,Elementary Uygur,5,,
+Seattle,UYGUR 102,Elementary Uygur,5,,UYGUR 101
+Seattle,UYGUR 103,Elementary Uygur,5,,UYGUR 102
+Seattle,UYGUR 105,Intensive Elementary Uygur,15,,
+Seattle,UYGUR 201,Intermediate Uygur,5,VLPA,"UYGUR 103,UYGUR 105"
+Seattle,UYGUR 202,Intermediate Uygur,5,VLPA,UYGUR 201
+Seattle,UYGUR 203,Intermediate Uygur,5,VLPA,UYGUR 202
+Seattle,UYGUR 401,Uygur Through Culture I,5,,UYGUR 203
+Seattle,UYGUR 402,Uygur Through Culture II,5,,UYGUR 401
+Seattle,UYGUR 403,Uygur Through Culture III,5,,UYGUR 402
+Seattle,UYGUR 490,Supervised Study,,,"TKIC 429,UYGUR 203"
+Seattle,UYGUR 496,Special Studies in Uygur,,VLPA,
+Seattle,UYGUR 499,Undergraduate Research,,,
+Seattle,UYGUR 511,Elementary Uygur,5,,
+Seattle,UYGUR 512,Elementary Uygur,5,,UYGUR 511
+Seattle,UYGUR 513,Elementary Uygur,5,,UYGUR 512
+Seattle,UYGUR 521,Intermediate Uygur,5,,UYGUR 513
+Seattle,UYGUR 522,Intermediate Uygur,5,,UYGUR 521
+Seattle,UYGUR 523,Intermediate Uygur,5,,UYGUR 522
+Seattle,UYGUR 541,Uygur Through Culture I,5,,UYGUR 523
+Seattle,UYGUR 542,Uygur Through Culture II,5,,UYGUR 541
+Seattle,UYGUR 543,Uygur Through Culture III,5,,UYGUR 542
+Seattle,UYGUR 596,Special Studies in Uygur,,,
+Seattle,UYGUR 600,Independent Study or Research,,,
+Seattle,UZBEK 101,Elementary Uzbek,5,,
+Seattle,UZBEK 102,Elementary Uzbek,5,,UZBEK 101
+Seattle,UZBEK 103,Elementary Uzbek,5,,UZBEK 102
+Seattle,UZBEK 105,Intensive Elementary Uzbek,15,,
+Seattle,UZBEK 201,Intermediate Uzbek,5,VLPA,"UZBEK 103,UZBEK 105"
+Seattle,UZBEK 202,Intermediate Uzbek,5,VLPA,UZBEK 201
+Seattle,UZBEK 203,Intermediate Uzbek,5,VLPA,UZBEK 202
+Seattle,UZBEK 401,Uzbek Through Culture I,5,,UZBEK 203
+Seattle,UZBEK 402,Uzbek Through Culture II,5,,UZBEK 401
+Seattle,UZBEK 403,Uzbek Through Culture III,5,,UZBEK 402
+Seattle,UZBEK 490,Supervised Study,,,"TKIC 423,UZBEK 203"
+Seattle,UZBEK 496,Special Studies in Uzbek,,VLPA,
+Seattle,UZBEK 499,Undergraduate Research,,,
+Seattle,UZBEK 511,Elementary Uzbek,5,,
+Seattle,UZBEK 512,Elementary Uzbek,5,,UZBEK 511
+Seattle,UZBEK 513,Elementary Uzbek,5,,UZBEK 512
+Seattle,UZBEK 521,Intermediate Uzbek,5,,UZBEK 513
+Seattle,UZBEK 522,Intermediate Uzbek,5,,UZBEK 521
+Seattle,UZBEK 523,Intermediate Uzbek,5,,UZBEK 523
+Seattle,UZBEK 541,Uzbek Through Culture I,5,,UZBEK 523
+Seattle,UZBEK 542,Uzbek Through Culture II,5,,UZBEK 541
+Seattle,UZBEK 543,Uzbek Through Culture III,5,,UZBEK 542
+Seattle,UZBEK 596,Special Studies in Uzbek,,,
+Seattle,UZBEK 600,Independent Study or Research,,,
+Seattle,VALUES 207,Issues of Global Justice,5,"DIV,I&S",
+Seattle,VALUES 291,Ethics in Science,5,I&S,
+Seattle,VALUES 495,Ethics in Practice,2,,
+Seattle,VALUES 511,Ethics Matters: An Exploration of Some Moral Qualities,5,,
+Seattle,VALUES 512,Justice Matters: An Exploration of Justice as a Social Ideal,5,,
+Seattle,VALUES 513,Capstone Workshop,2,,"VALUES 511,VALUES 512"
+Seattle,VALUES 591,Ethics Matters in Science: Research Questions as Moral Questions,3,,
 Seattle,VIET 111,Elementary Vietnamese,5,,
 Seattle,VIET 112,Elementary Vietnamese,5,,VIET 111
 Seattle,VIET 113,Elementary Vietnamese,5,,VIET 112
