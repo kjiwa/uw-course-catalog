@@ -1390,7 +1390,7 @@ Seattle,ACCTG 440,Accounting and Financial Management Decisions,4,,"ACCTG 303,AC
 Seattle,ACCTG 450,Business Taxation,4,,ACCTG 321
 Seattle,ACCTG 451,Individual Income Taxation,4,,ACCTG 321
 Seattle,ACCTG 460,Advanced Cost Accounting,4,,ACCTG 311
-Seattle,ACCTG 471,Fraud Examination,4,,"ACCTG 225,IND E 315,MATH 390,MGMT 200,PSYCH 315,PSYCH 318,Q SCI 381,QMETH 201,SS 221,STAT 220,STAT 311,STAT 390"
+Seattle,ACCTG 471,Fraud Examination,4,,"ACCTG 225,CS&SS 221,IND E 315,MATH 390,MGMT 200,PSYCH 315,PSYCH 318,Q SCI 381,QMETH 201,STAT 220,STAT 311,STAT 390"
 Seattle,ACCTG 480,Accounting for Not-For-Profit Organizations,4,,ACCTG 302
 Seattle,ACCTG 485,Advanced Financial Accounting,4,,ACCTG 303
 Seattle,ACCTG 490,Special Topics in Accounting,,,
@@ -2461,7 +2461,7 @@ Seattle,B E 597,Directed Readings,,,
 Seattle,B E 598,Special Topics,,,
 Seattle,B E 600,Independent Study or Research,,,
 Seattle,B E 800,Doctoral Dissertation,,,
-Seattle,B ECON 300,Managerial Economics,4,,"ACCTG 225,ECON 201,IND E 315,MATH 112,MATH 124,MATH 125,MATH 127,MATH 134,PSYCH 315,PSYCH 318,Q SCI 291,Q SCI 381,QMETH 201,SOC 221,SS 221,STAT 220,STAT 221,STAT 311,STAT 390"
+Seattle,B ECON 300,Managerial Economics,4,,"ACCTG 225,CS&SS 221,ECON 201,IND E 315,MATH 112,MATH 124,MATH 125,MATH 127,MATH 134,PSYCH 315,PSYCH 318,Q SCI 291,Q SCI 381,QMETH 201,SOC 221,STAT 220,STAT 221,STAT 311,STAT 390"
 Seattle,B ECON 301,Intermediate Macroeconomics,4,,ECON 201
 Seattle,B ECON 420,Financial Markets,4,,"B ECON 300,ECON 300"
 Seattle,B ECON 426,Competing in the Global Economy,4,,"B ECON 300,ECON 300"
@@ -2934,7 +2934,7 @@ Seattle,BIOL 700,Master's Thesis,,,
 Seattle,BIOL 800,Doctoral Dissertation,,,
 Seattle,BIOST 111,Lectures in Applied Statistics,1,NW,
 Seattle,BIOST 290,Introduction to Biomedical Research: Study Design and Interpretation,3,NW,
-Seattle,BIOST 302,Forensic Genetics,3,"I&S,NW,QSR","BIOST 310,PHG 302,Q METH 201,Q SCI 381,SOC 221,SS 221,STAT 220,STAT 221,STAT 311"
+Seattle,BIOST 302,Forensic Genetics,3,"I&S,NW,QSR","BIOST 310,CS&SS 221,PHG 302,Q METH 201,Q SCI 381,SOC 221,STAT 220,STAT 221,STAT 311"
 Seattle,BIOST 310,Biostatistics for the Health Sciences,4,QSR,
 Seattle,BIOST 311,Regression Methods in the Health Sciences,4,QSR,BIOST 310
 Seattle,BIOST 405,Introduction to Health Data Analytics,3,,
@@ -2958,7 +2958,7 @@ Seattle,BIOST 519,Advanced Epidemiologic Methods I,3,,"BIOST 513,BIOST 518,EPI 5
 Seattle,BIOST 520,Advanced Epidemiologic Methods II,4,,"EPI 515,EPI 516"
 Seattle,BIOST 524,Design of Medical Studies,3,,"BIOST 511,BIOST 513,BIOST 518,EPI 512,STAT 421,STAT 423,STAT 512,STAT 524"
 Seattle,BIOST 527,Nonparametric Regression and Classification,3,,"BIOST 514,BIOST 515,STAT 502,STAT 504,STAT 527"
-Seattle,BIOST 529,Sample Survey Techniques,3,,"BIOST 511,BIOST 517,QMETH 500,SS 529,STAT 421,STAT 423,STAT 504,STAT 529"
+Seattle,BIOST 529,Sample Survey Techniques,3,,"BIOST 511,BIOST 517,CS&SS 529,QMETH 500,STAT 421,STAT 423,STAT 504,STAT 529"
 Seattle,BIOST 531,Statistical Methods for Analysis With Missing Data,3,,
 Seattle,BIOST 532,Ethical Issues for Biostatisticians,2,,
 Seattle,BIOST 533,Theory of Linear Models,3,,"BIOST 515,STAT 421,STAT 423,STAT 513,STAT 533"
@@ -3870,16 +3870,16 @@ Seattle,COPTIC 513,Reading in Coptic,5,,
 Seattle,CS&SS 221,Statistical Concepts and Methods for the Social Sciences,5,"NW,QSR",
 Seattle,CS&SS 320,Evaluating Social Science Evidence,5,"I&S,QSR",
 Seattle,CS&SS 321,Case-Based Social Statistics I,5,"I&S,QSR",
-Seattle,CS&SS 322,Case-Based Social Statistics II,5,"I&S,QSR","SOC 321,SOC 322,SS 321,STAT 321,STAT 322"
+Seattle,CS&SS 322,Case-Based Social Statistics II,5,"I&S,QSR","CS&SS 321,SOC 321,SOC 322,STAT 321,STAT 322"
 Seattle,CS&SS 501,Advanced Political Research Design and Analysis,5,,
 Seattle,CS&SS 503,Advanced Quantitative Political Methodology,5,,
-Seattle,CS&SS 504,Applied Regression,4,,"ECON 481,ECON 580,MATH 390,SOC 425,SS 509,STAT 342,STAT 390,STAT 421,STAT 481,STAT 504,STAT 509"
+Seattle,CS&SS 504,Applied Regression,4,,"CS&SS 509,ECON 481,ECON 580,MATH 390,SOC 425,STAT 342,STAT 390,STAT 421,STAT 481,STAT 504,STAT 509"
 Seattle,CS&SS 505,Review of Mathematics for Social Scientists,1,,
 Seattle,CS&SS 506,Computer Environments for the Social Sciences,1,,
 Seattle,CS&SS 507,Methodology: Quantitative Techniques in Sociology,3,,
 Seattle,CS&SS 508,Introduction to R for Social Scientists,1,,
 Seattle,CS&SS 509,Econometrics I: Introduction to Mathematical Statistics,4,,"ECON 311,ECON 580,MATH 126,MATH 136,MATH 308,MATH 309,STAT 311,STAT 390,STAT 481,STAT 509"
-Seattle,CS&SS 510,Maximum Likelihood Methods for the Social Sciences,5,,"POL S 501,POL S 503,POL S 510,SS 501,SS 503"
+Seattle,CS&SS 510,Maximum Likelihood Methods for the Social Sciences,5,,"CS&SS 501,CS&SS 503,POL S 501,POL S 503,POL S 510"
 Seattle,CS&SS 526,Structural Equation Models for the Social Sciences,3,,"SOC 504,SOC 505,SOC 506,SOC 529"
 Seattle,CS&SS 527,Survey Research Methods,4,,"BIOST 517,BIOST 518,EPI 512,EPI 513,G H 533,HSERV 511,HSERV 513,HSERV 527"
 Seattle,CS&SS 529,Sample Survey Techniques,3,,"BIOST 511,BIOST 517,BIOST 529,QMETH 500,STAT 421,STAT 423,STAT 504,STAT 529"
@@ -4577,7 +4577,7 @@ Seattle,E E 516,Computer Speech Processing,4,,"E E 505,E E 518"
 Seattle,E E 517,Continuous-Space Language Processing,4,,E E 505
 Seattle,E E 518,Digital Signal Processing,4,,E E 442
 Seattle,E E 519,Stochastic Analysis of Data From Physical Systems,4,,E E 505
-Seattle,E E 520,Spectral Analysis of Time Series,4,,"ECON 580,IND E 315,SS 509,STAT 342,STAT 390,STAT 481,STAT 509,STAT 520"
+Seattle,E E 520,Spectral Analysis of Time Series,4,,"CS&SS 509,ECON 580,IND E 315,STAT 342,STAT 390,STAT 481,STAT 509,STAT 520"
 Seattle,E E 521,Quantum Mechanics for Engineers,4,,"AMATH 351,MATH 307"
 Seattle,E E 523,Introduction to Synthetic Biology,3,,"AMATH 351,AMATH 352,BIOEN 523,CSE 311,CSE 586,MATH 136,MATH 307,MATH 308,MOLENG 525"
 Seattle,E E 524,Advanced Systems and Synthetic Biology,3,,"BIOEN 523,BIOEN 524,CSE 586,CSE 587,E E 523"
@@ -4586,7 +4586,7 @@ Seattle,E E 526,Vlsi Iii,4,,"E E 477,E E 525"
 Seattle,E E 527,Microfabrication,4,,
 Seattle,E E 528,Physics and Modeling of VLSI Fabrication,4,,"E E 486,E E 502,E E 527,M E 504,MSE 467,MSE 504,MSE 528"
 Seattle,E E 529,Semiconductor Optoelectronics,4,,"E E 485,MSE 529"
-Seattle,E E 530,"Wavelets: Data Analysis, Algorithms, and Theory",3,,"ECON 481,ECON 580,IND E 315,MATH 390,SS 509,STAT 390,STAT 481,STAT 509,STAT 513,STAT 530"
+Seattle,E E 530,"Wavelets: Data Analysis, Algorithms, and Theory",3,,"CS&SS 509,ECON 481,ECON 580,IND E 315,MATH 390,STAT 390,STAT 481,STAT 509,STAT 513,STAT 530"
 Seattle,E E 531,Semiconductor Devices and Device Simulation,4,,E E 482
 Seattle,E E 533,Photodetectors and Photodetection,4,,E E 482
 Seattle,E E 534,Power Electronics,4,,
@@ -4769,14 +4769,14 @@ Seattle,ECON 547,Health Policy Economics,3,,
 Seattle,ECON 550,Public Finance: Expenditure Policy,3,,"ECON 500,ECON 501"
 Seattle,ECON 551,Public Finance: Tax Policy,3,,"ECON 500,ECON 501"
 Seattle,ECON 554,Cost-Benefit Analysis,3,,"ECON 500,ECON 501"
-Seattle,ECON 568,Game Theory for Social Scientists,5,,"ECON 311,MATH 112,MATH 124,MATH 134,SS 568,STAT 311"
+Seattle,ECON 568,Game Theory for Social Scientists,5,,"CS&SS 568,ECON 311,MATH 112,MATH 124,MATH 134,STAT 311"
 Seattle,ECON 571,International Trade Theory,3,,"ECON 500,ECON 501"
 Seattle,ECON 572,International Financial and Monetary Economics,3,,"ECON 502,ECON 503"
 Seattle,ECON 573,International Commercial Policy,3,,"ECON 500,ECON 502"
 Seattle,ECON 574,International Macroeconomics,3,,ECON 509
 Seattle,ECON 575,International Trade and Macroeconomics,3,,
-Seattle,ECON 580,Econometrics I: Introduction to Mathematical Statistics,4,,"ECON 311,ECON 580,MATH 126,MATH 136,MATH 308,MATH 309,SS 509,STAT 311,STAT 390,STAT 481,STAT 509"
-Seattle,ECON 581,Econometrics II,4,,"ECON 580,SS 509,STAT 509"
+Seattle,ECON 580,Econometrics I: Introduction to Mathematical Statistics,4,,"CS&SS 509,ECON 311,ECON 580,MATH 126,MATH 136,MATH 308,MATH 309,STAT 311,STAT 390,STAT 481,STAT 509"
+Seattle,ECON 581,Econometrics II,4,,"CS&SS 509,ECON 580,STAT 509"
 Seattle,ECON 582,Econometrics III,4,,ECON 581
 Seattle,ECON 583,Econometric Theory I,3,,"ECON 580,ECON 581,ECON 582"
 Seattle,ECON 584,Econometric Theory II,3,,ECON 583
@@ -4847,21 +4847,21 @@ Seattle,EDC&I 529,Reading and Writing Connections: Theories and Practices for In
 Seattle,EDC&I 530,Approaches to Literacy Instruction,4,,
 Seattle,EDC&I 531,Seminar: Critical Review of Literacy Materials,4,,
 Seattle,EDC&I 532,Seminar in Literacy Research,4,,
-Seattle,EDC&I 533,Seminar: Conducting Research in Reading,3,,I 532
+Seattle,EDC&I 533,Seminar: Conducting Research in Reading,3,,EDC&I 532
 Seattle,EDC&I 534,Reading Comprehension Instruction K-12,4,,
-Seattle,EDC&I 535,Doctoral Seminar in Literacy Research,,,I 534
+Seattle,EDC&I 535,Doctoral Seminar in Literacy Research,,,EDC&I 534
 Seattle,EDC&I 536,"Writing Instruction: Research, Theory, and Practice",4,,
 Seattle,EDC&I 537,Classroom Discourse,4,,
 Seattle,EDC&I 538,Discourse in the Mathematics Classroom,4,,
 Seattle,EDC&I 539,"Students' Mathematical Thinking, Curriculum, and Pedagogy",4,,
 Seattle,EDC&I 540,Immigrant Schooling,3,,
 Seattle,EDC&I 542,Approaches to Assessing Second Language Students in K-12 Schools,3,,
-Seattle,EDC&I 544,Immigration and Education: Immigrant Student Perspectives,3,,I 540
+Seattle,EDC&I 544,Immigration and Education: Immigrant Student Perspectives,3,,EDC&I 540
 Seattle,EDC&I 545,Multilingual Socialization and Development,3,,
-Seattle,EDC&I 547,Sociolinguistics,3,,I 540
-Seattle,EDC&I 548,Methods in Teaching English as a Second Language,4,,"I 540,I 545"
+Seattle,EDC&I 547,Sociolinguistics,3,,EDC&I 540
+Seattle,EDC&I 548,Methods in Teaching English as a Second Language,4,,"EDC&I 540,EDC&I 545"
 Seattle,EDC&I 549,Practicum in Teaching English Learners in Context,3,,
-Seattle,EDC&I 550,Educational Technology Research,3,,I 480
+Seattle,EDC&I 550,Educational Technology Research,3,,EDC&I 480
 Seattle,EDC&I 551,Introduction to Instructional Design,3,,
 Seattle,EDC&I 552,Coaching and Mentoring Adult Learners,3,,
 Seattle,EDC&I 556,Elementary School Curriculum,4,,
@@ -4871,13 +4871,13 @@ Seattle,EDC&I 560,Social Studies Education Programs and Practices,3,,
 Seattle,EDC&I 561,Instruction for Under-Achieving Readers,,,
 Seattle,EDC&I 562,Literacy in the Content Areas,4,,
 Seattle,EDC&I 563,Topics in Adolescent Literacies,4,,
-Seattle,EDC&I 565,Seminar in Social Studies Education: Elementary Emphasis,3,,I 465
+Seattle,EDC&I 565,Seminar in Social Studies Education: Elementary Emphasis,3,,EDC&I 465
 Seattle,EDC&I 566,Seminar in Social Studies Education: Secondary Emphasis,3,,
 Seattle,EDC&I 567,Current Issues in Social Studies Education,,,
 Seattle,EDC&I 568,"Youth Multiliteracies: Multimodality, Culture, and Identity",4,,
 Seattle,EDC&I 569,Educating Ethnic Minority Youths,4,,
-Seattle,EDC&I 570,Seminar in Science Education: Elementary Emphasis,3,,I 470
-Seattle,EDC&I 571,Ambitious Learning by Design in Science Classrooms,4,,I 471
+Seattle,EDC&I 570,Seminar in Science Education: Elementary Emphasis,3,,EDC&I 470
+Seattle,EDC&I 571,Ambitious Learning by Design in Science Classrooms,4,,EDC&I 471
 Seattle,EDC&I 572,Current Issues in Science Education,,,
 Seattle,EDC&I 573,School Reform and Multicultural Education,3,,
 Seattle,EDC&I 574,"Race, Gender, and Knowledge Construction: Curriculum Considerations",3,,
@@ -4885,19 +4885,19 @@ Seattle,EDC&I 575,Seminar in Mathematics Education: Elementary Emphasis,3,,
 Seattle,EDC&I 576,Seminar in Mathematics Education: Secondary Emphasis,3,,
 Seattle,EDC&I 577,Current Issues in Mathematics Education,1,,
 Seattle,EDC&I 578,Multicultural Education Across Nations: Policy and Curriculum Issues,3,,
-Seattle,EDC&I 580,Technology in Context,3,,"I 510,I 511"
-Seattle,EDC&I 581,Cognitive Systems Design,3,,"I 510,I 511,I 512,I 580"
-Seattle,EDC&I 582,Design Experimentation and Implementation in Context,3,,"I 510,I 511,I 512,I 580,I 581"
+Seattle,EDC&I 580,Technology in Context,3,,"EDC&I 510,EDC&I 511"
+Seattle,EDC&I 581,Cognitive Systems Design,3,,"EDC&I 510,EDC&I 511,EDC&I 512,EDC&I 580"
+Seattle,EDC&I 582,Design Experimentation and Implementation in Context,3,,"EDC&I 510,EDC&I 511,EDC&I 512,EDC&I 580,EDC&I 581"
 Seattle,EDC&I 585,Technology and the Culture of Education,3,,
-Seattle,EDC&I 587,Design and Application of Interactive and Immersive Instructional Systems,3,,I 583
-Seattle,EDC&I 590,Seminar in Elementary Education,3,,I 556
-Seattle,EDC&I 591,Seminar in Curriculum Research,3,,I 559
-Seattle,EDC&I 592,Seminar in Secondary Education,3,,I 558
-Seattle,EDC&I 593,Seminar in Curriculum: Theory and Practice,3,,I 559
-Seattle,EDC&I 594,"Seminar in Curriculum: Issues, Systems, Models",3,,I 559
+Seattle,EDC&I 587,Design and Application of Interactive and Immersive Instructional Systems,3,,EDC&I 583
+Seattle,EDC&I 590,Seminar in Elementary Education,3,,EDC&I 556
+Seattle,EDC&I 591,Seminar in Curriculum Research,3,,EDC&I 559
+Seattle,EDC&I 592,Seminar in Secondary Education,3,,EDC&I 558
+Seattle,EDC&I 593,Seminar in Curriculum: Theory and Practice,3,,EDC&I 559
+Seattle,EDC&I 594,"Seminar in Curriculum: Issues, Systems, Models",3,,EDC&I 559
 Seattle,EDC&I 595,Seminar in Analysis of Teaching,3,,
 Seattle,EDC&I 596,Seminar in Strategies of Instruction,3,,
-Seattle,EDC&I 597,Curriculum Evaluation Seminar,3,,I 559
+Seattle,EDC&I 597,Curriculum Evaluation Seminar,3,,EDC&I 559
 Seattle,EDC&I 599,Independent Studies in Education,,,
 Seattle,EDC&I 600,Independent Study or Research,,,
 Seattle,EDC&I 601,Internship,,,
@@ -5025,7 +5025,7 @@ Seattle,EDPSY 513,Instrument Development,3,,EDPSY 490
 Seattle,EDPSY 514,History of Educational Technology,3,,
 Seattle,EDPSY 515,Current Issues in Technology and Education,3,,
 Seattle,EDPSY 516,Survey of Educational Technology Research,,,
-Seattle,EDPSY 518,Assessment and Diagnosis of Reading Disabilities,3,,"I 460,I 462"
+Seattle,EDPSY 518,Assessment and Diagnosis of Reading Disabilities,3,,"EDC&I 460,EDC&I 462"
 Seattle,EDPSY 519,Vulnerable Children and Families in Comparative Perspective: Psychosocial Development Processes,3,,
 Seattle,EDPSY 520,Psychology of Reading,3,,EDPSY 501
 Seattle,EDPSY 521,Psychology of Writing,3,,EDPSY 501
@@ -5091,7 +5091,7 @@ Seattle,EDPSY 592,Advanced Educational Measurements,3,,EDPSY 490
 Seattle,EDPSY 593,Experimental Design and Analysis,5,,EDPSY 490
 Seattle,EDPSY 594,Advanced Correlational Techniques,5,,EDPSY 490
 Seattle,EDPSY 595,Item Response Theory Models of Testing,3,,"EDPSY 490,EDPSY 592,EDPSY 594"
-Seattle,EDPSY 596,Program Evaluation,3,,"EDPSY 593,EDPSY 594,I 597"
+Seattle,EDPSY 596,Program Evaluation,3,,"EDC&I 597,EDPSY 593,EDPSY 594"
 Seattle,EDPSY 597,Technical Requirements of Large Scale Tests,3,,"EDPSY 490,EDPSY 592,EDPSY 595"
 Seattle,EDPSY 599,Independent Studies in Education,,,
 Seattle,EDPSY 600,Independent Study or Research,,,
@@ -5113,7 +5113,7 @@ Seattle,EDSPE 507,Instructional Methods for Students With Moderate to Severe Dis
 Seattle,EDSPE 510,Behavioral Measurement and Management in the Classroom,3,,
 Seattle,EDSPE 511,Methods of Applied Behavior Analysis Research,3,,EDSPE 510
 Seattle,EDSPE 513,Principles of Assessment,3,,
-Seattle,EDSPE 514,Fundamentals of Reading and Writing for Students With Disabilities,4,,I 460
+Seattle,EDSPE 514,Fundamentals of Reading and Writing for Students With Disabilities,4,,EDC&I 460
 Seattle,EDSPE 515,Problems and Issues in Special Education,3,,
 Seattle,EDSPE 517,Practicum in Research Design and Analysis in Special Education,,,"EDPSY 490,EDSPE 591"
 Seattle,EDSPE 518,Seminar in Special Education Research,,,
@@ -6140,7 +6140,7 @@ Seattle,FHL 548,Advanced Topics in Evolution and Development,9,,
 Seattle,FHL 568,Advanced Topics in Ecology and Biomechanics,9,,
 Seattle,FHL 578,Special Topics in Science Communication,9,NW,
 Seattle,FHL 585,Advanced Topics in Neurobiology and Physiology,9,,
-Seattle,FIN 350,Business Finance,4,,"ACCTG 225,ECON 201,IND E 315,MATH 112,MATH 124,MATH 125,MATH 134,MATH 390,PSYCH 315,PSYCH 318,Q SCI 291,Q SCI 381,QMETH 201,SOC 221,SS 221,STAT 220,STAT 221,STAT 311,STAT 390"
+Seattle,FIN 350,Business Finance,4,,"ACCTG 225,CS&SS 221,ECON 201,IND E 315,MATH 112,MATH 124,MATH 125,MATH 134,MATH 390,PSYCH 315,PSYCH 318,Q SCI 291,Q SCI 381,QMETH 201,SOC 221,STAT 220,STAT 221,STAT 311,STAT 390"
 Seattle,FIN 423,Banking and the Financial System,4,,"B ECON 300,ECON 300,FIN 350"
 Seattle,FIN 425,Introduction to Real Estate Finance and Investment,4,,FIN 350
 Seattle,FIN 428,International Financial Management,4,,"B ECON 301,ECON 301,FIN 350"
@@ -6390,7 +6390,7 @@ Seattle,G H 522,Global Program Management and Leadership,3,,
 Seattle,G H 523,Policy Development and Advocacy for Global Health,3,,
 Seattle,G H 531,Research and Evaluation Methods in Global Health,,,
 Seattle,G H 532,Responsible Conduct of Research: Global and Local,3,,
-Seattle,G H 533,Survey Research Methods,4,,"BIOST 517,BIOST 518,EPI 512,EPI 513,HSERV 511,HSERV 513,HSERV 527,SS 527"
+Seattle,G H 533,Survey Research Methods,4,,"BIOST 517,BIOST 518,CS&SS 527,EPI 512,EPI 513,HSERV 511,HSERV 513,HSERV 527"
 Seattle,G H 538,Advanced Qualitative Methods in Anthropology and Public Health,5,,
 Seattle,G H 539,"Methods, Tools, and Data in Global Health",2,,
 Seattle,G H 541,Fundamentals of Implementation Science in Global Health,,,
@@ -7135,7 +7135,7 @@ Seattle,HSERV 522,Health Program Evaluation,,,
 Seattle,HSERV 523,Advanced Health Services Research Methods I: Large Public Databases; Big Data,,,"BIOST 511,BIOST 512,BIOST 513,BIOST 517,BIOST 518,EPI 511,EPI 512,HSERV 511"
 Seattle,HSERV 524,Advanced Health Services Research Methods II: Hierarchical and Incomplete Data,,,HSERV 523
 Seattle,HSERV 525,Advanced Health Services Research Methods III: Casual Inference Using Observational Data,,,"BIOST 511,BIOST 512,BIOST 513,HSERV 523"
-Seattle,HSERV 527,Survey Research Methods,4,,"BIOST 517,BIOST 518,EPI 512,EPI 513,G H 533,HSERV 511,HSERV 513,SS 527"
+Seattle,HSERV 527,Survey Research Methods,4,,"BIOST 517,BIOST 518,CS&SS 527,EPI 512,EPI 513,G H 533,HSERV 511,HSERV 513"
 Seattle,HSERV 528,Critically Appraising and Applying Evidence in Healthcare,3,,BIME 540
 Seattle,HSERV 529,Introduction to Systematic Reviews and Meta-Analysis of Evidence,3,,"BIME 541,EPI 541,PHARM 529"
 Seattle,HSERV 531,COPHP Population Health,3,,
@@ -7745,7 +7745,7 @@ Seattle,I BUS 572,Cross-Cultural Conversations on Contemporary Issues,1,,
 Seattle,I BUS 575,Business Studies Abroad,,,
 Seattle,I BUS 579,Seminar: Special Topics in International Business,,,B A 500
 Seattle,I BUS 600,Independent Study or Research,,,
-Seattle,I S 300,Introduction to Information Systems,5,,"ACCTG 225,ECON 200,ECON 311,IND E 315,MATH 112,MATH 124,MATH 125,MATH 134,MATH 135,PSYCH 315,PSYCH 318,Q SCI 291,Q SCI 381,QMETH 201,SOC 221,SS 221,STAT 220,STAT 221,STAT 311,STAT 390"
+Seattle,I S 300,Introduction to Information Systems,5,,"ACCTG 225,CS&SS 221,ECON 200,ECON 311,IND E 315,MATH 112,MATH 124,MATH 125,MATH 134,MATH 135,PSYCH 315,PSYCH 318,Q SCI 291,Q SCI 381,QMETH 201,SOC 221,STAT 220,STAT 221,STAT 311,STAT 390"
 Seattle,I S 310,Fundamentals of Business Information Technologies,4,,I S 300
 Seattle,I S 320,Fundamentals of Application Programming,4,,I S 300
 Seattle,I S 410,Business Data Communications,5,,I S 300
@@ -7937,7 +7937,7 @@ Seattle,INFO 344,Server-Side Web Development,5,,"CSE 142,CSE 143,CSE 154,INFO 34
 Seattle,INFO 360,Design Thinking,5,I&S,
 Seattle,INFO 362,Visual Information Design,5,,
 Seattle,INFO 365,Mobile Application Design,5,,
-Seattle,INFO 370,Introduction to Data Science,5,QSR,"CSE 142,CSE 143,INFO 201,MATH 390,Q SCI 381,QMETH 201,SOC 221,SS 221,STAT 221,STAT 311,STAT 390"
+Seattle,INFO 370,Introduction to Data Science,5,QSR,"CS&SS 221,CSE 142,CSE 143,INFO 201,MATH 390,Q SCI 381,QMETH 201,SOC 221,STAT 221,STAT 311,STAT 390"
 Seattle,INFO 371,Core Methods in Data Science,5,QSR,INFO 370
 Seattle,INFO 380,Information Systems Analysis and Design,5,,
 Seattle,INFO 386,Professionalism in Informatics,4,,
@@ -7955,8 +7955,8 @@ Seattle,INFO 461,Cooperative Software Design,5,,"CSE 154,INFO 343,INFO 360"
 Seattle,INFO 463,Input and Interaction,5,,INFO 360
 Seattle,INFO 466,Immersive Information Environments,5,"I&S,VLPA",
 Seattle,INFO 467,Immersive Information Environment Design,5,VLPA,INFO 466
-Seattle,INFO 470,Research Methods in Informatics,5,,"Q SCI 381,QMETH 201,SOC 221,SS 221,STAT 220,STAT 221,STAT 311"
-Seattle,INFO 474,Interactive Information Visualization,5,"QSR,VLPA","CSE 143,CSE 154,INFO 343,MATH 390,Q METH 201,Q SCI 381,SS 221,STAT 221,STAT 311,STAT 390"
+Seattle,INFO 470,Research Methods in Informatics,5,,"CS&SS 221,Q SCI 381,QMETH 201,SOC 221,STAT 220,STAT 221,STAT 311"
+Seattle,INFO 474,Interactive Information Visualization,5,"QSR,VLPA","CS&SS 221,CSE 143,CSE 154,INFO 343,MATH 390,Q METH 201,Q SCI 381,STAT 221,STAT 311,STAT 390"
 Seattle,INFO 481,Project Management in Informatics,4,,
 Seattle,INFO 490,Project Capstone I,4,,"INFO 360,INFO 470,INFO 481"
 Seattle,INFO 491,Project Capstone II,4,,INFO 490
@@ -10199,7 +10199,7 @@ Seattle,MKTG 452,Consumer Marketing and Brand Strategy,4,,MKTG 301
 Seattle,MKTG 454,Strategic Product Management,4,,MKTG 301
 Seattle,MKTG 455,Entrepreneurial Marketing,4,,"ENTRE 455,MKTG 301"
 Seattle,MKTG 456,Advertising,4,,MKTG 301
-Seattle,MKTG 460,Marketing Research,4,,"ECON 311,MATH 390,MKTG 301,QMETH 201,SOC 221,SS 221,STAT 220,STAT 221,STAT 301,STAT 311,STAT 390"
+Seattle,MKTG 460,Marketing Research,4,,"CS&SS 221,ECON 311,MATH 390,MKTG 301,QMETH 201,SOC 221,STAT 220,STAT 221,STAT 301,STAT 311,STAT 390"
 Seattle,MKTG 462,Customer Analytics,4,,MKTG 301
 Seattle,MKTG 464,Analytics for Marketing Decisions,4,,MKTG 301
 Seattle,MKTG 466,Digital Marketing,4,,MKTG 301
@@ -11561,7 +11561,7 @@ Seattle,OPHTH 691,P-Ophthalmology Clerkship - Nampa,4,,
 Seattle,OPHTH 695,P-Ophthalmology Advanced Clerkship - HMC,4,,
 Seattle,OPHTH 697,P-Ophthalmology Special Electives,,,
 Seattle,OPHTH 699,P-Wwami Ophthalmology Special Electives,,,
-Seattle,OPMGT 301,Principles of Operations Management,4,,"ACCTG 225,ECON 200,ECON 311,IND E 315,MATH 112,MATH 124,MATH 134,PSYCH 315,PSYCH 318,Q SCI 291,Q SCI 381,QMETH 201,SOC 221,SS 221,STAT 220,STAT 221,STAT 301,STAT 311,STAT 390"
+Seattle,OPMGT 301,Principles of Operations Management,4,,"ACCTG 225,CS&SS 221,ECON 200,ECON 311,IND E 315,MATH 112,MATH 124,MATH 134,PSYCH 315,PSYCH 318,Q SCI 291,Q SCI 381,QMETH 201,SOC 221,STAT 220,STAT 221,STAT 301,STAT 311,STAT 390"
 Seattle,OPMGT 402,Introduction to Logistics,4,,OPMGT 301
 Seattle,OPMGT 443,Inventory and Supply Chain Management,4,,OPMGT 301
 Seattle,OPMGT 450,Introduction to Project Management,4,,OPMGT 301
@@ -12131,7 +12131,7 @@ Seattle,PHCOL 700,Master's Thesis,,,
 Seattle,PHCOL 800,Doctoral Dissertation,,,
 Seattle,PHG 200,Implications of Public Health Genomics for the Modern World,3,"I&S,NW",
 Seattle,PHG 301,Introduction to Genetic Epidemiology,3,"I&S,NW",
-Seattle,PHG 302,Forensic Genetics,3,"I&S,NW,QSR","BIOST 302,BIOST 310,Q METH 201,Q SCI 381,SOC 221,SS 221,STAT 220,STAT 221,STAT 311"
+Seattle,PHG 302,Forensic Genetics,3,"I&S,NW,QSR","BIOST 302,BIOST 310,CS&SS 221,Q METH 201,Q SCI 381,SOC 221,STAT 220,STAT 221,STAT 311"
 Seattle,PHG 511,Genetic Epidemiology,3,,"BIOST 511,EPI 511,EPI 517,GENOME 371"
 Seattle,PHG 512,"Legal, Ethical, and Social Issues in Public Health Genetics",3,,"B H 514,GENOME 361,GENOME 371,LAW H 504"
 Seattle,PHG 513,Basic Concepts in Pharmacogenetics and Toxicogenomics,3,,
@@ -13067,7 +13067,7 @@ Seattle,SOC WL 583,Research Practicum,,,
 Seattle,SOC WL 584,Teaching Practicum,3,,
 Seattle,SOC WL 585,Qualitative Methods in Social Work Research I,3,,
 Seattle,SOC WL 586,Qualitative Methods in Social Work Research II,3,,
-Seattle,SOC WL 589,Multivariate Data Analysis for the Social Sciences,4,,"SOC 504,SOC 505,SOC 506,SS 589"
+Seattle,SOC WL 589,Multivariate Data Analysis for the Social Sciences,4,,"CS&SS 589,SOC 504,SOC 505,SOC 506"
 Seattle,SOC WL 590,Topics in Advanced Research Methods,3,,
 Seattle,SOC WL 591,Seminar on Topics in Social Welfare,,,
 Seattle,SOC WL 598,Theory and Metatheory in Social Research,3,,

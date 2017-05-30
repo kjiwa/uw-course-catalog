@@ -60,7 +60,7 @@ def parse_prerequisites(course_description):
   """
   return sorted(
       set([
-          k.strip() for k in re.findall(r'([A-Z ]+ \d+)', course_description)
+          k.strip() for k in re.findall(r'([A-Z& ]+ \d+)', course_description)
       ]))
 
 
