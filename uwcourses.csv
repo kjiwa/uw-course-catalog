@@ -12,9 +12,9 @@ Bothell,B ACCT 563,Advanced Financial Accounting,4,,
 Bothell,B ACCT 567,Advanced Taxation,4,,
 Bothell,B ARAB 296,Study Abroad: Arabic,,VLPA,
 Bothell,B BIO 130,Introduction to Marine Life,5,NW,
-Bothell,B BIO 180,Introductory Biology I,5,NW,"B BIO 180,B BIO 200,B BIO 220,B CHEM 142,B CHEM 143"
-Bothell,B BIO 200,Introductory Biology II,5,NW,"B BIO 180,B BIO 200,B BIO 220,B CHEM 152,B CHEM 153"
-Bothell,B BIO 220,Introductory Biology III,5,NW,"B BIO 180,B BIO 200,B BIO 220"
+Bothell,B BIO 180,Introductory Biology I,5,NW,"B CHEM 142,B CHEM 143"
+Bothell,B BIO 200,Introductory Biology II,5,NW,"B BIO 180,B CHEM 152,B CHEM 153"
+Bothell,B BIO 220,Introductory Biology III,5,NW,B BIO 200
 Bothell,B BIO 225,Scientific Writing,5,,B WRIT 134
 Bothell,B BIO 230,Study Abroad: Biology,,NW,
 Bothell,B BIO 231,"Genes, Genomes and Heredity",5,"I&S,NW",
@@ -181,7 +181,7 @@ Bothell,B CHEM 225,Scientific Writing,5,,B WRIT 134
 Bothell,B CHEM 237,Organic Chemistry I,4,NW,"B CHEM 162,B CHEM 163,B CHEM 164"
 Bothell,B CHEM 238,Organic Chemistry II,4,NW,B CHEM 237
 Bothell,B CHEM 239,Organic Chemistry III,4,NW,B CHEM 238
-Bothell,B CHEM 241,Organic Chemistry Laboratory I,3,NW,"B CHEM 237,B CHEM 238,B CUSP 238"
+Bothell,B CHEM 241,Organic Chemistry Laboratory I,3,NW,"B CHEM 237,B CHEM 238"
 Bothell,B CHEM 242,Organic Chemistry Laboratory II,3,NW,"B CHEM 238,B CHEM 239,B CHEM 241"
 Bothell,B CHEM 293,Special Topics in Chemistry,,,
 Bothell,B CHEM 312,Inorganic Chemistry I,3,"NW,QSR",B CHEM 238
@@ -199,7 +199,7 @@ Bothell,B CHEM 404,Physical Chemistry Laboratory,4,,B CHEM 402
 Bothell,B CHEM 426,Instrumental Analysis,5,"NW,QSR",B CHEM 315
 Bothell,B CHEM 493,Advanced Topics in Chemistry,,,
 Bothell,B CHEM 494,Special Topics in Biochemistry,3,"NW,QSR","B CHEM 237,B CHEM 364"
-Bothell,B CHEM 495,Investigative Chemistry I,3,,"B CHEM 239,B CHEM 242,B CHEM 315,B CHEM 496"
+Bothell,B CHEM 495,Investigative Chemistry I,3,,"B CHEM 239,B CHEM 242,B CHEM 315"
 Bothell,B CHEM 496,Investigative Chemistry II,3,,B CHEM 495
 Bothell,B CHEM 497,Apprenticeship in Chemistry Education,,,
 Bothell,B CHEM 498,Independent Study in Chemistry,,,
@@ -576,9 +576,9 @@ Bothell,B PHYS 116,General Physics,4,NW,B PHYS 115
 Bothell,B PHYS 117,General Physics Laboratory,1,NW,B PHYS 114
 Bothell,B PHYS 118,General Physics Laboratory,1,NW,B PHYS 115
 Bothell,B PHYS 119,General Physics Laboratory,1,NW,B PHYS 116
-Bothell,B PHYS 121,Mechanics,5,"NW,QSR","B PHYS 114,B PHYS 121,STMATH 124"
-Bothell,B PHYS 122,Electromagnetism and Oscillatory Motion,5,NW,"B PHYS 115,B PHYS 121,B PHYS 122,STMATH 125"
-Bothell,B PHYS 123,Waves,5,NW,"B PHYS 116,B PHYS 122,B PHYS 123"
+Bothell,B PHYS 121,Mechanics,5,"NW,QSR",STMATH 124
+Bothell,B PHYS 122,Electromagnetism and Oscillatory Motion,5,NW,"B PHYS 121,STMATH 125"
+Bothell,B PHYS 123,Waves,5,NW,B PHYS 122
 Bothell,B PHYS 221,Classical Mechanics,5,"NW,QSR","B PHYS 123,STMATH 307,STMATH 308"
 Bothell,B PHYS 222,Modern Physics,5,"NW,QSR","B PHYS 123,STMATH 307"
 Bothell,B PHYS 224,Thermal Physics,5,"NW,QSR",B PHYS 123
@@ -609,7 +609,7 @@ Bothell,B SPAN 202,Intermediate,5,VLPA,BSPAN 201
 Bothell,B SPAN 203,Intermediate,5,VLPA,B SPAN 202
 Bothell,B SPAN 296,Study Abroad: Spanish,,VLPA,
 Bothell,B WRIT 132,Interdisciplinary Writing Stretch I,5,,
-Bothell,B WRIT 133,Interdisciplinary Writing Stretch II,5,,"B WRIT 132,B WRIT 133,B WRIT 134"
+Bothell,B WRIT 133,Interdisciplinary Writing Stretch II,5,,B WRIT 132
 Bothell,B WRIT 134,Interdisciplinary Writing,5,C,
 Bothell,B WRIT 135,Research Writing,5,C,"B CUSP 134,B WRIT 134,ENGL 131"
 Bothell,B WRIT 137,Writing Studio,2,,
@@ -929,7 +929,7 @@ Bothell,BISCLA 372,Comparative Arts in Eighteenth-Century Europe,5,VLPA,
 Bothell,BISCLA 380,Arts in Context,5,"I&S,VLPA",
 Bothell,BISCLA 384,Literary and Popular Genres,5,VLPA,
 Bothell,BISCP 343,Community Psychology,5,I&S,
-Bothell,BISCP 489,Projects in Community Psychology,5,,"BIS 343,BISCP 343"
+Bothell,BISCP 489,Projects in Community Psychology,5,,BISCP 343
 Bothell,BISGST 303,History and Globalization,5,I&S,
 Bothell,BISGST 324,International Political Economy,5,"I&S,QSR",
 Bothell,BISGST 362,Contemporary Political Ideas and Ideologies,5,I&S,
@@ -1060,8 +1060,8 @@ Bothell,CSS 341,Fundamentals of Programming Theory and Applications,5,,CSS 161
 Bothell,CSS 342,"Data Structures, Algorithms, and Discrete Mathematics I",5,,"CSS 143,STMATH 125"
 Bothell,CSS 343,"Data Structures, Algorithms, and Discrete Mathematics II",5,,"CSS 301,CSS 342,MATH 125,STMATH 125"
 Bothell,CSS 350,Management Principles for Computing Professionals,5,,CSS 301
-Bothell,CSS 360,Software Engineering,5,,"CSS 340,CSS 341,CSS 342"
-Bothell,CSS 370,Analysis and Design,5,,"CSS 301,CSS 340,CSS 342,CSS 360"
+Bothell,CSS 360,Software Engineering,5,,
+Bothell,CSS 370,Analysis and Design,5,,
 Bothell,CSS 371,The Business of Technology,5,,
 Bothell,CSS 383,Bioinformatics,5,NW,
 Bothell,CSS 385,Introduction to Game Development,5,"NW,VLPA",CSS 342
@@ -1155,9 +1155,9 @@ Bothell,ELCBUS 350,Business Finance,5,,ELCBUS 310
 Bothell,ELCBUS 380,Introduction to Organizational Behavior,5,,
 Bothell,ELCBUS 382,"Business, Government, and Society",5,,
 Bothell,ELCBUS 400,Business Project Management,5,,ELCBUS 340
-Bothell,ELCBUS 401,Electronic Marketing,5,,"B BUS 431,ELCBUS 320"
+Bothell,ELCBUS 401,Electronic Marketing,5,,ELCBUS 320
 Bothell,ELCBUS 402,Leadership and Decision Making,5,,ELCBUS 300
-Bothell,ELCBUS 403,Negotiations and Conflict Management,5,,"B BUS 462,ELCBUS 300,ELCBUS 320"
+Bothell,ELCBUS 403,Negotiations and Conflict Management,5,,"ELCBUS 300,ELCBUS 320"
 Bothell,ELCBUS 441,Essentials of Venturing,5,,
 Bothell,ELCBUS 442,New Venture Ideas,5,,ELCBUS 441
 Bothell,ELCBUS 443,Venture Feasibility Analysis,5,,ELCBUS 442
@@ -1188,10 +1188,10 @@ Bothell,STMATH 307,Introduction to Differential Equations,5,NW,"MATH 125,STMATH 
 Bothell,STMATH 308,Matrix Algebra With Applications,5,NW,"MATH 126,STMATH 126"
 Bothell,STMATH 310,Mathematical Game Theory,5,,"MATH 124,STMATH 124"
 Bothell,STMATH 324,Multivariable Calculus,5,,"MATH 126,STMATH 126"
-Bothell,STMATH 341,Introduction to Statistical Inference,5,QSR,"B MATH 144,MATH 124,STMATH 124,STMATH 341,STMATH 390"
+Bothell,STMATH 341,Introduction to Statistical Inference,5,QSR,"B MATH 144,MATH 124,STMATH 124"
 Bothell,STMATH 350,Applied Number Theory and Cryptography,5,,STMATH 308
 Bothell,STMATH 381,Discrete Mathematical Modeling,5,,"AMATH 301,CSE 142,CSS 161,MATH 308,STMATH 308"
-Bothell,STMATH 390,Probability and Statistics in Engineering,5,NW,"MATH 324,STMATH 324,STMATH 341,STMATH 390"
+Bothell,STMATH 390,Probability and Statistics in Engineering,5,NW,"MATH 324,STMATH 324"
 Bothell,STMATH 402,Abstract Algebra I,5,,"MATH 300,MATH 308,STMATH 300,STMATH 308"
 Bothell,STMATH 403,Abstract Algebra II,5,QSR,"MATH 402,STMATH 402"
 Bothell,STMATH 405,Numerical Analysis I,5,,"CSS 161,STMATH 308"
@@ -1383,9 +1383,9 @@ Seattle,ACCTG 303,Intermediate Accounting III,4,,ACCTG 302
 Seattle,ACCTG 311,Cost Accounting,4,,ACCTG 225
 Seattle,ACCTG 320,Introduction to Accounting Information Systems,4,,"ACCTG 225,I S 300"
 Seattle,ACCTG 321,Tax Effects of Business Decisions,4,,ACCTG 301
-Seattle,ACCTG 375,Topics in Financial Reporting,4,,"ACCTG 225,ACCTG 301"
+Seattle,ACCTG 375,Topics in Financial Reporting,4,,ACCTG 225
 Seattle,ACCTG 411,Auditing Standards and Principles,4,,"ACCTG 303,ACCTG 320"
-Seattle,ACCTG 420,Database Management for Accounting,4,,"ACCTG 320,I S 410,I S 445"
+Seattle,ACCTG 420,Database Management for Accounting,4,,ACCTG 320
 Seattle,ACCTG 440,Accounting and Financial Management Decisions,4,,"ACCTG 303,ACCTG 311,ACCTG 321,FIN 350"
 Seattle,ACCTG 450,Business Taxation,4,,ACCTG 321
 Seattle,ACCTG 451,Individual Income Taxation,4,,ACCTG 321
@@ -1434,7 +1434,7 @@ Seattle,ACCTG 549,International and State Tax Issues,4,,
 Seattle,ACCTG 564,Governmental Accounting,4,,
 Seattle,ACCTG 566,Issues in International Accounting,4,,
 Seattle,ACCTG 575,Internship,14,,
-Seattle,ACCTG 576,Independent Research Project Proposal,,,ACCTG 577
+Seattle,ACCTG 576,Independent Research Project Proposal,,,
 Seattle,ACCTG 577,Independent Research Project Proposal,,,ACCTG 576
 Seattle,ACCTG 579,Special Topics in Accounting,,,
 Seattle,ACCTG 580,Doctoral Seminar: Introduction to Accounting Research,4,,
@@ -1449,7 +1449,7 @@ Seattle,ADMIN 511,Fundamentals of Business Adminstration,4,,
 Seattle,ADMIN 512,"Fundamentals of Business Adminstration - People Management, Leadershipo, and Teams",4,,
 Seattle,ADMIN 513,Fundamentals of Business Adminstration: Accounting and Finance,4,,
 Seattle,ADMIN 514,Fundamentals of Business Administration: Business Plan Practicum I,2,,"ADMIN 511,ADMIN 512"
-Seattle,ADMIN 515,Fundamentals of Business Administration: Business Plan Practicum II,1,,"ADMIN 511,ADMIN 512,ADMIN 513,ADMIN 514"
+Seattle,ADMIN 515,Fundamentals of Business Administration: Business Plan Practicum II,1,,ADMIN 514
 Seattle,AES 150,"In-Justice for All: Intersection of Race, Ethnicity, Class, and Gender in the United States",5,"DIV,I&S",
 Seattle,AES 151,"Identities, Cultures, and Power Across American Ethnic Groups",5,"DIV,I&S",
 Seattle,AES 211,Environmental Justice,5,"DIV,I&S",
@@ -1834,14 +1834,14 @@ Seattle,ANTH 600,Independent Study or Research,,,
 Seattle,ANTH 700,Master's Thesis,,,
 Seattle,ANTH 800,Doctoral Dissertation,,,
 Seattle,ARAB 101,Elementary Arabic,5,,
-Seattle,ARAB 102,Elementary Arabic,5,,"ARAB 101,ARAB 105,ARAB 411"
-Seattle,ARAB 103,Elementary Arabic,5,,"ARAB 102,ARAB 105,ARAB 411"
+Seattle,ARAB 102,Elementary Arabic,5,,ARAB 101
+Seattle,ARAB 103,Elementary Arabic,5,,ARAB 102
 Seattle,ARAB 105,Intensive Elementary Arabic,15,,
 Seattle,ARAB 199,Study Abroad,,,
-Seattle,ARAB 201,Intermediate Arabic,5,VLPA,"ARAB 103,ARAB 105,ARAB 205"
-Seattle,ARAB 202,Intermediate Arabic,5,VLPA,"ARAB 201,ARAB 205"
-Seattle,ARAB 203,Intermediate Arabic,5,VLPA,"ARAB 202,ARAB 205"
-Seattle,ARAB 205,Intensive Intermediate Arabic,15,VLPA,"ARAB 103,ARAB 105,ARAB 201,ARAB 202,ARAB 203"
+Seattle,ARAB 201,Intermediate Arabic,5,VLPA,"ARAB 103,ARAB 105"
+Seattle,ARAB 202,Intermediate Arabic,5,VLPA,ARAB 201
+Seattle,ARAB 203,Intermediate Arabic,5,VLPA,ARAB 202
+Seattle,ARAB 205,Intensive Intermediate Arabic,15,VLPA,"ARAB 103,ARAB 105"
 Seattle,ARAB 399,Study Abroad,,,
 Seattle,ARAB 401,Current Issues in Arab Media,5,,ARAB 203
 Seattle,ARAB 402,Current Issues in Arab Media,5,,ARAB 401
@@ -1859,13 +1859,13 @@ Seattle,ARAB 490,Supervised Study,,,ARAB 423
 Seattle,ARAB 496,Special Studies in Arabic,,VLPA,
 Seattle,ARAB 499,Undergraduate Research,,,
 Seattle,ARAB 511,Elementary Arabic,5,,
-Seattle,ARAB 512,Elementary Arabic,5,,"ARAB 411,ARAB 412,ARAB 413,ARAB 511,ARAB 515"
-Seattle,ARAB 513,Elementary Arabic,5,,"ARAB 411,ARAB 412,ARAB 413,ARAB 512,ARAB 515"
+Seattle,ARAB 512,Elementary Arabic,5,,ARAB 511
+Seattle,ARAB 513,Elementary Arabic,5,,ARAB 512
 Seattle,ARAB 515,Intensive Elementary Arabic,15,,
-Seattle,ARAB 521,Intermediate Arabic,5,,"ARAB 513,ARAB 515,ARAB 525"
-Seattle,ARAB 522,Intermediate Arabic,5,,"ARAB 521,ARAB 525"
-Seattle,ARAB 523,Intermediate Arabic,5,,"ARAB 522,ARAB 525"
-Seattle,ARAB 525,Intensive Intermediate Arabic,15,,"ARAB 513,ARAB 515,ARAB 521,ARAB 522,ARAB 523"
+Seattle,ARAB 521,Intermediate Arabic,5,,"ARAB 513,ARAB 515"
+Seattle,ARAB 522,Intermediate Arabic,5,,ARAB 521
+Seattle,ARAB 523,Intermediate Arabic,5,,ARAB 522
+Seattle,ARAB 525,Intensive Intermediate Arabic,15,,"ARAB 513,ARAB 515"
 Seattle,ARAB 541,Current Issues in Arab Media,5,,
 Seattle,ARAB 542,Current Issues in Arab Media,5,,
 Seattle,ARAB 543,Current Issues in Arab Media,5,,ARAB 542
@@ -2295,13 +2295,13 @@ Seattle,ASTR 210,Distance and Time: Size and Age in the Universe,5,"NW,QSR",
 Seattle,ASTR 211,The Universe and Change,5,"NW,QSR",
 Seattle,ASTR 270,Public Outreach in Astronomy,3,"NW,VLPA",
 Seattle,ASTR 300,Introduction to Programming for Astronomical  Applications,3,QSR,"ASTR 321,ASTR 322,ASTR 323"
-Seattle,ASTR 301,Astronomy for Scientists and Engineers,3,NW,"ASTR 101,PHYS 123"
+Seattle,ASTR 301,Astronomy for Scientists and Engineers,3,NW,PHYS 123
 Seattle,ASTR 313,Science in Civilization: Physics and Astrophysics Since 1850,5,"I&S,NW",
 Seattle,ASTR 321,The Solar System,3,NW,PHYS 224
 Seattle,ASTR 322,The Contents of Our Galaxy,3,NW,PHYS 224
 Seattle,ASTR 323,Extragalactic Astronomy and Cosmology,3,NW,ASTR 322
 Seattle,ASTR 400,Undergraduate Research Seminar,1,NW,
-Seattle,ASTR 419,Exoplanets,3,NW,"ASTR 160,ASTR 321"
+Seattle,ASTR 419,Exoplanets,3,NW,ASTR 321
 Seattle,ASTR 421,Stellar Observations and Theory,3,NW,ASTR 322
 Seattle,ASTR 423,High-Energy Astrophysics,3,NW,"PHYS 224,PHYS 225"
 Seattle,ASTR 425,Cosmology,3,QSR,"PHYS 224,PHYS 225"
@@ -2427,9 +2427,9 @@ Seattle,B A 500,Business Administration I,16,,
 Seattle,B A 501,Business Administration II,14,,
 Seattle,B A 502,Business Administration III,8,,
 Seattle,B A 505,Global Business Fundamentals,16,,
-Seattle,B A 541,Environmental Management I,4,,B A 544
-Seattle,B A 542,Environmental Management II,4,,"B A 541,B A 544"
-Seattle,B A 543,Environmental Management III,4,,"B A 542,B A 544"
+Seattle,B A 541,Environmental Management I,4,,
+Seattle,B A 542,Environmental Management II,4,,B A 541
+Seattle,B A 543,Environmental Management III,4,,B A 542
 Seattle,B A 544,Environmental Management Seminar,1,,
 Seattle,B A 545,The Global Business Forum: Current Issues in Global Business,1,,
 Seattle,B A 560,Cooperative Education in Business,1,,
@@ -2698,7 +2698,7 @@ Seattle,BIOEN 403,Bioengineering Capstone Research,,,BIOEN 401
 Seattle,BIOEN 404,Bioengineering Team Design I,3,,BIOEN 401
 Seattle,BIOEN 405,Bioengineering Team Design II,3,,BIOEN 404
 Seattle,BIOEN 410,Bioengineering Honors Seminar,1,,
-Seattle,BIOEN 420,Medical Imaging,4,,"AMATH 301,AMATH 352,BIOEN 303,BIOEN 316,CSE 142,E E 235,MATH 136,MATH 308"
+Seattle,BIOEN 420,Medical Imaging,4,,"AMATH 301,AMATH 352,BIOEN 316,CSE 142,E E 235,MATH 136,MATH 308"
 Seattle,BIOEN 423,Introduction to Synthetic Biology,3,,"AMATH 351,AMATH 352,CSE 311,MATH 136,MATH 307,MATH 308"
 Seattle,BIOEN 424,Advanced Systems and Synthetic Biology,3,,"BIOEN 401,BIOEN 423,CSE 486,E E 423"
 Seattle,BIOEN 425,Laboratory Methods in Synthetic Biology,4,,"BIOEN 423,CHEM 142,CHEM 144,CHEM 145,CSE 486,E E 423"
@@ -2786,8 +2786,8 @@ Seattle,BIOL 119,Elementary Physiology Laboratory,1,NW,BIOL 118
 Seattle,BIOL 120,Current Controversies in Biology,,NW,
 Seattle,BIOL 130,Introduction to Neuroscience,4,NW,
 Seattle,BIOL 180,Introductory Biology,5,NW,
-Seattle,BIOL 200,Introductory Biology,5,NW,"B BIO 180,BIOL 180,BIOL 200,BIOL 220,CHEM 143,CHEM 145,CHEM 152,CHEM 220,CHEM 223,CHEM 237,OCEAN 295,TESC 120"
-Seattle,BIOL 220,Introductory Biology,5,NW,"B BIO 200,BIOL 180,BIOL 200,BIOL 220,TESC 130"
+Seattle,BIOL 200,Introductory Biology,5,NW,"B BIO 180,BIOL 180,CHEM 143,CHEM 145,CHEM 152,CHEM 220,CHEM 223,CHEM 237,OCEAN 295,TESC 120"
+Seattle,BIOL 220,Introductory Biology,5,NW,"B BIO 200,BIOL 200,TESC 130"
 Seattle,BIOL 250,Marine Biology,,"I&S,NW",
 Seattle,BIOL 280,The History of Life,4,NW,
 Seattle,BIOL 293,Study Abroad - Biology,,NW,
@@ -2835,7 +2835,7 @@ Seattle,BIOL 428,Sensory Neurophysiology and Ecology Lab,5,NW,"BIOL 350,BIOL 355
 Seattle,BIOL 430,Marine Zoology,5,NW,BIOL 445
 Seattle,BIOL 432,Marine Invertebrate Zoology,9,NW,
 Seattle,BIOL 433,Marine Ecology,5,NW,"B BIO 180,BIOL 180,BIOL 356,BIOL 472,TESC 120"
-Seattle,BIOL 434,Invertebrate Zoology,5,NW,"B BIO 220,BIOL 220,BIOL 430,BIOL 432,TESC 140"
+Seattle,BIOL 434,Invertebrate Zoology,5,NW,"B BIO 220,BIOL 220,TESC 140"
 Seattle,BIOL 435,Research Apprenticeship in Marine Science,15,NW,
 Seattle,BIOL 437,Herpetology,5,NW,BIOL 354
 Seattle,BIOL 438,Analytical Paleobiology,5,NW,"BIOL 280,BIOL 354,ESS 213"
@@ -2919,7 +2919,7 @@ Seattle,BIOL 557,Vertebrate Paleontology,5,,
 Seattle,BIOL 560,Seminar in Ecology,,,
 Seattle,BIOL 561,Topics in Ecology,,,
 Seattle,BIOL 563,Experimental Evolutionary Ecology,5,,
-Seattle,BIOL 564,Advanced Experimental Evolutionary Ecology,,,"BIOL 482,BIOL 563"
+Seattle,BIOL 564,Advanced Experimental Evolutionary Ecology,,,BIOL 563
 Seattle,BIOL 565,Community Ecology,5,,
 Seattle,BIOL 567,Topics in Advanced Ecology,3,,
 Seattle,BIOL 570,Seminar in Conservation Biology,,,
@@ -3108,41 +3108,41 @@ Seattle,CFRM 586,Financial Time Series Forecasting Methods,2,,CFRM 501
 Seattle,CFRM 600,Independent Research or Study,,,
 Seattle,CFRM 601,Internship,,,
 Seattle,CFRM 700,Master's Thesis,,,
-Seattle,CHEM 110,Preparation for General Chemistry,,NW,"CHEM 110,CHEM 142"
-Seattle,CHEM 120,Principles of Chemistry I,5,"NW,QSR","CHEM 120,CHEM 142,CHEM 145"
-Seattle,CHEM 142,General Chemistry,5,"NW,QSR","CHEM 110,CHEM 120"
-Seattle,CHEM 143,Accelerated General Chemistry,6,QSR,"CHEM 110,CHEM 142,CHEM 143,CHEM 145"
-Seattle,CHEM 145,Honors General Chemistry,5,"NW,QSR","CHEM 142,CHEM 145,CHEM 152,CHEM 155,CHEM 162,MATH 124,MATH 134"
-Seattle,CHEM 152,General Chemistry,5,"NW,QSR","CHEM 142,CHEM 145,CHEM 152,CHEM 155"
+Seattle,CHEM 110,Preparation for General Chemistry,,NW,
+Seattle,CHEM 120,Principles of Chemistry I,5,"NW,QSR",
+Seattle,CHEM 142,General Chemistry,5,"NW,QSR",CHEM 110
+Seattle,CHEM 143,Accelerated General Chemistry,6,QSR,CHEM 110
+Seattle,CHEM 145,Honors General Chemistry,5,"NW,QSR","MATH 124,MATH 134"
+Seattle,CHEM 152,General Chemistry,5,"NW,QSR","CHEM 142,CHEM 145"
 Seattle,CHEM 153,Accelerated General Chemistry,6,NW,CHEM 143
-Seattle,CHEM 155,Honors General Chemistry,5,"NW,QSR","CHEM 142,CHEM 145,CHEM 152,CHEM 155,CHEM 162"
-Seattle,CHEM 162,General Chemistry,5,"NW,QSR","CHEM 152,CHEM 162,CHEM 165"
-Seattle,CHEM 165,Honors General Chemistry,5,"NW,QSR","CHEM 155,CHEM 162,CHEM 165,CHEM 312"
+Seattle,CHEM 155,Honors General Chemistry,5,"NW,QSR",CHEM 145
+Seattle,CHEM 162,General Chemistry,5,"NW,QSR",CHEM 152
+Seattle,CHEM 165,Honors General Chemistry,5,"NW,QSR",CHEM 155
 Seattle,CHEM 190,Freshman Discovery Seminar in Chemistry,5,NW,
 Seattle,CHEM 192,Chemistry Achievement Workshop,2,,
 Seattle,CHEM 197,Science Outreach Training,,,
 Seattle,CHEM 198,Tutorial Study,2,,
 Seattle,CHEM 199,Special Problems,,,
 Seattle,CHEM 220,Principles of Chemistry II,5,NW,"CHEM 120,CHEM 142"
-Seattle,CHEM 221,Principles of Chemistry III,5,NW,"CHEM 220,CHEM 221,CHEM 223,CHEM 237,CHEM 335"
-Seattle,CHEM 223,Organic Chemistry - Short Program,4,NW,"CHEM 152,CHEM 153,CHEM 155,CHEM 221,CHEM 223,CHEM 237,CHEM 238,CHEM 239,CHEM 335"
-Seattle,CHEM 224,Organic Chemistry - Short Program,4,NW,"CHEM 223,CHEM 224,CHEM 239,CHEM 241,CHEM 337"
-Seattle,CHEM 237,Organic Chemistry,4,NW,"CHEM 153,CHEM 155,CHEM 162,CHEM 221,CHEM 223,CHEM 237,CHEM 335"
-Seattle,CHEM 238,Organic Chemistry,4,NW,"B CHEM 237,CHEM 237,CHEM 238,CHEM 335,CHEM 336"
-Seattle,CHEM 239,Organic Chemistry,4,NW,"B CHEM 238,CHEM 224,CHEM 238,CHEM 239,CHEM 335,CHEM 337"
-Seattle,CHEM 241,Organic Chemistry Laboratory,3,NW,"B CHEM 237,B CHEM 238,CHEM 223,CHEM 224,CHEM 237,CHEM 238,CHEM 241,CHEM 335,CHEM 336,CHEM 346"
-Seattle,CHEM 242,Organic Chemistry Laboratory,3,NW,"B CHEM 238,B CHEM 239,B CHEM 241,CHEM 224,CHEM 238,CHEM 239,CHEM 241,CHEM 242,CHEM 336,CHEM 337,CHEM 346,CHEM 347"
+Seattle,CHEM 221,Principles of Chemistry III,5,NW,CHEM 220
+Seattle,CHEM 223,Organic Chemistry - Short Program,4,NW,"CHEM 152,CHEM 153,CHEM 155"
+Seattle,CHEM 224,Organic Chemistry - Short Program,4,NW,CHEM 223
+Seattle,CHEM 237,Organic Chemistry,4,NW,"CHEM 153,CHEM 155,CHEM 162"
+Seattle,CHEM 238,Organic Chemistry,4,NW,"B CHEM 237,CHEM 237,CHEM 335"
+Seattle,CHEM 239,Organic Chemistry,4,NW,"B CHEM 238,CHEM 238,CHEM 335"
+Seattle,CHEM 241,Organic Chemistry Laboratory,3,NW,"B CHEM 237,B CHEM 238,CHEM 223,CHEM 224,CHEM 237,CHEM 238,CHEM 335,CHEM 336"
+Seattle,CHEM 242,Organic Chemistry Laboratory,3,NW,"B CHEM 238,B CHEM 239,B CHEM 241,CHEM 224,CHEM 238,CHEM 239,CHEM 241,CHEM 336,CHEM 337,CHEM 346"
 Seattle,CHEM 291,Study Abroad - Chemistry,,NW,
 Seattle,CHEM 297,Science Outreach Participation,,,CHEM 197
 Seattle,CHEM 299,Special Problems and Report Writing,,,
-Seattle,CHEM 312,Inorganic Chemistry,3,NW,"B CHEM 238,CHEM 155,CHEM 162,CHEM 165,CHEM 224,CHEM 238,CHEM 312,CHEM 336"
+Seattle,CHEM 312,Inorganic Chemistry,3,NW,"B CHEM 238,CHEM 155,CHEM 162,CHEM 224,CHEM 238,CHEM 336"
 Seattle,CHEM 317,Inorganic Chemistry Laboratory,4,NW,"B CHEM 242,CHEM 165,CHEM 242,CHEM 312,CHEM 347"
 Seattle,CHEM 321,Quantitative Analysis,5,NW,"CHEM 155,CHEM 162,CHEM 164"
-Seattle,CHEM 335,Honors Organic Chemistry,4,NW,"CHEM 155,CHEM 162,CHEM 221,CHEM 223,CHEM 237,CHEM 335"
-Seattle,CHEM 336,Honors Organic Chemistry,4,NW,"CHEM 238,CHEM 335,CHEM 336"
-Seattle,CHEM 337,Honors Organic Chemistry,4,NW,"CHEM 239,CHEM 336,CHEM 337"
-Seattle,CHEM 346,Organic Chemistry Honors Laboratory,3,NW,"CHEM 241,CHEM 335,CHEM 336,CHEM 346"
-Seattle,CHEM 347,Organic and Qualitative Organic Honors Laboratory,3,NW,"CHEM 242,CHEM 336,CHEM 337,CHEM 346,CHEM 347"
+Seattle,CHEM 335,Honors Organic Chemistry,4,NW,"CHEM 155,CHEM 162"
+Seattle,CHEM 336,Honors Organic Chemistry,4,NW,CHEM 335
+Seattle,CHEM 337,Honors Organic Chemistry,4,NW,CHEM 336
+Seattle,CHEM 346,Organic Chemistry Honors Laboratory,3,NW,"CHEM 335,CHEM 336"
+Seattle,CHEM 347,Organic and Qualitative Organic Honors Laboratory,3,NW,"CHEM 336,CHEM 337,CHEM 346"
 Seattle,CHEM 397,Science Outreach Mentors,,,
 Seattle,CHEM 399,Undergraduate Research,,,
 Seattle,CHEM 410,Radiochemistry Laboratory,2,NW,CHEM 418
@@ -3152,7 +3152,7 @@ Seattle,CHEM 418,Nuclear Chemistry,3,NW,"CHEM 453,CHEM 455,CHEM 475"
 Seattle,CHEM 419,Bioinorganic Chemistry,3,NW,"B CHEM 239,CHEM 224,CHEM 239,CHEM 337,CHEM 416"
 Seattle,CHEM 425,Meso and Microfluidics in Chemical Analysis,3,NW,CHEM 321
 Seattle,CHEM 426,Instrumental Analysis,3,NW,CHEM 321
-Seattle,CHEM 428,Bioinstrumental Analysis,3,NW,"BIOC 405,BIOC 426,BIOC 440"
+Seattle,CHEM 428,Bioinstrumental Analysis,3,NW,"BIOC 405,BIOC 440"
 Seattle,CHEM 429,Chemical Separation Techniques,3,NW,"B CHEM 239,B CHEM 241,CHEM 224,CHEM 239,CHEM 241,CHEM 321,CHEM 337,CHEM 346"
 Seattle,CHEM 430,Advanced Physical Organic Chemistry,3,NW,"B CHEM 239,CHEM 239,CHEM 337"
 Seattle,CHEM 431,Advanced Synthetic Organic Chemistry,3,NW,CHEM 430
@@ -3163,7 +3163,7 @@ Seattle,CHEM 452,Physical Chemistry for Biochemists I,3,NW,"CHEM 155,CHEM 162,MA
 Seattle,CHEM 453,Physical Chemistry for Biochemists II,3,NW,"CHEM 452,CHEM 456,MATH 126,MATH 135,PHYS 116,PHYS 123"
 Seattle,CHEM 454,Introduction to Biomolecular Spectroscopy,3,NW,"CHEM 452,CHEM 453,CHEM 455,CHEM 456"
 Seattle,CHEM 455,Physical Chemistry,3,NW,"CHEM 155,CHEM 162,MATH 126,MATH 136,PHYS 116,PHYS 123"
-Seattle,CHEM 456,Physical Chemistry,3,NW,"CHEM 155,CHEM 162,CHEM 452,CHEM 456,MATH 126,MATH 136,PHYS 116,PHYS 123"
+Seattle,CHEM 456,Physical Chemistry,3,NW,"CHEM 155,CHEM 162,MATH 126,MATH 136,PHYS 116,PHYS 123"
 Seattle,CHEM 457,Physical Chemistry,3,NW,"CHEM 455,CHEM 456,CHEM 475,CHEM E 326"
 Seattle,CHEM 458,Air Pollution Chemistry,4,NW,
 Seattle,CHEM 460,Spectroscopic Molecular Identification,3,NW,"B CHEM 239,CHEM 224,CHEM 239,CHEM 337"
@@ -3173,7 +3173,7 @@ Seattle,CHEM 463,Spectroscopic Techniques for Structural Identification,2,NW,CHE
 Seattle,CHEM 464,Computers in Data Acquisition and Analysis,3,NW,"CHEM 453,CHEM 455,CHEM 475,MATH 136,MATH 307,MATH 308"
 Seattle,CHEM 465,Computations in Chemistry,3,NW,"CHEM 455,CHEM 475"
 Seattle,CHEM 466,"Energy Materials, Devices, and Systems",3,,"CHEM 455,CHEM 475"
-Seattle,CHEM 475,Honors Physical Chemistry,3,NW,"CHEM 155,CHEM 162,CHEM 455,MATH 126,MATH 136,PHYS 116,PHYS 123"
+Seattle,CHEM 475,Honors Physical Chemistry,3,NW,"CHEM 155,CHEM 162,MATH 126,MATH 136,PHYS 116,PHYS 123"
 Seattle,CHEM 484,Electronic and Optoelectronic Polymers,3,NW,"CHEM 453,CHEM 455"
 Seattle,CHEM 485,Electronic Structure and Application of Materials,3,NW,CHEM 455
 Seattle,CHEM 486,Electronic Dynamics in Organic and Inorganic Materials,3,NW,CHEM 455
@@ -3338,21 +3338,21 @@ Seattle,CHID 497,Peer Facilitators,5,,
 Seattle,CHID 498,Special Colloquia,,I&S,
 Seattle,CHID 499,Undergraduate Independent Study or Research,,,
 Seattle,CHIN 101,First-Year Chinese for Non-Heritage Learners,5,,
-Seattle,CHIN 102,First-Year Chinese for Non-Heritage Learners,5,,"CHIN 101,CHIN 134"
-Seattle,CHIN 103,First-Year Chinese for Non-Heritage Learners,5,,"CHIN 102,CHIN 134"
+Seattle,CHIN 102,First-Year Chinese for Non-Heritage Learners,5,,CHIN 101
+Seattle,CHIN 103,First-Year Chinese for Non-Heritage Learners,5,,CHIN 102
 Seattle,CHIN 111,First-Year Chinese for Heritage Learners,5,,
 Seattle,CHIN 112,First-Year Chinese for Heritage Learners,5,,CHIN 111
 Seattle,CHIN 113,First-Year Chinese for Heritage Learners,5,VLPA,CHIN 112
 Seattle,CHIN 134,First-Year Intensive Chinese for Non-Heritage Learners,15,,
 Seattle,CHIN 138,First-Year Intensive Chinese for Heritage Learners,15,,
 Seattle,CHIN 145,Foreign Study: First-Year Chinese,,,
-Seattle,CHIN 201,Second-Year Chinese for Non-Heritage Learners,5,VLPA,"CHIN 103,CHIN 134,CHIN 234"
-Seattle,CHIN 202,Second-Year Chinese for Non-Heritage Learners,5,VLPA,"CHIN 201,CHIN 234"
-Seattle,CHIN 203,Second-Year Chinese for Non-Heritage Learners,5,VLPA,"CHIN 202,CHIN 234"
-Seattle,CHIN 211,Second-Year Chinese for Heritage Learners,5,VLPA,"CHIN 113,CHIN 138,CHIN 234"
-Seattle,CHIN 212,Second-Year Chinese for Heritage Learners,5,VLPA,"CHIN 211,CHIN 234"
-Seattle,CHIN 213,Second-Year Chinese for Heritage Learners,5,VLPA,"CHIN 212,CHIN 234"
-Seattle,CHIN 234,Second-Year Intensive Chinese for Non-Heritage Learners,15,VLPA,"CHIN 103,CHIN 134,CHIN 201,CHIN 202,CHIN 203"
+Seattle,CHIN 201,Second-Year Chinese for Non-Heritage Learners,5,VLPA,"CHIN 103,CHIN 134"
+Seattle,CHIN 202,Second-Year Chinese for Non-Heritage Learners,5,VLPA,CHIN 201
+Seattle,CHIN 203,Second-Year Chinese for Non-Heritage Learners,5,VLPA,CHIN 202
+Seattle,CHIN 211,Second-Year Chinese for Heritage Learners,5,VLPA,"CHIN 113,CHIN 138"
+Seattle,CHIN 212,Second-Year Chinese for Heritage Learners,5,VLPA,CHIN 211
+Seattle,CHIN 213,Second-Year Chinese for Heritage Learners,5,VLPA,CHIN 212
+Seattle,CHIN 234,Second-Year Intensive Chinese for Non-Heritage Learners,15,VLPA,"CHIN 103,CHIN 134"
 Seattle,CHIN 245,Foreign Study: Second-Year Chinese,,VLPA,
 Seattle,CHIN 301,Third-Year Chinese for Non-Heritage Learners,5,VLPA,CHIN 203
 Seattle,CHIN 302,Third-Year Chinese for Non-Heritage Learners,5,VLPA,CHIN 301
@@ -3795,7 +3795,7 @@ Seattle,CONJ 557,Microbial Evolution and Ecology,2,,MICROM 412
 Seattle,CONJ 558,Fundamentals of Prokaryotic Biology,1,,
 Seattle,CONJ 559,Scientific Ideas at Work,1,,
 Seattle,CONJ 562,Advanced Topics in Bacterial Physiology,1,,
-Seattle,CONJ 570,Introduction to the Clinical Management of Transgender Patients,1,,FAMED 561
+Seattle,CONJ 570,Introduction to the Clinical Management of Transgender Patients,1,,
 Seattle,CONJ 571,Introduction to the Clinical Management of Patients Who Are Transgender,1,,
 Seattle,CONJ 583,Molecular Targets in Cancer Therapy,1,,
 Seattle,CONJ 585,Surgical Anatomy,,,
@@ -3912,25 +3912,25 @@ Seattle,CSE 301,CSE Internship Education,,,
 Seattle,CSE 311,Foundations of Computing I,4,QSR,"CSE 143,MATH 126,MATH 136"
 Seattle,CSE 312,Foundations of Computing II,4,QSR,CSE 311
 Seattle,CSE 331,Software Design and Implementation,4,,CSE 143
-Seattle,CSE 332,Data Structures and Parallelism,4,,"CSE 311,CSE 373"
+Seattle,CSE 332,Data Structures and Parallelism,4,,CSE 311
 Seattle,CSE 333,Systems Programming,4,,CSE 351
-Seattle,CSE 341,Programming Languages,4,,"CSE 143,CSE 413"
+Seattle,CSE 341,Programming Languages,4,,CSE 143
 Seattle,CSE 344,Introduction to Data Management,4,,CSE 311
 Seattle,CSE 351,The Hardware/Software Interface,4,,CSE 143
 Seattle,CSE 352,Hardware Design and Implementation,4,,"CSE 311,CSE 351"
-Seattle,CSE 369,Introduction to Digital Design,2,,"CSE 311,EE 271"
+Seattle,CSE 369,Introduction to Digital Design,2,,CSE 311
 Seattle,CSE 371,Design of Digital Circuits and Systems,5,,"CSE 369,E E 205,E E 215,E E 271"
-Seattle,CSE 373,Data Structures and Algorithms,4,,"CSE 143,CSE 332"
-Seattle,CSE 374,Intermediate Programming Concepts and Tools,3,,"CSE 143,CSE 333"
+Seattle,CSE 373,Data Structures and Algorithms,4,,CSE 143
+Seattle,CSE 374,Intermediate Programming Concepts and Tools,3,,CSE 143
 Seattle,CSE 390,Special Topics in Computer Science and Engineering,,,
 Seattle,CSE 391,System and Software Tools,1,,CSE 143
 Seattle,CSE 399,CSE Foreign Study,,,
-Seattle,CSE 401,Introduction to Compiler Construction,4,,"CSE 332,CSE 351,CSE 413"
+Seattle,CSE 401,Introduction to Compiler Construction,4,,"CSE 332,CSE 351"
 Seattle,CSE 403,Software Engineering,4,,"CSE 331,CSE 332"
-Seattle,CSE 410,Computer Systems,3,,"CSE 351,CSE 373,CSE 451"
-Seattle,CSE 413,Programming Languages and Their Implementation,3,,"CSE 341,CSE 373,CSE 401"
-Seattle,CSE 414,Introduction to Database Systems,4,,"CSE 143,CSE 344"
-Seattle,CSE 415,Introduction to Artificial Intelligence,3,NW,"CSE 373,CSE 473"
+Seattle,CSE 410,Computer Systems,3,,CSE 373
+Seattle,CSE 413,Programming Languages and Their Implementation,3,,CSE 373
+Seattle,CSE 414,Introduction to Database Systems,4,,CSE 143
+Seattle,CSE 415,Introduction to Artificial Intelligence,3,NW,CSE 373
 Seattle,CSE 416,Introduction to Machine Learning,4,NW,"CSE 143,CSE 160,STAT 311,STAT 390"
 Seattle,CSE 417,Algorithms and Computational Complexity,3,,CSE 373
 Seattle,CSE 421,Introduction to Algorithms,3,,"CSE 312,CSE 332"
@@ -3943,7 +3943,7 @@ Seattle,CSE 442,Data Visualization,4,,CSE 332
 Seattle,CSE 444,Database Systems Internals,4,,"CSE 332,CSE 344"
 Seattle,CSE 446,Machine Learning,4,,"CSE 312,CSE 332,STAT 390,STAT 391"
 Seattle,CSE 450,Animation Production Seminar,1,,
-Seattle,CSE 451,Introduction to Operating Systems,4,,"CSE 332,CSE 333,CSE 351,CSE 410"
+Seattle,CSE 451,Introduction to Operating Systems,4,,"CSE 332,CSE 333,CSE 351"
 Seattle,CSE 452,Introduction to Distributed Systems,4,,CSE 451
 Seattle,CSE 454,Advanced Internet and Web Services,5,,"CSE 331,CSE 332,CSE 351,CSE 352"
 Seattle,CSE 455,Computer Vision,4,,"CSE 332,CSE 333"
@@ -3958,7 +3958,7 @@ Seattle,CSE 467,Advanced Digital Design,4,,"CSE 332,CSE 352"
 Seattle,CSE 469,Computer Architecture I,5,,"CSE 143,CSE 369,E E 271"
 Seattle,CSE 470,Computer Architecture II,4,,"CSE 351,CSE 469,E E 469,E E 471"
 Seattle,CSE 472,Introduction to Computational Linguistics,5,"NW,VLPA","CSE 311,LING 200,LING 400,LING 461"
-Seattle,CSE 473,Introduction to Artificial Intelligence,3,,"CSE 332,CSE 415"
+Seattle,CSE 473,Introduction to Artificial Intelligence,3,,CSE 332
 Seattle,CSE 474,Introduction to Embedded Systems,4,,CSE 143
 Seattle,CSE 475,Embedded Systems Capstone,5,,"CSE 369,CSE 466,CSE 474,E E 271,E E 472,E E 474"
 Seattle,CSE 481,Capstone Software Design,5,,"CSE 331,CSE 332,CSE 351,CSE 352"
@@ -4029,7 +4029,7 @@ Seattle,CSE 700,Master's Thesis,,,
 Seattle,CSE 800,Doctoral Dissertation,,,
 Seattle,CSE D 515,Software Design for Data Science,5,,DATA 514
 Seattle,CSE D 516,Scalable Data Systems and Algorithms,5,,"DATA 514,DATA 515"
-Seattle,CSE M 544,Database Systems,4,,"CSE 332,CSE 344,CSE 444"
+Seattle,CSE M 544,Database Systems,4,,"CSE 332,CSE 344"
 Seattle,CSE M 552,Introduction to Distributed Systems,4,,CSE 451
 Seattle,CSE M 584,Computer Security,4,,"CSE 351,CSE 451,CSE 461"
 Seattle,CSE P 501,Compiler Construction,4,,
@@ -4430,8 +4430,8 @@ Seattle,DRAMA 514,Design and Technical Theatre Colloquium,2,,
 Seattle,DRAMA 518,Studies in Historic Design,3,,
 Seattle,DRAMA 520,Advanced Theatre Practicum,,,
 Seattle,DRAMA 523,Digital Rendering,3,,
-Seattle,DRAMA 551,Teaching of Acting,,,"DRAMA 251,DRAMA 252,DRAMA 253"
-Seattle,DRAMA 552,Teaching of Acting,,,"DRAMA 251,DRAMA 252,DRAMA 253"
+Seattle,DRAMA 551,Teaching of Acting,,,
+Seattle,DRAMA 552,Teaching of Acting,,,
 Seattle,DRAMA 555,Studies in Acting,,,
 Seattle,DRAMA 557,Studio I,12,,
 Seattle,DRAMA 558,Studio II,12,,DRAMA 557
@@ -4497,7 +4497,7 @@ Seattle,E E 205,Introduction to Signal Conditioning,4,QSR,"MATH 126,MATH 136,PHY
 Seattle,E E 215,Fundamentals of Electrical Engineering,4,NW,"AMATH 351,MATH 126,MATH 136,MATH 307,PHYS 122"
 Seattle,E E 233,Circuit Theory,5,,E E 215
 Seattle,E E 235,Continuous Time Linear Systems,5,,"AMATH 351,CSE 142,CSE 143,MATH 136,MATH 307,PHYS 122"
-Seattle,E E 271,Digital Circuits and Systems,5,,"CSE 142,CSE 143,CSE 369"
+Seattle,E E 271,Digital Circuits and Systems,5,,"CSE 142,CSE 143"
 Seattle,E E 294,Innovation Readiness: Cultivating an Innovation Mindset,5,"I&S,NW","C LIT 240,ENGL 109,ENGL 111,ENGL 131,ENGL 182,ENGL 197,ENGL 198,ENGL 199,ENGL 281"
 Seattle,E E 299,Introductory Topics in Electrical Engineering,,NW,
 Seattle,E E 331,Devices and Circuits I,5,,E E 233
@@ -4547,7 +4547,7 @@ Seattle,E E 473,Linear Integrated Circuits,5,,E E 332
 Seattle,E E 474,Introduction to Embedded Systems,4,,CSE 143
 Seattle,E E 475,Embedded Systems Capstone,5,,"CSE 369,CSE 466,CSE 474,E E 271,E E 472,E E 474"
 Seattle,E E 476,Digital Integrated Circuit Design,5,,"E E 205,E E 215,E E 271"
-Seattle,E E 477,Vlsi Ii,5,,"E E 331,E E 476,E E 477,E E 525"
+Seattle,E E 477,Vlsi Ii,5,,"E E 331,E E 476"
 Seattle,E E 482,Semiconductor Devices,4,,"E E 331,E E 361"
 Seattle,E E 483,Nanotechnology Design,4,,EE 482
 Seattle,E E 484,Sensors and Sensor Systems,4,,E E 331
@@ -4581,7 +4581,7 @@ Seattle,E E 520,Spectral Analysis of Time Series,4,,"CS&SS 509,ECON 580,IND E 31
 Seattle,E E 521,Quantum Mechanics for Engineers,4,,"AMATH 351,MATH 307"
 Seattle,E E 523,Introduction to Synthetic Biology,3,,"AMATH 351,AMATH 352,CSE 311,MATH 136,MATH 307,MATH 308"
 Seattle,E E 524,Advanced Systems and Synthetic Biology,3,,"BIOEN 523,CSE 586,E E 523"
-Seattle,E E 525,Vlsi Ii,5,,"E E 476,E E 477,E E 525"
+Seattle,E E 525,Vlsi Ii,5,,E E 476
 Seattle,E E 526,Vlsi Iii,4,,"E E 477,E E 525"
 Seattle,E E 527,Microfabrication,4,,
 Seattle,E E 528,Physics and Modeling of VLSI Fabrication,4,,"E E 486,E E 502,E E 527,M E 504,MSE 467,MSE 504"
@@ -4684,7 +4684,7 @@ Seattle,ECON 300,Intermediate Microeconomics,5,I&S,"ECON 200,MATH 112,MATH 124,M
 Seattle,ECON 301,Intermediate Macroeconomics,5,I&S,"ECON 201,ECON 300"
 Seattle,ECON 315,Study Abroad: Economics,,I&S,
 Seattle,ECON 346,Using Economics to Solve Today's Healthcare Problems,4,I&S,ECON 200
-Seattle,ECON 382,Introduction to Econometrics,5,NW,"ECON 300,ECON 482"
+Seattle,ECON 382,Introduction to Econometrics,5,NW,ECON 300
 Seattle,ECON 399,Economics Internship,,,
 Seattle,ECON 400,Advanced Microeconomics,5,NW,"ECON 300,MATH 126"
 Seattle,ECON 401,Advanced Macroeconomics,5,NW,"ECON 301,MATH 126,MATH 129,MATH 136"
@@ -4726,7 +4726,7 @@ Seattle,ECON 475,Economics of the European Union,5,I&S,ECON 301
 Seattle,ECON 476,"Trade, Foreign Direct Investment, and Labor Migration",5,I&S,ECON 301
 Seattle,ECON 482,Econometric Theory and Practice,5,NW,"ECON 300,ECON 311,MATH 390,Q SCI 381,STAT 311,STAT 390"
 Seattle,ECON 483,Econometric Applications,5,NW,"ECON 301,ECON 311,MATH 390,Q SCI 381,STAT 311,STAT 341,STAT 390"
-Seattle,ECON 484,Econometrics and Data Science,5,NW,"ECON 482,ECON 483,MATH 126"
+Seattle,ECON 484,Econometrics and Data Science,5,NW,"ECON 482,MATH 126"
 Seattle,ECON 485,Game Theory With Applications to Economics,5,NW,ECON 300
 Seattle,ECON 486,Economics of Information,5,I&S,"ECON 300,ECON 402"
 Seattle,ECON 490,Comparative Economic Systems,5,I&S,ECON 301
@@ -5217,7 +5217,7 @@ Seattle,EDUC 411,Practicum in Community Service Activity,,VLPA,
 Seattle,EDUC 421,Practicum in Community Service Activity,,"I&S,VLPA",
 Seattle,EDUC 472,"Individuals, Groups, Organizations, and Institutions",5,I&S,
 Seattle,EDUC 473,Community Based Research and Practice,5,,"EDUC 251,EDUC 472"
-Seattle,EDUC 481,Community-Based Capstone I,5,,"EDUC 473,EDUC 482"
+Seattle,EDUC 481,Community-Based Capstone I,5,,EDUC 473
 Seattle,EDUC 482,Community-Based Capstone II,,,EDUC 481
 Seattle,EDUC 483,Community-Based Capstone III,5,,EDUC 482
 Seattle,EDUC 502,Advanced Practicum in Classroom Teaching and Management,,,
@@ -5537,7 +5537,7 @@ Seattle,ENTRE 443,Environmental Innovation Practicum,2,,
 Seattle,ENTRE 455,Entrepreneurial Marketing,4,,MKTG 301
 Seattle,ENTRE 457,Entrepreneurial Finance,4,,"B ECON 300,ECON 300,FIN 350"
 Seattle,ENTRE 459,Venture Investing,4,,
-Seattle,ENTRE 472,Creating a Company I,,,"ENTRE 370,ENTRE 473"
+Seattle,ENTRE 472,Creating a Company I,,,ENTRE 370
 Seattle,ENTRE 473,Creating a Company II,,,ENTRE 472
 Seattle,ENTRE 490,Special Topics in Entrepreneurship,,,
 Seattle,ENTRE 499,Undergraduate Research,,,ENTRE 370
@@ -5749,7 +5749,7 @@ Seattle,EPI 499,Undergraduate Research,,,
 Seattle,EPI 502,Physical Activity in Health and Disease,3,,
 Seattle,EPI 505,Preventing Healthcare Associated Infections,1,,
 Seattle,EPI 506,Surveillance Systems and Decision Making in Public Health,2,,
-Seattle,EPI 510,Epidemiologic Data Analysis,3,,"EPI 511,EPI 512,EPI 514"
+Seattle,EPI 510,Epidemiologic Data Analysis,3,,"EPI 511,EPI 512"
 Seattle,EPI 511,Introduction to Epidemiology,4,,
 Seattle,EPI 512,Epidemiologic Methods I,4,,BIOST 511
 Seattle,EPI 513,Epidemiologic Methods II,4,,EPI 512
@@ -5827,7 +5827,7 @@ Seattle,ESRM 399,Field or Teaching Internship,,,
 Seattle,ESRM 400,Natural Resource Conflict Management,3,"I&S,NW",
 Seattle,ESRM 401,Spring Comes to the Cascades,3,NW,
 Seattle,ESRM 403,Forest and Economic Development in the Developing World,4,NW,
-Seattle,ESRM 404,Plant Microbiology Laboratory,5,NW,"BIOL 180,CHEM 120,CHEM 142,ESRM 201"
+Seattle,ESRM 404,Plant Microbiology Laboratory,5,NW,
 Seattle,ESRM 405,"Growing Stuff: Ecology, Economy, and Culture of Resource-Production Ecosystems",5,"I&S,NW",
 Seattle,ESRM 409,Soil Ecology,5,NW,
 Seattle,ESRM 410,Forest Soils and Site Productivity,5,NW,
@@ -6161,8 +6161,8 @@ Seattle,FIN 502,Business Finance,4,,"ACCTG 500,B ECON 500,QMETH 500"
 Seattle,FIN 528,International Financial Management,4,,"B A 502,FIN 509"
 Seattle,FIN 530,Financial Management of Banks,4,,B ECON 520
 Seattle,FIN 550,Advanced Business Finance,4,,
-Seattle,FIN 551,Problems in Business Finance,4,,"B A 502,FIN 551,FIN 552"
-Seattle,FIN 552,Problems in Corporate Planning and Financing,4,,"B A 501,FIN 502,FIN 551,FIN 552"
+Seattle,FIN 551,Problems in Business Finance,4,,B A 502
+Seattle,FIN 552,Problems in Corporate Planning and Financing,4,,"B A 501,FIN 502"
 Seattle,FIN 553,Problems in Capital Investment Planning,4,,"B A 501,FIN 502"
 Seattle,FIN 555,"Financing Decisions, Payout Policy, and Corporate Control",4,,
 Seattle,FIN 556,Business Valuation and Investment Analysis,4,,
@@ -6225,7 +6225,7 @@ Seattle,FISH 489,Peer Teaching Assistants in Aquatic and Fishery Sciences,,,
 Seattle,FISH 491,Aquatic Ecological Research in Alaska,12,NW,
 Seattle,FISH 492,Ecology and Conservation of Marine Birds and Mammals,,NW,
 Seattle,FISH 493,Capstone Preparation,1,,FISH 290
-Seattle,FISH 494,Capstone Project I,,,"FISH 290,FISH 493,FISH 495,Q SCI 381"
+Seattle,FISH 494,Capstone Project I,,,"FISH 290,FISH 493,Q SCI 381"
 Seattle,FISH 495,Capstone Project II,,,
 Seattle,FISH 496,Study Abroad: Aquatic and Fishery Sciences,,NW,
 Seattle,FISH 497,Special Topics in Aquatic and Fishery Sciences,,NW,
@@ -6285,13 +6285,13 @@ Seattle,FRENCH 226,The Idea of Europe in French Film,5,"I&S,VLPA",
 Seattle,FRENCH 227,Intermediate Conversational French,2,VLPA,FRENCH 103
 Seattle,FRENCH 228,The Water Crisis in Literature and Film,5,"I&S,VLPA",
 Seattle,FRENCH 229,A Comparative Look at Immigrant Cultural Production in English,5,"DIV,VLPA",
-Seattle,FRENCH 234,Intermediate French Immersion,15,VLPA,"FRENCH 103,FRENCH 134,FRENCH 201,FRENCH 202,FRENCH 203"
+Seattle,FRENCH 234,Intermediate French Immersion,15,VLPA,"FRENCH 103,FRENCH 134"
 Seattle,FRENCH 237,Foreign Study Conversational French,,VLPA,
 Seattle,FRENCH 250,History of French Cinema in English,5,VLPA,
 Seattle,FRENCH 297,Foreign Study - French Civilization,,VLPA,
 Seattle,FRENCH 299,Foreign Study - Intermediate,,VLPA,
-Seattle,FRENCH 301,Advanced French,5,VLPA,"FRENCH 203,FRENCH 234,FRENCH 303"
-Seattle,FRENCH 302,Advanced French,5,VLPA,"FRENCH 301,FRENCH 303"
+Seattle,FRENCH 301,Advanced French,5,VLPA,"FRENCH 203,FRENCH 234"
+Seattle,FRENCH 302,Advanced French,5,VLPA,FRENCH 301
 Seattle,FRENCH 303,Advanced French,5,VLPA,FRENCH 302
 Seattle,FRENCH 304,Issues and Perspectives in French and Francophone Studies,5,VLPA,FRENCH 302
 Seattle,FRENCH 305,Texts and Traditions I,5,VLPA,FRENCH 302
@@ -6766,7 +6766,7 @@ Seattle,GREEK 101,Introductory Greek,5,VLPA,
 Seattle,GREEK 102,Introductory Greek,5,VLPA,GREEK 101
 Seattle,GREEK 103,Introductory Greek,5,VLPA,GREEK 102
 Seattle,GREEK 300,"Introductory Greek, Accelerated",5,VLPA,
-Seattle,GREEK 301,"Greek Language, Accelerated",5,VLPA,"GREEK 101,GREEK 300"
+Seattle,GREEK 301,"Greek Language, Accelerated",5,VLPA,GREEK 300
 Seattle,GREEK 304,Introductory Readings in Greek Literature,5,VLPA,
 Seattle,GREEK 305,Attic Prose,5,VLPA,
 Seattle,GREEK 306,Attic Prose,5,VLPA,GREEK 305
@@ -6992,7 +6992,7 @@ Seattle,HCDE 548,Advanced Topics in Human Centered Design and Engineering,4,,
 Seattle,HCDE 592,Capstone Planning,1,,
 Seattle,HCDE 593,Capstone,4,,"HCDE 518,HCDE 592"
 Seattle,HCDE 596,Directed Research in Human Centered Design and Engineering,,,
-Seattle,HCDE 597,Approaches to Teaching Technical Communication,,,"HCDE 231,HCDE 333"
+Seattle,HCDE 597,Approaches to Teaching Technical Communication,,,
 Seattle,HCDE 599,Special Projects,,,
 Seattle,HCDE 600,Independent Study or Research,,,
 Seattle,HCDE 601,Internship,,,
@@ -8090,7 +8090,7 @@ Seattle,ITAL 201,Intermediate Italian,5,VLPA,"ITAL 103,ITAL 113,ITAL 134"
 Seattle,ITAL 202,Intermediate Italian,5,VLPA,ITAL 201
 Seattle,ITAL 203,Intermediate Italian,5,VLPA,ITAL 202
 Seattle,ITAL 227,Intermediate Conversational Italian,2,VLPA,ITAL 103
-Seattle,ITAL 234,Intensive Second-Year Italian,15,VLPA,"ITAL 103,ITAL 113,ITAL 134,ITAL 201,ITAL 202,ITAL 203"
+Seattle,ITAL 234,Intensive Second-Year Italian,15,VLPA,"ITAL 103,ITAL 113,ITAL 134"
 Seattle,ITAL 250,Rome,5,"I&S,VLPA",
 Seattle,ITAL 260,"Fashion, Nation, and Culture",5,"I&S,VLPA",
 Seattle,ITAL 261,Italian Cities,5,VLPA,
@@ -8104,7 +8104,7 @@ Seattle,ITAL 305,Texts and Traditions I,5,VLPA,
 Seattle,ITAL 306,Texts and Traditions II,5,VLPA,ITAL 303
 Seattle,ITAL 318,Italian Literature in English,5,VLPA,
 Seattle,ITAL 327,Advanced Conversation,2,VLPA,"ITAL 203,ITAL 234"
-Seattle,ITAL 334,Intensive Third-Year Italian,15,VLPA,"ITAL 203,ITAL 234,ITAL 301,ITAL 302,ITAL 303"
+Seattle,ITAL 334,Intensive Third-Year Italian,15,VLPA,"ITAL 203,ITAL 234"
 Seattle,ITAL 341,Italian and American Poetry in Translation,5,VLPA,"ITAL 203,ITAL 234"
 Seattle,ITAL 342,Advanced Italian Composition and Essay Writing,5,VLPA,"ITAL 203,ITAL 234"
 Seattle,ITAL 343,Stylistics and Rhetoric,5,VLPA,"ITAL 203,ITAL 234"
@@ -8159,7 +8159,7 @@ Seattle,JAPAN 145,Foreign Study: Elementary Japanese,,,
 Seattle,JAPAN 211,Second-Year Japanese,5,VLPA,"JAPAN 113,JAPAN 134"
 Seattle,JAPAN 212,Second-Year Japanese,5,VLPA,JAPAN 211
 Seattle,JAPAN 213,Second-Year Japanese,5,VLPA,JAPAN 212
-Seattle,JAPAN 234,Second-Year Intensive Japanese,15,VLPA,"JAPAN 113,JAPAN 134,JAPAN 211,JAPAN 212,JAPAN 213,JAPAN 311"
+Seattle,JAPAN 234,Second-Year Intensive Japanese,15,VLPA,"JAPAN 113,JAPAN 134"
 Seattle,JAPAN 245,Foreign Study: Intermediate Japanese,,VLPA,
 Seattle,JAPAN 311,Third-Year Japanese,5,VLPA,"JAPAN 213,JAPAN 234"
 Seattle,JAPAN 312,Third-Year Japanese,5,VLPA,JAPAN 311
@@ -8169,9 +8169,9 @@ Seattle,JAPAN 321,Japanese Literature I,5,VLPA,
 Seattle,JAPAN 322,Japanese Literature II,5,VLPA,
 Seattle,JAPAN 323,Japanese Literature III,5,VLPA,
 Seattle,JAPAN 325,Introduction to Japanese Film,5,VLPA,
-Seattle,JAPAN 334,Third-Year Intensive Japanese,15,VLPA,"JAPAN 213,JAPAN 234,JAPAN 311,JAPAN 312,JAPAN 313"
+Seattle,JAPAN 334,Third-Year Intensive Japanese,15,VLPA,"JAPAN 213,JAPAN 234"
 Seattle,JAPAN 342,The Japanese Language,5,VLPA,"JAPAN 311,JAPAN 312,JAPAN 313,JAPAN 334,JAPAN 422,JAPAN 423"
-Seattle,JAPAN 343,Japanese Language in Society,5,"I&S,VLPA","JAPAN 311,JAPAN 312,JAPAN 313,JAPAN 334,JAPAN 345,JAPAN 421,JAPAN 422,JAPAN 423,JAPAN 431,JAPAN 432,JAPAN 433,JAPAN 445"
+Seattle,JAPAN 343,Japanese Language in Society,5,"I&S,VLPA",
 Seattle,JAPAN 345,Foreign Study: Advanced Japanese,,VLPA,
 Seattle,JAPAN 360,Topics in Japanese Culture,5,VLPA,
 Seattle,JAPAN 361,Topics in Japanese Film,5,VLPA,
@@ -8681,7 +8681,7 @@ Seattle,JSIS E 134,Intensive Elementary Modern Greek,15,,
 Seattle,JSIS E 201,Intermediate Khmer,5,,JSIS E 103
 Seattle,JSIS E 202,Intermediate Khmer,5,,JSIS E 201
 Seattle,JSIS E 203,Intermediate Khmer,5,,JSIS E 202
-Seattle,JSIS E 211,Second-Year Modern Greek,5,VLPA,"JSIS E 111,JSIS E 113"
+Seattle,JSIS E 211,Second-Year Modern Greek,5,VLPA,JSIS E 113
 Seattle,JSIS E 212,Second-Year Modern Greek,5,VLPA,
 Seattle,JSIS E 213,Second-Year Modern Greek,5,VLPA,
 Seattle,JSIS E 428,Perspectives on East Asia for Teachers,3,I&S,
@@ -8824,7 +8824,7 @@ Seattle,LATIN 101,Introductory Latin,5,VLPA,
 Seattle,LATIN 102,Introductory Latin,5,VLPA,LATIN 101
 Seattle,LATIN 103,Introductory Latin,5,VLPA,LATIN 102
 Seattle,LATIN 300,"Introductory Latin, Accelerated",5,VLPA,
-Seattle,LATIN 301,"Introductory Latin, Accelerated",5,VLPA,"LATIN 101,LATIN 300"
+Seattle,LATIN 301,"Introductory Latin, Accelerated",5,VLPA,LATIN 300
 Seattle,LATIN 304,Introductory Readings in Latin Literature,5,VLPA,
 Seattle,LATIN 305,Introduction to Latin Literature,5,VLPA,
 Seattle,LATIN 306,Cicero and Ovid,5,VLPA,LATIN 305
@@ -8970,7 +8970,7 @@ Seattle,LAW A 592,Constitutional Law II,,,LAW A 507
 Seattle,LAW A 595,Jurisprudence and Legal Philosophy,,,
 Seattle,LAW A 597,Intensive Legal Writing Workshop,,,
 Seattle,LAW A 598,Legal Research I,3,,
-Seattle,LAW A 599,Legal Research Methods,,,"LAW A 598,LIS 591"
+Seattle,LAW A 599,Legal Research Methods,,,LIS 591
 Seattle,LAW B 500,Civil Procedure II,,,
 Seattle,LAW B 503,Evidence,,,
 Seattle,LAW B 506,Conflicts of Laws,,,
@@ -9405,7 +9405,7 @@ Seattle,LIS 587,Library Technology Systems,4,,LIS 580
 Seattle,LIS 588,Special Librarianship,3,,
 Seattle,LIS 590,Directed Fieldwork,,,"LIS 510,LIS 520,LIS 530,LIS 547,LIS 570"
 Seattle,LIS 591,Legal Research I,3,,
-Seattle,LIS 592,Legal Research Methods,,,"LAW A 598,LIS 591"
+Seattle,LIS 592,Legal Research Methods,,,LIS 591
 Seattle,LIS 593,Selection and Processing of Law Library Materials,3,,LIS 591
 Seattle,LIS 594,Law Library Administration,4,,LIS 591
 Seattle,LIS 595,Current Issues in Law Librarianship,,,
@@ -9590,7 +9590,7 @@ Seattle,M SCI 202,Military Science and Foundations of Tactical Leadership,3,,
 Seattle,M SCI 203,Military Science and Transformational Leadership,3,,
 Seattle,M SCI 301,Military Science and Tactical Leadership,3,,"M SCI 101,M SCI 102,M SCI 103,M SCI 201,M SCI 202,M SCI 203"
 Seattle,M SCI 302,Military Science and Applied Leadership,3,,"M SCI 101,M SCI 102,M SCI 103,M SCI 201,M SCI 202,M SCI 203"
-Seattle,M SCI 303,Military Science and Advanced Tactical Leadership,3,,"M SCI 101,M SCI 102,M SCI 103,M SCI 201,M SCI 202,M SCI 203,M SCI 301,M SCI 302"
+Seattle,M SCI 303,Military Science and Advanced Tactical Leadership,3,,"M SCI 101,M SCI 102,M SCI 103,M SCI 201,M SCI 202,M SCI 203"
 Seattle,M SCI 305,Practicum-Techniques of Military Instructions,,,"M SCI 101,M SCI 102,M SCI 103,M SCI 201,M SCI 202,M SCI 203"
 Seattle,M SCI 310,Military Science Advanced Leadership Laboratory,1,,M SCI 110
 Seattle,M SCI 401,Military Science and Developmental Leadership,3,I&S,"M SCI 301,M SCI 302"
@@ -9599,7 +9599,7 @@ Seattle,M SCI 403,Military Science and Advanced Leadership,3,I&S,"M SCI 301,M SC
 Seattle,MATH 098,Intermediate Algebra,0,,
 Seattle,MATH 100,Algebra,5,,
 Seattle,MATH 102,Algebra,5,,MATH 100
-Seattle,MATH 103,Introduction to Elementary Functions,5,,"MATH 100,MATH 102"
+Seattle,MATH 103,Introduction to Elementary Functions,5,,MATH 102
 Seattle,MATH 111,Algebra With Applications,5,"NW,QSR","MATH 098,MATH 102,MATH 103"
 Seattle,MATH 112,Application of Calculus to Business and Economics,5,"NW,QSR",MATH 111
 Seattle,MATH 120,Precalculus,5,NW,"MATH 098,MATH 103"
@@ -9607,8 +9607,8 @@ Seattle,MATH 124,Calculus With Analytic Geometry I,5,"NW,QSR",MATH 120
 Seattle,MATH 125,Calculus With Analytic Geometry II,5,NW,MATH 124
 Seattle,MATH 126,Calculus With Analytic Geometry III,5,NW,MATH 125
 Seattle,MATH 134,Accelerated [Honors] Calculus,5,"NW,QSR",
-Seattle,MATH 135,Accelerated [Honors] Calculus,5,NW,"MATH 124,MATH 125,MATH 126,MATH 134,MATH 135,MATH 307,MATH 308"
-Seattle,MATH 136,Accelerated [Honors] Calculus,5,NW,"MATH 124,MATH 125,MATH 126,MATH 135,MATH 136,MATH 307,MATH 308"
+Seattle,MATH 135,Accelerated [Honors] Calculus,5,NW,MATH 134
+Seattle,MATH 136,Accelerated [Honors] Calculus,5,NW,MATH 135
 Seattle,MATH 197,Problem Solving in Mathematics,2,NW,
 Seattle,MATH 198,Special Topics in Mathematics,,,
 Seattle,MATH 300,Introduction to Mathematical Reasoning,3,NW,"MATH 126,MATH 136"
@@ -9619,13 +9619,13 @@ Seattle,MATH 309,Linear Analysis,3,NW,"MATH 136,MATH 307,MATH 308"
 Seattle,MATH 324,Advanced Multivariable Calculus I,3,NW,"MATH 126,MATH 136"
 Seattle,MATH 327,Introductory Real Analysis I,3,NW,"MATH 300,MATH 334"
 Seattle,MATH 328,Introductory Real Analysis II,3,NW,MATH 327
-Seattle,MATH 334,Accelerated [Honors] Advanced Calculus,5,NW,"MATH 126,MATH 136,MATH 300,MATH 307,MATH 308,MATH 309,MATH 324,MATH 327,MATH 328,MATH 427"
-Seattle,MATH 335,Accelerated [Honors] Advanced Calculus,5,NW,"MATH 300,MATH 309,MATH 324,MATH 327,MATH 328,MATH 334,MATH 427"
-Seattle,MATH 336,Accelerated [Honors] Advanced Calculus,5,NW,"MATH 300,MATH 309,MATH 324,MATH 327,MATH 328,MATH 335,MATH 427"
+Seattle,MATH 334,Accelerated [Honors] Advanced Calculus,5,NW,"MATH 126,MATH 136,MATH 307,MATH 308"
+Seattle,MATH 335,Accelerated [Honors] Advanced Calculus,5,NW,MATH 334
+Seattle,MATH 336,Accelerated [Honors] Advanced Calculus,5,NW,MATH 335
 Seattle,MATH 340,Abstract Linear Algebra,3,NW,"MATH 300,MATH 308,MATH 334"
 Seattle,MATH 380,Intermediate Topics in Undergraduate Mathematics,3,NW,
 Seattle,MATH 381,Discrete Mathematical Modeling,3,NW,"AMATH 301,CSE 142,CSE 143,MATH 136,MATH 308"
-Seattle,MATH 390,Statistical Methods in Engineering and Science,4,NW,"ECON 481,ECON 580,MATH 126,MATH 136,STAT 390,STAT 481"
+Seattle,MATH 390,Statistical Methods in Engineering and Science,4,NW,"MATH 126,MATH 136"
 Seattle,MATH 394,Probability I,3,NW,"MATH 126,MATH 136"
 Seattle,MATH 395,Probability II,3,NW,MATH 394
 Seattle,MATH 396,Probability III,3,NW,"MATH 395,STAT 340,STAT 341,STAT 395"
@@ -9637,8 +9637,8 @@ Seattle,MATH 404,Introduction to Modern Algebra,3,NW,MATH 403
 Seattle,MATH 407,Linear Optimization,3,NW,"AMATH 352,MATH 136,MATH 308"
 Seattle,MATH 408,Nonlinear Optimization,3,NW,"MATH 327,MATH 334,MATH 407,MATH 464"
 Seattle,MATH 409,Discrete Optimization,3,NW,"MATH 300,MATH 407"
-Seattle,MATH 411,Introduction to Modern Algebra for Teachers,3,NW,"MATH 136,MATH 308,MATH 402,MATH 403"
-Seattle,MATH 412,Introduction to Modern Algebra for Teachers,3,NW,"MATH 402,MATH 403,MATH 411"
+Seattle,MATH 411,Introduction to Modern Algebra for Teachers,3,NW,"MATH 136,MATH 308"
+Seattle,MATH 412,Introduction to Modern Algebra for Teachers,3,NW,MATH 411
 Seattle,MATH 420,History of Mathematics,3,NW,"MATH 126,MATH 136"
 Seattle,MATH 424,Fundamental Concepts of Analysis,3,NW,"MATH 324,MATH 328,MATH 335"
 Seattle,MATH 425,Fundamental Concepts of Analysis,3,NW,"MATH 136,MATH 308,MATH 424"
@@ -10156,12 +10156,12 @@ Seattle,MICROM 412,Prokaryotic Diversity,3,NW,BIOL 200
 Seattle,MICROM 413,Special Topics in Microbiology,1,,
 Seattle,MICROM 431,Prokaryotic Recombinant DNA Techniques,3,NW,"BIOL 200,MICROM 301"
 Seattle,MICROM 435,Microbial Ecology,3,NW,BIOL 180
-Seattle,MICROM 442,Medical Bacteriology,3,NW,"BIOL 200,MICROM 443"
+Seattle,MICROM 442,Medical Bacteriology,3,NW,BIOL 200
 Seattle,MICROM 443,Medical Bacteriology Laboratory,3,NW,BIOL 200
 Seattle,MICROM 445,Medical Virology,3,NW,"BIOL 180,BIOL 200"
 Seattle,MICROM 450,Molecular Biology of Viruses,3,NW,BIOL 200
-Seattle,MICROM 460,Medical Mycology and Parasitology,3,,"BIOL 200,MICROM 301,MICROM 461"
-Seattle,MICROM 461,Medical Mycology and Parasitology Laboratory,2,,MICROM 460
+Seattle,MICROM 460,Medical Mycology and Parasitology,3,,"BIOL 200,MICROM 301"
+Seattle,MICROM 461,Medical Mycology and Parasitology Laboratory,2,,
 Seattle,MICROM 482,Peer Teaching Assistants in Microbiology,,,"MICROM 402,MICROM 410"
 Seattle,MICROM 495,Honors Undergraduate Research,,,
 Seattle,MICROM 496,Undergraduate Library Research,2,,
@@ -10240,8 +10240,8 @@ Seattle,MKTG 599,Doctoral Seminar in Marketing,1,,
 Seattle,MKTG 600,Independent Study or Research,,,
 Seattle,MODHEB 100,Introduction to Hebrew Language and Culture,2,"I&S,VLPA",
 Seattle,MODHEB 101,Elementary Modern Hebrew,5,,
-Seattle,MODHEB 102,Elementary Modern Hebrew,5,,"MODHEB 101,MODHEB 105"
-Seattle,MODHEB 103,Elementary Modern Hebrew,5,,"MODHEB 102,MODHEB 105"
+Seattle,MODHEB 102,Elementary Modern Hebrew,5,,MODHEB 101
+Seattle,MODHEB 103,Elementary Modern Hebrew,5,,MODHEB 102
 Seattle,MODHEB 105,Intensive Elementary Modern Hebrew,15,,
 Seattle,MODHEB 199,Study Abroad,,,
 Seattle,MODHEB 200,Hebrew Conversation,2,"I&S,VLPA","MODHEB 103,MODHEB 105"
@@ -10650,7 +10650,7 @@ Seattle,MUSIC 407,Liturgics and Hymnology: Practical Applications III,3,VLPA,"MU
 Seattle,MUSIC 410,ElectroAcoustic Music: History and Analysis,3,VLPA,"MUHST 210,MUSIC 303,MUSIC 306"
 Seattle,MUSIC 411,Free Improvisation/Modern Jazz Composition I,2,VLPA,
 Seattle,MUSIC 412,Free Improvisation/Modern Jazz Composition II,2,VLPA,MUSIC 411
-Seattle,MUSIC 413,Free Improvisation/Modern Jazz Composition III,2,VLPA,"MUSIC 411,MUSIC 412"
+Seattle,MUSIC 413,Free Improvisation/Modern Jazz Composition III,2,VLPA,MUSIC 412
 Seattle,MUSIC 414,Finding an American Voice,3,VLPA,
 Seattle,MUSIC 415,The American Musical,3,VLPA,
 Seattle,MUSIC 416,The Blues,3,VLPA,
@@ -10732,9 +10732,9 @@ Seattle,MUSIC 528,History of Theory,3,,
 Seattle,MUSIC 530,Seminar in Music Cognition,3,,"MUSIC 344,MUSIC 544"
 Seattle,MUSIC 531,Proseminar in Ethnomusicology,3,,
 Seattle,MUSIC 532,Opera Direction and Production,,,
-Seattle,MUSIC 533,Preceptorial Readings in Ethnomusicology,5,,MUSIC 316
-Seattle,MUSIC 534,Preceptorial Readings in Ethnomusicology,5,,MUSIC 317
-Seattle,MUSIC 535,Preceptorial Readings in Ethnomusicology,5,,MUSIC 318
+Seattle,MUSIC 533,Preceptorial Readings in Ethnomusicology,5,,
+Seattle,MUSIC 534,Preceptorial Readings in Ethnomusicology,5,,
+Seattle,MUSIC 535,Preceptorial Readings in Ethnomusicology,5,,
 Seattle,MUSIC 536,Transcription and Analysis,3,,
 Seattle,MUSIC 540,Music in Asian America,3,,
 Seattle,MUSIC 542,Comparative Analysis and Musicianship,3,,
@@ -11206,7 +11206,7 @@ Seattle,NMETH 581,Observational Research Methods,,,
 Seattle,NMETH 584,Methods: Physiologic Measures,4,,
 Seattle,NMETH 590,Special Topics in Nursing Research,,,
 Seattle,NMETH 591,The Science of Therapeutics: Design and Outcomes,4,,"NMETH 579,NURS 592"
-Seattle,NMETH 592,Clinical Outcome Research II,,,NMETH 591
+Seattle,NMETH 592,Clinical Outcome Research II,,,
 Seattle,NMETH 598,Special Projects,,,NMETH 520
 Seattle,NMETH 600,Independent Study or Research,,,
 Seattle,NMETH 700,Master's Thesis,,,
@@ -11324,7 +11324,7 @@ Seattle,NURS 597,Health in the Context of Culture,,,
 Seattle,NURS 599,Selected Readings in Nursing Science,,,
 Seattle,NUTR 141,Introduction to Foods,5,NW,
 Seattle,NUTR 200,Nutrition for Today,4,NW,
-Seattle,NUTR 241,Culinary Nutrition Science,3,NW,"NUTR 200,NUTR 441"
+Seattle,NUTR 241,Culinary Nutrition Science,3,NW,NUTR 200
 Seattle,NUTR 302,Food Studies: Harvest to Health,3,"I&S,NW",NUTR 200
 Seattle,NUTR 303,Neighborhood Nutrition,3,NW,NUTR 200
 Seattle,NUTR 310,Nutrition and the Life Course,4,NW,NUTR 200
@@ -11382,11 +11382,11 @@ Seattle,OB GYN 551,Perinatal Care Elective,1,,
 Seattle,OB GYN 579,P-Obstetric and Gynecologic Investigation,,,
 Seattle,OB GYN 598,P-Ob/Gyn Independent Study and Remediation,,,
 Seattle,OB GYN 630,P-Write Obstetrics and Gynecology Clinical Clerkship,,,
-Seattle,OB GYN 631,"P-Introduction to Obstetrics and Gynecology, NWHMC",,,OB GYN 665
+Seattle,OB GYN 631,"P-Introduction to Obstetrics and Gynecology, NWHMC",,,
 Seattle,OB GYN 632,P-Introduction to Obstetrics and Gynecology - Bellingham,,,
 Seattle,OB GYN 633,P-Introduction to Obstetrics and Gynecology- Spokane Rockwood,12,,
 Seattle,OB GYN 638,"P-Gynecology Planned Parenthood- Spokane, WA",4,,
-Seattle,OB GYN 639,"P-Introduction to Obstetrics and Gynecology, St. Alphonsus",,,OB GYN 665
+Seattle,OB GYN 639,"P-Introduction to Obstetrics and Gynecology, St. Alphonsus",,,
 Seattle,OB GYN 643,P-Introduction to Obstetrics and Gynecology- Powell WY,,,
 Seattle,OB GYN 644,"P-Introduction to Obstetrics and Gynecology - Gillette, WY",12,,HUBIO 565
 Seattle,OB GYN 645,"P-Introduction to Obstetrics and Gynecology - Sheridan, WY",12,,HUBIO 565
@@ -11395,39 +11395,39 @@ Seattle,OB GYN 647,"Introduction to Obstetrics and Gynecology - Nampa, ID",,,HUB
 Seattle,OB GYN 650,"P-Introduction to Obstetrics and Gynecology - Kalispell, MT",12,,HUBIO 565
 Seattle,OB GYN 651,"P-Introduction to Obstetrics and Gynecology - Helena, MT",12,,HUBIO 565
 Seattle,OB GYN 652,"P-Introduction to Obstetrics and Gynecology - Bozeman, MT - Deaconess Women's Specialists",12,,
-Seattle,OB GYN 653,"Introduction to Obstetrics and Gynecology - Ellensburg, WA",12,,OB GYN 665
+Seattle,OB GYN 653,"Introduction to Obstetrics and Gynecology - Ellensburg, WA",12,,
 Seattle,OB GYN 654,"Introduction to Obstetrics and Gynecology - Moses Lake, WA",12,,
-Seattle,OB GYN 656,P-Introduction to Obstetrics and Gynecology - Wasilla,,,OB GYN 665
-Seattle,OB GYN 657,P-Introduction to Obstetrics and Gynecology - Lander,,,OB GYN 665
-Seattle,OB GYN 659,P-Introduction to Obstetrics and Gynecology - Cody,,,OB GYN 665
+Seattle,OB GYN 656,P-Introduction to Obstetrics and Gynecology - Wasilla,,,
+Seattle,OB GYN 657,P-Introduction to Obstetrics and Gynecology - Lander,,,
+Seattle,OB GYN 659,P-Introduction to Obstetrics and Gynecology - Cody,,,
 Seattle,OB GYN 660,"P-Introduction to Obstetrics and Gynecology - Billings, St. Vincent",,,HUBIO 565
-Seattle,OB GYN 662,P-Introduction to Obstetrics and Gynecology - Libby,,,OB GYN 665
-Seattle,OB GYN 663,P-Introduction to Obstetrics and Gynecology - Wenatchee,,,OB GYN 665
-Seattle,OB GYN 664,P-Introduction to Obstetrics and Gynecology - GH Tacoma,,,OB GYN 665
+Seattle,OB GYN 662,P-Introduction to Obstetrics and Gynecology - Libby,,,
+Seattle,OB GYN 663,P-Introduction to Obstetrics and Gynecology - Wenatchee,,,
+Seattle,OB GYN 664,P-Introduction to Obstetrics and Gynecology - GH Tacoma,,,
 Seattle,OB GYN 665,P-Introduction to Obstetrics and Gynecology - UH-HMC,,,HUBIO 565
 Seattle,OB GYN 666,P-Introduction to Obstetrics and Gynecology - Boise,,,HUBIO 565
-Seattle,OB GYN 667,P-Introduction to Obstetrics and Gynecology - Madigan,,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 668,P-Introduction to Obstetrics and Gynecology - Spokane,12,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 669,P-Introduction to Obstetrics and Gynecology - Swedish,12,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 670,P-Introduction to Obstetrics and Gynecology - GH-Central,12,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 671,P-Introduction to Obstetrics and Gynecology - Anchorage,12,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 672,P-Introduction to Obstetrics and Gynecology - GH-East,12,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 676,P-Introduction to Obstetrics and Gynecology - Missoula,12,,"HUBIO 565,OB GYN 665"
+Seattle,OB GYN 667,P-Introduction to Obstetrics and Gynecology - Madigan,,,HUBIO 565
+Seattle,OB GYN 668,P-Introduction to Obstetrics and Gynecology - Spokane,12,,HUBIO 565
+Seattle,OB GYN 669,P-Introduction to Obstetrics and Gynecology - Swedish,12,,HUBIO 565
+Seattle,OB GYN 670,P-Introduction to Obstetrics and Gynecology - GH-Central,12,,HUBIO 565
+Seattle,OB GYN 671,P-Introduction to Obstetrics and Gynecology - Anchorage,12,,HUBIO 565
+Seattle,OB GYN 672,P-Introduction to Obstetrics and Gynecology - GH-East,12,,HUBIO 565
+Seattle,OB GYN 676,P-Introduction to Obstetrics and Gynecology - Missoula,12,,HUBIO 565
 Seattle,OB GYN 677,P-Introduction to Obstetrics and Gynecology - Rock Springs,12,,
-Seattle,OB GYN 678,P-Introduction to Obstetrics and Gynecology - Billings,,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 679,P-Introduction to Obstetrics and Gynecology - Cheyenne,,,"HUBIO 565,OB GYN 665"
+Seattle,OB GYN 678,P-Introduction to Obstetrics and Gynecology - Billings,,,HUBIO 565
+Seattle,OB GYN 679,P-Introduction to Obstetrics and Gynecology - Cheyenne,,,HUBIO 565
 Seattle,OB GYN 681,P-Gynecological Oncology Subspecialty,8,,
 Seattle,OB GYN 682,P-Antenatal High-Risk Obstetrics,8,,
 Seattle,OB GYN 683,"P-Gynecological Oncology Subspecialty - Boise, ID",,,
 Seattle,OB GYN 685,P-Subspecialty Gynecology - UWMC,8,,
-Seattle,OB GYN 686,P-Introduction to Obstetrics and Gynecology - Yakima,,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 687,P-Introduction to Obstetrics and Gynecology - Fairbanks,,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 689,P-Introduction to Obstetrics and Gynecology - Havre,,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 690,P-Introduction to Obstetrics and Gynecology - Sandpoint,,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 691,P-Introduction to Obstetrics and Gynecology - Tacoma,,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 692,"P-Introduction to Obstetrics and Gynecology - Bozeman, MT - Bozeman OB/GYN",,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 693,P-Introduction to Obstetrics and Gynecology - Valley Medical Center,,,"HUBIO 565,OB GYN 665"
-Seattle,OB GYN 695,P-Introduction to Obstetrics and Gynecology - Tri Cities,,,"HUBIO 565,OB GYN 665"
+Seattle,OB GYN 686,P-Introduction to Obstetrics and Gynecology - Yakima,,,HUBIO 565
+Seattle,OB GYN 687,P-Introduction to Obstetrics and Gynecology - Fairbanks,,,HUBIO 565
+Seattle,OB GYN 689,P-Introduction to Obstetrics and Gynecology - Havre,,,HUBIO 565
+Seattle,OB GYN 690,P-Introduction to Obstetrics and Gynecology - Sandpoint,,,HUBIO 565
+Seattle,OB GYN 691,P-Introduction to Obstetrics and Gynecology - Tacoma,,,HUBIO 565
+Seattle,OB GYN 692,"P-Introduction to Obstetrics and Gynecology - Bozeman, MT - Bozeman OB/GYN",,,HUBIO 565
+Seattle,OB GYN 693,P-Introduction to Obstetrics and Gynecology - Valley Medical Center,,,HUBIO 565
+Seattle,OB GYN 695,P-Introduction to Obstetrics and Gynecology - Tri Cities,,,HUBIO 565
 Seattle,OB GYN 697,P-Obstetrics and Gynecology Special Electives,,,
 Seattle,OB GYN 699,P-Wwami Obstetrics and Gynecology Special Electives,,,
 Seattle,OCEAN 100,Explore Oceanography at UW,1,,
@@ -11438,7 +11438,7 @@ Seattle,OCEAN 121,Deep Sea Exploration: Submarine Volcanoes and Novel Life Forms
 Seattle,OCEAN 200,Introduction to Oceanography,3,NW,
 Seattle,OCEAN 201,Introduction to Oceanography Lab,2,NW,
 Seattle,OCEAN 210,Integrative Oceans,4,NW,"BIOL 250,FISH 250,OCEAN 200,OCEAN 250"
-Seattle,OCEAN 215,Methods of Oceanographic Data Analysis,4,,MATH 125
+Seattle,OCEAN 215,Methods of Oceanographic Data Analysis,4,,
 Seattle,OCEAN 220,Introduction to Field Oceanography,,NW,"BIOL 250,OCEAN 200,OCEAN 250"
 Seattle,OCEAN 230,Rivers and Beaches,,NW,
 Seattle,OCEAN 235,Arctic Change,,"I&S,NW",
@@ -11574,7 +11574,7 @@ Seattle,OPMGT 560,Supply Chain Management,4,,
 Seattle,OPMGT 570,Operations Strategy,4,,"B A 502,OPMGT 502"
 Seattle,OPMGT 579,Special Topics in Operations Management,,,"B A 502,OPGMT 502"
 Seattle,OPMGT 581,Advanced Research Topics in Operations Management I,4,,
-Seattle,OPMGT 582,Advanced Research Topics in Operations Management II,4,,OPGMT 581
+Seattle,OPMGT 582,Advanced Research Topics in Operations Management II,4,,
 Seattle,OPMGT 583,Advanced Research Topics in Operations Management III,4,,
 Seattle,OPMGT 584,Fundamentals of Operations Management Research,4,,QMETH 580
 Seattle,OPMGT 587,Advanced Topics in Inventory Management,4,,QMETH 592
@@ -11771,7 +11771,7 @@ Seattle,PATH 560,Molecular Analysis of Human Disease,,,
 Seattle,PATH 580,Mitochondria and Metabolism in the Pathogenesis of Human Disease,1,,
 Seattle,PATH 590,Patient-Centered Translational Research,1,,
 Seattle,PATH 600,Independent Study or Research,,,
-Seattle,PATH 667,P-Renal Pathology Laboratory,,,MED 693
+Seattle,PATH 667,P-Renal Pathology Laboratory,,,
 Seattle,PATH 676,P-Diagnostic Pathology Clerkship - Spokane,,,
 Seattle,PATH 677,P-Neuropathology Clerkship - HMC,,,
 Seattle,PATH 678,"P-Diagnostic Pathology Clerkship - Medical Examiner's Office, Alaska",,,
@@ -12037,9 +12037,9 @@ Seattle,PHARM 565,Applied Pharmacotherapeutics III,2,,
 Seattle,PHARM 566,Applied Pharmacokinetics,2,,PCEUT 532
 Seattle,PHARM 567,Cancer Pharmacotherapeutics,2,,"PHARM 561,PHARM 565"
 Seattle,PHARM 568,Health Economics,3,,
-Seattle,PHARM 569,Fluid and Electrolytes and Parenteral Nutrition,2,,"PHARM 561,PHARM 565"
+Seattle,PHARM 569,Fluid and Electrolytes and Parenteral Nutrition,2,,
 Seattle,PHARM 570,Critical Care Pharmacotherapeutics,2,,
-Seattle,PHARM 571,Current Topics in Acute Care Pharmacotherapy,1,,"PHARM 561,PHARM 565,PHARM 570"
+Seattle,PHARM 571,Current Topics in Acute Care Pharmacotherapy,1,,"PHARM 561,PHARM 565"
 Seattle,PHARM 572,Pharmacist Advocacy I: Legislative and Grassroots Affairs,1,,
 Seattle,PHARM 573,Pharmacist Advocacy II: Legislative and Grassroots Affairs,1,,
 Seattle,PHARM 579,Current Topics in Pharmacy,1,,
@@ -12222,12 +12222,12 @@ Seattle,PSYCH 101,Introduction to Psychology,5,I&S,
 Seattle,PSYCH 200,Comparative Animal Behavior,,NW,
 Seattle,PSYCH 201,Psychology of Performance Enhancement,4,I&S,PSYCH 101
 Seattle,PSYCH 202,Biopsychology,5,NW,PSYCH 101
-Seattle,PSYCH 203,Introduction to Personality and Individual Differences,4,I&S,"PSYCH 101,PSYCH 303"
-Seattle,PSYCH 205,Behavior Disorders,5,I&S,"PSYCH 101,PSYCH 305"
-Seattle,PSYCH 206,Human Development,5,I&S,"PSYCH 101,PSYCH 306"
+Seattle,PSYCH 203,Introduction to Personality and Individual Differences,4,I&S,PSYCH 101
+Seattle,PSYCH 205,Behavior Disorders,5,I&S,PSYCH 101
+Seattle,PSYCH 206,Human Development,5,I&S,PSYCH 101
 Seattle,PSYCH 209,Fundamentals of Psychological Research,5,,PSYCH 101
 Seattle,PSYCH 210,The Diversity of Human Sexuality,5,"DIV,I&S",
-Seattle,PSYCH 245,Introduction to Social Psychology,5,I&S,"PSYCH 101,PSYCH 345"
+Seattle,PSYCH 245,Introduction to Social Psychology,5,I&S,PSYCH 101
 Seattle,PSYCH 250,Racism and Minority Groups,5,"DIV,I&S",
 Seattle,PSYCH 257,Psychology of Gender,5,"DIV,I&S",
 Seattle,PSYCH 260,Psychosocial Aspects of Nuclear War,3,I&S,
@@ -12360,7 +12360,7 @@ Seattle,PSYCH 530,Introduction to Latent Variables,4,,PSYCH 525
 Seattle,PSYCH 531,Research Methods in Clinical and Community Psychology,4,,
 Seattle,PSYCH 532,Single Subject Design and Research,3,,
 Seattle,PSYCH 535,Scientific Writing in Psychology,5,,
-Seattle,PSYCH 536,Grant Preparation in Psychology,3,,PSYCH 598
+Seattle,PSYCH 536,Grant Preparation in Psychology,3,,
 Seattle,PSYCH 537,Teaching of Psychology,3,,
 Seattle,PSYCH 538,Interactive Software for Psychological Research,4,,
 Seattle,PSYCH 540,Advances in Psychology,,,
@@ -12411,7 +12411,7 @@ Seattle,PSYCH 586,Clinical Personality Assessment,3,,
 Seattle,PSYCH 587,Clinical Methods: Interviewing,2,,
 Seattle,PSYCH 588,Clinical Methods: Ethics,3,,
 Seattle,PSYCH 589,Clinical Supervision,4,,
-Seattle,PSYCH 590,Practicum in Psychological Assessment,2,,"PSYCH 576,PSYCH 578"
+Seattle,PSYCH 590,Practicum in Psychological Assessment,2,,
 Seattle,PSYCH 591,Issues in Clinical Psychology,1,,
 Seattle,PSYCH 593,Clinical Practica and Colloquium,,,
 Seattle,PSYCH 594,Advanced Clinical Practicum,,,PSYCH 593
@@ -12523,7 +12523,7 @@ Seattle,Q SCI 190,Quantitative Analysis for Environmental Science,5,"NW,QSR","MA
 Seattle,Q SCI 291,Analysis for Biologists I,5,"NW,QSR","MATH 120,MATH 124,Q SCI 190"
 Seattle,Q SCI 292,Analysis for Biologists II,5,"NW,QSR","MATH 124,MATH 125,Q SCI 291"
 Seattle,Q SCI 381,Introduction to Probability and Statistics,5,"NW,QSR","MATH 120,MATH 124,MATH 125,MATH 126,Q SCI 190,Q SCI 291"
-Seattle,Q SCI 403,Introduction to Resampling Inference,4,NW,"ECON 311,ECON 481,MATH 390,Q SCI 381,Q SCI 482,STAT 311,STAT 341,STAT 390,STAT 403,STAT 481,STAT 503"
+Seattle,Q SCI 403,Introduction to Resampling Inference,4,NW,"ECON 311,ECON 481,MATH 390,Q SCI 381,Q SCI 482,STAT 311,STAT 341,STAT 390,STAT 481"
 Seattle,Q SCI 454,Ecological Modeling,5,NW,
 Seattle,Q SCI 458,Modeling and Estimation in Conservation and Resource Management,4,NW,
 Seattle,Q SCI 480,Sampling Theory for Biologists,3,NW,Q SCI 482
@@ -12555,7 +12555,7 @@ Seattle,QMETH 592,Stochastic Models: Queuing and Simulation,4,,
 Seattle,QMETH 599,Doctoral Seminar in Operations Research,1,,
 Seattle,QMETH 600,Independent Study or Research,,,
 Seattle,QUAT 501,Seminar/Conference in Quaternary Environments,1,,
-Seattle,QUAT 502,Interdisciplinary Quaternary Investigations,2,,QUAT 501
+Seattle,QUAT 502,Interdisciplinary Quaternary Investigations,2,,
 Seattle,QUAT 504,Special Topics in Quaternary Sciences,,,
 Seattle,R E 350,Introduction to Real Estate,3,,
 Seattle,R E 360,Real Estate Market Analysis,3,,
@@ -12703,13 +12703,13 @@ Seattle,REHAB 597,Electromyography and Electrodiagnosis Laboratory,,,
 Seattle,REHAB 598,Electromyography and Electrodiagnosis Laboratory,,,
 Seattle,REHAB 599,Electromyography and Electrodiagnosis Laboratory,,,
 Seattle,REHAB 600,Independent Study or Research,,,
-Seattle,REHAB 683,"P-Rehabilitation Medicine Clerkship- Pediatric, Boise, ID",8,,REHAB 685
+Seattle,REHAB 683,"P-Rehabilitation Medicine Clerkship- Pediatric, Boise, ID",8,,
 Seattle,REHAB 684,"Rehabilitation Elective - Boise, ID",8,,
 Seattle,REHAB 685,P-Chronic Disease and Disability,4,,
-Seattle,REHAB 686,P-Rehabilitation Medicine Clerkship - Pediatrics,,,REHAB 685
-Seattle,REHAB 687,P-Rehabilitation Medicine Clerkship,,,REHAB 685
+Seattle,REHAB 686,P-Rehabilitation Medicine Clerkship - Pediatrics,,,
+Seattle,REHAB 687,P-Rehabilitation Medicine Clerkship,,,
 Seattle,REHAB 689,P-Spinal Cord Injury,,,"MED 665,SURG 665"
-Seattle,REHAB 697,P-Rehabilitation Medicine Special Elective,,,"REHAB 686,REHAB 687,REHAB 688"
+Seattle,REHAB 697,P-Rehabilitation Medicine Special Elective,,,
 Seattle,REHAB 699,P-Wwami Rehabilitation Medicine Special Electives,,,
 Seattle,REHAB 700,Master's Thesis,,,
 Seattle,REHAB 800,Doctoral Dissertation In,,,
@@ -13112,15 +13112,15 @@ Seattle,SURG 630,P-Write Surgery Clinical Clerkship,,,
 Seattle,SURG 631,P-Lic Surgery Clinical Clerkship,12,,
 Seattle,SURG 638,"P-Rural Surgery - Lewistown, MT",8,,
 Seattle,SURG 639,"P-Rural Surgery - Polson, MT",8,,
-Seattle,SURG 640,"P-Rural Surgery- Dillon, MT",8,,SURG 665
-Seattle,SURG 641,"P-Rural Surgery- Glasgow, MT",8,,SURG 665
+Seattle,SURG 640,"P-Rural Surgery- Dillon, MT",8,,
+Seattle,SURG 641,"P-Rural Surgery- Glasgow, MT",8,,
 Seattle,SURG 642,"P-Rural Surgery Clerkship - Pullman, WA",8,,
 Seattle,SURG 644,"P-Rural Surgery Clerkship - Lewiston, ID",8,,
 Seattle,SURG 646,P-Rural Surgery Clerkship - Gillette,8,,
-Seattle,SURG 647,P-Rural Surgery Clerkship - Powell,8,,SURG 665
-Seattle,SURG 648,P-Rural Surgery Clerkship - Libby,8,,SURG 665
-Seattle,SURG 649,P-Rural Surgery Clerkship - Lewistown,8,,SURG 665
-Seattle,SURG 650,P-Rural Surgery Clerkship - Twin Falls,8,,SURG 665
+Seattle,SURG 647,P-Rural Surgery Clerkship - Powell,8,,
+Seattle,SURG 648,P-Rural Surgery Clerkship - Libby,8,,
+Seattle,SURG 649,P-Rural Surgery Clerkship - Lewistown,8,,
+Seattle,SURG 650,P-Rural Surgery Clerkship - Twin Falls,8,,
 Seattle,SURG 651,"P-Community Surgery Clerkship - Rock Springs, WY",8,,
 Seattle,SURG 652,P-Plastic Surgery - Spokane,8,,
 Seattle,SURG 653,P-Pediatric Surgery - Spokane,8,,
@@ -13130,8 +13130,8 @@ Seattle,SURG 657,P-Vascular Surgery - Spokane,,,
 Seattle,SURG 658,P-Ambulatory Surgery Clerkship - Mary Bridge,4,,
 Seattle,SURG 659,P-Ambulatory Surgery Clerkship - Madigan,,,
 Seattle,SURG 660,P-Ambulatory Surgery Clerkship - Group Health,4,,
-Seattle,SURG 661,P-Surgical Intensive Care Unit Sub-Internship - VA,8,,SURG 665
-Seattle,SURG 662,P-Community Surgery Clerkship - Longview,8,,SURG 665
+Seattle,SURG 661,P-Surgical Intensive Care Unit Sub-Internship - VA,8,,
+Seattle,SURG 662,P-Community Surgery Clerkship - Longview,8,,
 Seattle,SURG 663,P-Subinternship in General Surgery - Virginia Mason,,,
 Seattle,SURG 664,P-Subinternship in General Surgery - VAMC,,,
 Seattle,SURG 665,P-Clinical Clerkship - UWMC,,,
@@ -13160,10 +13160,10 @@ Seattle,SURG 687,P-Transplantation Surgery Clerkship,8,,
 Seattle,SURG 688,P-Subinternship in General Surgery,,,
 Seattle,SURG 689,P-Community Surgery Clerkship - Coeur D' Alene,8,,SURG 665
 Seattle,SURG 690,P-Alaska Native Medical Center Surgery Sub-Internship,,,SURG 665
-Seattle,SURG 691,P-Surgical Intensive Care Unit Sub-Internship - HMC,8,,SURG 665
+Seattle,SURG 691,P-Surgical Intensive Care Unit Sub-Internship - HMC,8,,
 Seattle,SURG 692,P-Ambulatory Surgery Clerkship - Seattle Children's,4,,
-Seattle,SURG 693,P-Rural Surgery Clerkship - Buffalo,8,,SURG 665
-Seattle,SURG 694,P-Rural Surgery Clerkship - Riverton,8,,SURG 665
+Seattle,SURG 693,P-Rural Surgery Clerkship - Buffalo,8,,
+Seattle,SURG 694,P-Rural Surgery Clerkship - Riverton,8,,
 Seattle,SURG 695,Vascular Surgery,,,
 Seattle,SURG 696,P-Breast Surgery - Spokane,,,
 Seattle,SURG 697,P-Surgery Special Electives,,,
@@ -13200,8 +13200,8 @@ Seattle,THAI 313,Advanced Thai,5,VLPA,THAI 312
 Seattle,THAI 345,Foreign Study: Advanced Thai,,VLPA,
 Seattle,THAI 499,Undergraduate Research,,,
 Seattle,TKISH 101,Elementary Turkish,5,,
-Seattle,TKISH 102,Elementary Turkish,5,,"TKISH 101,TKISH 105"
-Seattle,TKISH 103,Elementary Turkish,5,,"TKISH 102,TKISH 105"
+Seattle,TKISH 102,Elementary Turkish,5,,TKISH 101
+Seattle,TKISH 103,Elementary Turkish,5,,TKISH 102
 Seattle,TKISH 105,Intensive Elementary Turkish,15,,
 Seattle,TKISH 199,Study Abroad,,,
 Seattle,TKISH 201,Intermediate Turkish,5,VLPA,"TKISH 103,TKISH 105"
@@ -13512,7 +13512,7 @@ Tacoma,T BIOL 110,General Biology,6,NW,
 Tacoma,T BIOL 119,Biology Collaborative Learning Seminar,1,,
 Tacoma,T BIOL 120,Introductory Biology I,6,NW,
 Tacoma,T BIOL 130,Introductory Biology II,6,NW,"TBIOL 120,TCHEM 142,TESC 120,TESC 130,TESC 141"
-Tacoma,T BIOL 140,Introductory Biology III,6,NW,"T BIOL 130,TESC 130,TESC 140,TESC 151"
+Tacoma,T BIOL 140,Introductory Biology III,6,NW,"T BIOL 130,TESC 130,TESC 151"
 Tacoma,T BIOL 202,Plant Biology and Ecology,5,NW,
 Tacoma,T BIOL 203,History and Ecology of Biological Invasions,5,NW,
 Tacoma,T BIOL 204,Tropical Ecology and Sustainability,5,NW,
@@ -13576,7 +13576,7 @@ Tacoma,T BUS 569,Analytical Research,,,
 Tacoma,T BUS 570,Organization Change,4,,
 Tacoma,T BUS 590,Special Topics in Business,,,
 Tacoma,T CHEM 131,Chemistry and Society,6,NW,"TCHEM 142,TESC 131,TESC 141"
-Tacoma,T CHEM 139,Preparation for General Chemistry,3,,"TESC 139,TESC 141,TESC 142"
+Tacoma,T CHEM 139,Preparation for General Chemistry,3,,
 Tacoma,T CHEM 142,General Chemistry I,6,NW,"TMATH 115,TMATH 120"
 Tacoma,T CHEM 152,General Chemistry II,6,NW,"TCHEM 142,TMATH 116,TMATH 120"
 Tacoma,T CHEM 162,General Chemistry III,6,NW,"TCHEM 152,TMATH 116,TMATH 120"
@@ -13589,7 +13589,7 @@ Tacoma,T CHEM 333,Environmental Chemistry,6,NW,"TBIOL 140,TCHEM 162,TESC 140,TES
 Tacoma,T CHEM 405,Biochemistry I,,NW,"TBIOL 130,TCHEM 251,TESC 130,TESC 251,TESC 405"
 Tacoma,T CHEM 406,Biochemistry II,,NW,"TCHEM 405,TESC 405,TESC 406"
 Tacoma,T CHEM 439,Analytical Chemistry With Environmental Applications,6,,"T MATH 110,TCHEM 162,TESC 161,TESC 439"
-Tacoma,T CHEM 510,Environmental Health and Toxicology,5,,TESC 510
+Tacoma,T CHEM 510,Environmental Health and Toxicology,5,,
 Tacoma,T CORE 100,Introduction to Interdisciplinary Study,2,,
 Tacoma,T CORE 101,Introduction to Academic Writing,5,C,
 Tacoma,T CORE 102,Introduction to Science,5,NW,
@@ -13810,21 +13810,21 @@ Tacoma,T GEOG 403,Geography of the United States of America and Canada,5,NW,
 Tacoma,T GEOG 420,"Gender, Space and Culture",5,"DIV,I&S",
 Tacoma,T GEOG 435,Contemporary Geopolitics,5,I&S,
 Tacoma,T GEOG 440,"Political Geography: Territory, State and Society",5,I&S,
-Tacoma,T GEOS 107,Geohazards and Natural Disasters,5,NW,TESC 107
-Tacoma,T GEOS 117,Physical Geology,6,NW,TESC 117
-Tacoma,T GEOS 215,Meteorology,,NW,TESC 215
+Tacoma,T GEOS 107,Geohazards and Natural Disasters,5,NW,
+Tacoma,T GEOS 117,Physical Geology,6,NW,
+Tacoma,T GEOS 215,Meteorology,,NW,
 Tacoma,T GEOS 216,Pacific Northwest Geology,5,NW,
 Tacoma,T GEOS 226,Pacific Northwest Geology Field Trip,1,NW,"T GEOS 216,TESC 316,TESC 326"
-Tacoma,T GEOS 227,Earth History,5,NW,TESC 227
-Tacoma,T GEOS 241,Oceanography,,NW,TESC 241
-Tacoma,T GEOS 243,Geography of the Physical Environment,,NW,TESC 243
-Tacoma,T GEOS 247,Maritime History and Science in the Pacific Northwest,5,NW,TESC 247
-Tacoma,T GEOS 317,"Geology, Landscape, and Culture",12,NW,TESC 317
-Tacoma,T GEOS 321,Soils and Environmental Applications,5,NW,TESC 321
+Tacoma,T GEOS 227,Earth History,5,NW,
+Tacoma,T GEOS 241,Oceanography,,NW,
+Tacoma,T GEOS 243,Geography of the Physical Environment,,NW,
+Tacoma,T GEOS 247,Maritime History and Science in the Pacific Northwest,5,NW,
+Tacoma,T GEOS 317,"Geology, Landscape, and Culture",12,NW,
+Tacoma,T GEOS 321,Soils and Environmental Applications,5,NW,
 Tacoma,T GEOS 335,Introduction to Geomorphology,6,NW,"T GEOS 117,T GEOS 243,TESC 117,TESC 243,TESC 335,TMATH 116,TMATH 120"
 Tacoma,T GEOS 337,Environmental Geology,6,NW,"T GEOS 117,T GEOS 241,TESC 117,TESC 241,TESC 310,TESC 337"
-Tacoma,T GEOS 341,Climate Change,5,NW,TESC 341
-Tacoma,T GEOS 343,The Atmosphere and Air Pollution,6,NW,TESC 343
+Tacoma,T GEOS 341,Climate Change,5,NW,
+Tacoma,T GEOS 343,The Atmosphere and Air Pollution,6,NW,
 Tacoma,T GEOS 347,Environmental Earth Materials,6,NW,"TCHEM 152,TESC 117,TESC 151,TESC 347,TGEOS 117,TMATH 110"
 Tacoma,T GEOS 349,Research at Sea,10,NW,"TESC 241,TESC 247,TESC 349,TGEOS 241,TGEOS 247"
 Tacoma,T GEOS 415,Sedimentology,6,NW,"T GEOS 117,T GEOS 337,TESC 117,TESC 337,TESC 415"
@@ -14212,7 +14212,7 @@ Tacoma,T PHIL 359,Themes in Existentialism,5,,
 Tacoma,T PHIL 360,History of Philosophy: Modern and Contemporary,5,I&S,
 Tacoma,T PHIL 361,Ethics in Society,5,"I&S,VLPA",
 Tacoma,T PHIL 362,The Beautiful and the Good: Philosophy's Quest for Value,5,I&S,
-Tacoma,T PHIL 364,Topics in the Philosophy of Science,5,I&S,T PHIL 363
+Tacoma,T PHIL 364,Topics in the Philosophy of Science,5,I&S,
 Tacoma,T PHIL 367,Utopias,5,,
 Tacoma,T PHIL 410,Social Philosophy,5,I&S,
 Tacoma,T PHIL 414,Philosophy of Law,5,I&S,
@@ -14267,7 +14267,7 @@ Tacoma,T SOCW 524,The Professional Foundation Practicum,,,
 Tacoma,T SOCW 525,Advanced Concentration Practicum,,,
 Tacoma,T SOCW 531,Advanced Integrative Policy and Advocacy,3,,
 Tacoma,T SOCW 532,Advanced Integrative Practice I,3,,
-Tacoma,T SOCW 533,Advanced Integrative Practice II,3,,"T SOCW 532,TSOC W 532"
+Tacoma,T SOCW 533,Advanced Integrative Practice II,3,,T SOCW 532
 Tacoma,T SOCW 535,Research for Advanced Integrative Practice,3,,T SOCW 505
 Tacoma,T SOCW 540,Child Welfare and Permanency Planning,3,I&S,
 Tacoma,T SOCW 541,Adult and Adolescent Interpersonal Violence and Treatment,3,,
@@ -14420,10 +14420,10 @@ Tacoma,TCES 421,Digital Integrated Circuit Design,5,,"TCES 230,TCES 312"
 Tacoma,TCES 430,Microprocessor System Design,5,,TCES 372
 Tacoma,TCES 431,Essentials of VLSI Circuit Testing and Hardware Security,5,,
 Tacoma,TCES 455,Devices and Controls,5,,"TCES 310,TCES 312,TCES 330"
-Tacoma,TCES 460,Embedded Systems Design,4,,"TCES 420,TCES 430,TCES 455,TCES 482"
+Tacoma,TCES 460,Embedded Systems Design,4,,"TCES 420,TCES 430,TCES 455"
 Tacoma,TCES 461,Hardware for Cryptography,5,,TCES 430
 Tacoma,TCES 480,Senior Project I,2,,TCES 430
-Tacoma,TCES 481,Senior Project II,4,,"TCES 480,TCSS 480"
+Tacoma,TCES 481,Senior Project II,4,,TCES 480
 Tacoma,TCES 482,Senior Project III,5,,TCES 481
 Tacoma,TCES 490,Special Topics,,,
 Tacoma,TCES 491,Digital Signal Processing,5,,TCES 310
@@ -14783,8 +14783,8 @@ Tacoma,TIAS 700,Thesis,,,
 Tacoma,TMATH 098,Intermediate Algebra,0,,
 Tacoma,TMATH 107,Mathematics: A Practical Art,5,"NW,QSR",TMATH 098
 Tacoma,TMATH 110,Introductory Statistics With Applications,5,"NW,QSR","MATH 124,TMATH 098,TMATH 124"
-Tacoma,TMATH 115,Pre-Calculus I: Functions,5,QSR,"TMATH 098,TMATH 115,TMATH 116,TMATH 120"
-Tacoma,TMATH 116,Pre-Calculus II: Trigonometry,5,"NW,QSR","TMATH 115,TMATH 116,TMATH 120"
+Tacoma,TMATH 115,Pre-Calculus I: Functions,5,QSR,TMATH 098
+Tacoma,TMATH 116,Pre-Calculus II: Trigonometry,5,"NW,QSR",TMATH 115
 Tacoma,TMATH 120,Precalculus,5,"NW,QSR","TMATH 098,TMATH 121,TMATH 158"
 Tacoma,TMATH 124,Calculus With Analytic Geometry I,5,"NW,QSR","TMATH 116,TMATH 120,TMATH 122,TMATH 159"
 Tacoma,TMATH 125,Calculus With Analytic Geometry II,5,NW,TMATH 124
@@ -14822,14 +14822,14 @@ Tacoma,TNPRFT 449,Museum Studies,5,I&S,
 Tacoma,TNPRFT 450,Methods of Museum Interpretation,5,VLPA,
 Tacoma,TNPRFT 451,Essentials of Grant Writing,5,I&S,
 Tacoma,TNPRFT 453,Nonprofit Financial Literacy,5,I&S,TNPRFT 231
-Tacoma,TNPRFT 455,Philanthropy and Social Change,5,,"TNPRFT 231,TNPRFT 531"
+Tacoma,TNPRFT 455,Philanthropy and Social Change,5,,
 Tacoma,TNPRFT 457,Nonprofit Capstone,5,I&S,
 Tacoma,TNPRFT 490,Nonprofit Practicum,5,I&S,"T BUS 300,TNPRFT 231,TNPRFT 432,TNPRFT 451,TNPRFT 453"
 Tacoma,TNPRFT 531,Community Organizations and the Nonprofit Sector,5,,
 Tacoma,TNPRFT 532,Organizational Development,5,,
 Tacoma,TNPRFT 551,Essentials of Grant Writing,5,,
 Tacoma,TNPRFT 553,Nonprofit Financial Literacy,5,,TNPRFT 531
-Tacoma,TNPRFT 555,Philanthropy and Social Change,5,,"TNPRFT 231,TNPRFT 531"
+Tacoma,TNPRFT 555,Philanthropy and Social Change,5,,
 Tacoma,TNPRFT 590,Nonprofit Practicum,5,,"TNPRFT 531,TNPRFT 532,TNPRFT 551,TNPRFT 553"
 Tacoma,TNPRFT 601,Internship,,,
 Tacoma,TPOL S 123,Introduction to Globalization,5,I&S,
@@ -14896,7 +14896,7 @@ Tacoma,TPSYCH 220,Lifespan Development,5,I&S,"PSYCH 101,TPSYCH 101"
 Tacoma,TPSYCH 222,Infant and Child Development,5,I&S,TPSYCH 101
 Tacoma,TPSYCH 230,Educational Psychology,5,I&S,"PSYCH 101,TPSYCH 101"
 Tacoma,TPSYCH 240,Social Psychology,5,I&S,"PSYCH 101,TPSYCH 101"
-Tacoma,TPSYCH 250,Human Cognition,5,I&S,"PSYCH 101,TPSYCH 101,TPSYCH 355"
+Tacoma,TPSYCH 250,Human Cognition,5,I&S,"PSYCH 101,TPSYCH 101"
 Tacoma,TPSYCH 260,Biopsychology,5,"I&S,NW","PSYCH 101,TPSYCH 101"
 Tacoma,TPSYCH 265,Motivational Bases for Behavior,5,I&S,TPSYCH 101
 Tacoma,TPSYCH 300,History and Systems of Psychology,5,I&S,"PSYCH 101,TPSYCH 101"
@@ -14949,7 +14949,7 @@ Tacoma,TPSYCH 443,Applied Community Projects in Environmental Psychology,5,I&S,"
 Tacoma,TPSYCH 445,Psychology of Superheroes: An Exploration of Good and Evil,5,I&S,TPSYCH 240
 Tacoma,TPSYCH 450,Contemplative Science,5,I&S,TPSYCH 101
 Tacoma,TPSYCH 455,Immigrant Youth Development,5,"DIV,I&S","TPSYCH 220,TPSYCH 321"
-Tacoma,TPSYCH 460,Sport Psychology,5,I&S,"TBIOMD 302,TPSYCH 260"
+Tacoma,TPSYCH 460,Sport Psychology,5,I&S,
 Tacoma,TPSYCH 471,Applied Issues in Cognition,,I&S,"TPSYCH 209,TPSYCH 330"
 Tacoma,TPSYCH 496,Psychology Internship,,I&S,
 Tacoma,TPSYCH 498,Directed Readings in Psychology,,I&S,
@@ -15012,16 +15012,16 @@ Tacoma,TSOCWF 490,Research in Social Welfare,,,
 Tacoma,TSPAN 101,Elementary Spanish,5,,
 Tacoma,TSPAN 102,Elementary Spanish,5,,"TSPAN 101,TSPAN 121"
 Tacoma,TSPAN 103,Elementary Spanish,5,,"TSPAN 102,TSPAN 110,TSPAN 122"
-Tacoma,TSPAN 110,Elementary Spanish Review,5,,"TSPAN 101,TSPAN 102,TSPAN 103,TSPAN 121,TSPAN 122"
-Tacoma,TSPAN 121,Spanish Immersion,5,,SPAN 101
-Tacoma,TSPAN 122,Spanish Immersion,5,,"SPAN 101,TSPAN 121"
-Tacoma,TSPAN 123,Spanish Immersion,5,,"SPAN 101,TSPAN 122"
+Tacoma,TSPAN 110,Elementary Spanish Review,5,,
+Tacoma,TSPAN 121,Spanish Immersion,5,,
+Tacoma,TSPAN 122,Spanish Immersion,5,,TSPAN 121
+Tacoma,TSPAN 123,Spanish Immersion,5,,TSPAN 122
 Tacoma,TSPAN 134,Intensive First-Year Spanish,15,,
 Tacoma,TSPAN 199,Foreign Study - Elementary,,,
 Tacoma,TSPAN 201,Intermediate,5,VLPA,"TSPAN 103,TSPAN 123,TSPAN 134"
 Tacoma,TSPAN 202,Intermediate,5,VLPA,TSPAN 201
 Tacoma,TSPAN 203,Intermediate,5,VLPA,"TSPAN 202,TSPAN 210"
-Tacoma,TSPAN 210,Accelerated Intermediate Spanish,5,VLPA,"SPAN 201,SPAN 202,TSPAN 103,TSPAN 123,TSPAN 134"
+Tacoma,TSPAN 210,Accelerated Intermediate Spanish,5,VLPA,"TSPAN 103,TSPAN 123,TSPAN 134"
 Tacoma,TSPAN 299,Foreign Study - Intermediate,,VLPA,
 Tacoma,TSPAN 301,Spanish Grammar and Lexicon,5,VLPA,"TSPAN 203,TSPAN 299,TSPAN 300"
 Tacoma,TSPAN 302,Spanish Conversation,5,VLPA,"TSPAN 203,TSPAN 299,TSPAN 300"
@@ -15045,7 +15045,7 @@ Tacoma,TSPAN 451,Hispanic Women Writers,5,VLPA,"TSPAN 351,TSPAN 352"
 Tacoma,TSPAN 461,Mexican Film,5,VLPA,
 Tacoma,TSPAN 464,Mexican Literature and Culture,5,VLPA,"TSPAN 351,TSPAN 352"
 Tacoma,TSPAN 471,The Hispanic Caribbean,5,VLPA,
-Tacoma,TSPAN 480,Contemporary Spanish Culture,5,VLPA,"T HISP 490,TSPAN 351,TSPAN 352"
+Tacoma,TSPAN 480,Contemporary Spanish Culture,5,VLPA,"TSPAN 351,TSPAN 352"
 Tacoma,TSPAN 496,Experiential Learning in Spanish,,,"TSPAN 301,TSPAN 302,TSPAN 303,TSPAN 351,TSPAN 352"
 Tacoma,TWRT 101,Writing Ready,2,,
 Tacoma,TWRT 111,Discourse Foundations,2,,"TCORE 101,TWRT 120,TWRT 121"
