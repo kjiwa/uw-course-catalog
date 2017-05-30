@@ -19,8 +19,9 @@ COURSE_INDICES = {
     'Tacoma': 'http://www.washington.edu/students/crscatt/'
 }
 
-Course = collections.namedtuple('Course',
-                                ['campus', 'code', 'name', 'credits', 'areas'])
+Course = collections.namedtuple('Course', [
+    'campus', 'code', 'name', 'credits', 'knowledge_areas', 'prerequisites'
+])
 
 
 def course_key(course):
@@ -29,7 +30,8 @@ def course_key(course):
   Args:
     course: The course object.
 
-  Returns: A key that may be used to sort course objects.
+  Returns:
+    A key that may be used to sort course objects.
   """
   return (course.campus, course.code)
 
@@ -40,10 +42,53 @@ def parse_credits(s):
   Args:
     s: The string to parse.
 
-  Returns: The credits as a number or None if the value could not be determined.
+  Returns:
+    The credits as a number or None if the value could not be determined.
   """
   m = re.search(r'^(\d+)(?![-/])', s)
   return int(m.group(1)) if m else None
+
+
+def parse_prerequisites(course_description):
+  """Parses prerequisites from a course description.
+
+  Args:
+    course_description: The course description text.
+
+  Returns:
+    The course prerequisite codes.
+  """
+  return sorted(
+      set([
+          k.strip() for k in re.findall(r'([A-Z ]+ \d+)', course_description)
+      ]))
+
+
+def parse_course(course_node, campus):
+  """Parses course attributes from a DOM node.
+
+  Args:
+    course_node: The DOM node containing course information.
+    campus: The name of the campus where the course is offered.
+
+  Returns:
+    A Course object.
+  """
+  (s, *remaining) = course_node.itertext()
+
+  p = re.compile(r'^([A-Z& ]+ \d+) (.+) \((.+).*\)(.*)$')
+  m = p.match(s)
+  if not m:
+    logging.warning('Unable to parse title: %s', i)
+    return
+
+  code = m.group(1)
+  title = titlecase.titlecase(m.group(2))
+  crs = parse_credits(m.group(3))
+  knowledge_areas = sorted([j.strip() for j in re.split(',|/', m.group(4))])
+  prerequisites = parse_prerequisites(
+      ''.join([j for j in remaining if 'Prerequisite:' in j]))
+  return Course(campus, code, title, crs, knowledge_areas, prerequisites)
 
 
 def get_department_links(url):
@@ -52,7 +97,8 @@ def get_department_links(url):
   Args:
     url: The URL of the index page containing a list of departments.
 
-  Returns: A set of department links found on the page.
+  Returns:
+    A set of department links found on the page.
   """
   client = http.client.HTTPConnection(url.netloc)
   client.request('GET', url.path)
@@ -76,7 +122,8 @@ def get_courses(url, campus, dept_link):
     campus: The name of the department's campus.
     dept_link: A link to the department's course description page.
 
-  Returns: A list of courses offered by the department.
+  Returns:
+    A list of courses offered by the department.
   """
   client = http.client.HTTPConnection(url.netloc)
   client.request('GET', '%s%s' % (url.path, dept_link))
@@ -88,22 +135,15 @@ def get_courses(url, campus, dept_link):
   tree = lxml.html.fromstring(response.read())
   client.close()
 
-  titles = [i.text for i in tree.xpath('//p//b')]
-
+  items = tree.xpath('/html/body/a/p')
   courses = []
-  p = re.compile(r'^([A-Z& ]+ \d+) (.+) \((.+).*\)(.*)$')
-  for i in titles:
-    m = p.match(i)
-    if not m:
-      logging.warning('Unable to parse title: %s', i)
+  for i in items:
+    course = parse_course(i, campus)
+    if not course:
+      logging.warning('Unable to parse course: %s', lxml.html.tostring(i))
       continue
 
-    areas = sorted([j.strip() for j in re.split(',|/', m.group(4))])
-    courses.append(
-        Course(campus,
-               m.group(1),
-               titlecase.titlecase(m.group(2)),
-               parse_credits(m.group(3)), areas))
+    courses.append(course)
 
   return courses
 
@@ -117,19 +157,23 @@ def export_courses(courses, output):
   """
   courses = sorted(courses, key=course_key)
   writer = csv.writer(output)
-  writer.writerow(['Campus', 'Code', 'Name', 'Credits', 'Areas of Knowledge'])
+  writer.writerow([
+      'Campus', 'Code', 'Name', 'Credits', 'Areas of Knowledge',
+      'Prerequisites'
+  ])
 
   for course in courses:
     writer.writerow([
         course.campus, course.code, course.name, course.credits,
-        ','.join(course.areas)
+        ','.join(course.knowledge_areas), ','.join(course.prerequisites)
     ])
 
 
 def parse_arguments():
   """Parses command line arguments.
 
-  Returns: An object containing values for command line arguments.
+  Returns:
+    An object containing values for command line arguments.
   """
   parser = argparse.ArgumentParser()
   parser.add_argument(
@@ -166,7 +210,8 @@ def extract_courses(campus_list, department_link_list):
     department_link_list: A list of department links from which to extract
         course descriptions.
 
-  Returns: A list of courses.
+  Returns:
+    A list of courses.
   """
   courses = []
   for campus in campus_list:
