@@ -101,6 +101,9 @@ def get_department_links(url):
 
   Returns:
     A set of department links found on the page.
+
+  Raises:
+    Exception: If an error occurred fetching the list of department links.
   """
   client = http.client.HTTPConnection(url.netloc)
   client.request('GET', url.path)
@@ -173,16 +176,16 @@ def export_courses(courses, output):
     ])
 
 
-def validate_campus_list(campus_list):
+def validate_campus_list(campuses):
   """Ensures that values in the campus list are valid.
 
   Args:
-    campus_list: The list of campus values.
+    campuses: The list of campus values.
 
   Raises:
     ValueError: If an invalid campus value is found.
   """
-  invalid_campuses = [i for i in campus_list if i not in COURSE_INDICES]
+  invalid_campuses = [i for i in campuses if i not in COURSE_INDICES]
   if invalid_campuses:
     raise ValueError(
         'Invalid campus selections: %s. Valid selections include: %s' %
@@ -190,50 +193,50 @@ def validate_campus_list(campus_list):
 
 
 def parse_arguments():
-  """Parses command line arguments.
+  """Parses and validates command line arguments.
 
   Returns:
     An object containing values for command line arguments.
   """
   parser = argparse.ArgumentParser()
   parser.add_argument(
-      '--campus_list',
+      '--campus',
+      dest='campuses',
       action='append',
       help='A list of campuses to scan for courses.')
   parser.add_argument(
-      '--department_link_list',
+      '--department_link',
+      dest='department_links',
       action='append',
       help='A list of department links to scan for courses.')
 
   args = parser.parse_args()
 
-  # Validate campus list values.
-  campus_list = args.campus_list
-  if campus_list:
-    validate_campus_list(campus_list)
+  # args.campuses is not populated with a default because they are retained if
+  # specific campuses are specified on the command line.
+  if args.campuses:
+    validate_campus_list(args.campuses)
   else:
-    # Set campus list default values.
-    args.campus_list = COURSE_INDICES.keys()
+    args.campuses = COURSE_INDICES.keys()
 
   return args
 
 
-def extract_courses(campus_list, department_link_list):
+def extract_courses(campuses, department_links):
   """Extracts course descriptions from the given campus and department links.
 
   Args:
-    campus_list: A list of campuses from which to extract course descriptions.
-    department_link_list: A list of department links from which to extract
-        course descriptions.
+    campuses: A list of campuses from which to extract course descriptions.
+    department_links: A list of department links from which to extract course
+        descriptions.
 
   Returns:
     A list of courses.
   """
   courses = []
-  for campus in campus_list:
+  for campus in campuses:
     url = urllib.parse.urlparse(COURSE_INDICES[campus])
-    depts = department_link_list if department_link_list else get_department_links(
-        url)
+    depts = department_links if department_links else get_department_links(url)
     courses += list(
         itertools.chain.from_iterable(
             [get_courses(url, campus, i) for i in depts]))
@@ -244,7 +247,7 @@ def extract_courses(campus_list, department_link_list):
 def main():
   """Extracts UW course descriptions and exports them to CSV."""
   args = parse_arguments()
-  courses = extract_courses(args.campus_list, args.department_link_list)
+  courses = extract_courses(args.campuses, args.department_links)
   output = io.StringIO()
   export_courses(courses, output)
   print(output.getvalue())
