@@ -20,7 +20,8 @@ COURSE_INDICES = {
 }
 
 Course = collections.namedtuple('Course', [
-    'campus', 'code', 'name', 'credits', 'knowledge_areas', 'prerequisites'
+    'campus', 'department', 'code', 'name', 'credits', 'knowledge_areas',
+    'prerequisites'
 ])
 
 
@@ -33,7 +34,7 @@ def course_key(course):
   Returns:
     A key that may be used to sort course objects.
   """
-  return (course.campus, course.code)
+  return (course.campus, course.department, course.code)
 
 
 def parse_credits(s):
@@ -78,19 +79,21 @@ def parse_course(course_node, campus):
   """
   (s, *remaining) = course_node.itertext()
 
-  p = re.compile(r'^([A-Z& ]+ \d+) (.+) \((.+).*\)(.*)$')
+  p = re.compile(r'^([A-Z& ]+) (\d+) (.+) \((.+).*\)(.*)$')
   m = p.match(s)
   if not m:
     logging.warning('Unable to parse title: %s', s)
     return
 
-  code = m.group(1)
-  title = titlecase.titlecase(m.group(2))
-  crs = parse_credits(m.group(3))
-  knowledge_areas = sorted([j.strip() for j in re.split(',|/', m.group(4))])
+  department = m.group(1)
+  code = m.group(2)
+  title = titlecase.titlecase(m.group(3))
+  crs = parse_credits(m.group(4))
+  knowledge_areas = sorted([j.strip() for j in re.split(',|/', m.group(5))])
   prerequisites = parse_prerequisites(
       ''.join([j for j in remaining if 'Prerequisite:' in j]))
-  return Course(campus, code, title, crs, knowledge_areas, prerequisites)
+  return Course(campus, department, code, title, crs, knowledge_areas,
+                prerequisites)
 
 
 def get_department_links(url):
@@ -165,14 +168,15 @@ def export_courses(courses, output):
   courses = sorted(courses, key=course_key)
   writer = csv.writer(output)
   writer.writerow([
-      'Campus', 'Code', 'Name', 'Credits', 'Areas of Knowledge',
+      'Campus', 'Department', 'Code', 'Name', 'Credits', 'Areas of Knowledge',
       'Prerequisites'
   ])
 
   for course in courses:
     writer.writerow([
-        course.campus, course.code, course.name, course.credits,
-        ','.join(course.knowledge_areas), ','.join(course.prerequisites)
+        course.campus, course.department, course.code, course.name,
+        course.credits, ','.join(course.knowledge_areas),
+        ','.join(course.prerequisites)
     ])
 
 
