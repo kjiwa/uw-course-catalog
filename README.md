@@ -1,6 +1,26 @@
-# UW Course Catalog
+# University of Washington Course Catalog
 
-This script extracts courses from the UW course catalog and exports them to CSV. The CSV has the following format:
+This script extracts courses from the University of Washington course catalog and exports them to CSV. The script works by searching for department links for each campus from the following web pages:
+
+* Bothell: http://www.washington.edu/students/crscatb/
+* Seattle: http://www.washington.edu/students/crscat/
+* Tacoma: http://www.washington.edu/students/crscatt/
+
+Each department web page is analyzed with a DOM parser and regular expressions for course codes, names, credits, areas of knowledge, and prerequisites.
+
+The ```--campus``` and ```--department_link``` command line flags may be used to limit the data extracted by the script. Use the ```--help``` flag for more details.
+
+The CSV has the following format:
+
+* Campus
+* Department
+* Course Code
+* Course Name
+* Credits
+* Areas of Knowledge
+* Prerequisites
+
+For example, the raw CSV may have data such as the following:
 
 ```
 Campus,Department,Code,Name,Credits,Areas of Knowledge,Prerequisites
@@ -12,7 +32,7 @@ Tacoma,T ACCT,210,Financial Accounting I: Users Approach to Accounting,5,,
 Tacoma,TWRT,391,Advanced Technical Communication,5,VLPA,TWRT 291
 ```
 
-As a table, this file has the appearance:
+As a table, this data has this appearance:
 
 | Campus | Department | Code | Name | Credits | Areas of Knowledge | Prerequisites |
 | ------ | ---------- | ---- | ---- | ------- | ------------------ | ------------- |
