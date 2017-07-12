@@ -180,20 +180,24 @@ def export_courses(courses, output):
     ])
 
 
-def validate_campus_list(campuses):
-  """Ensures that values in the campus list are valid.
+def validate_campus(value):
+  """Ensures that a campus value is valid.
 
   Args:
-    campuses: The list of campus values.
+    value: The campus value.
+
+  Returns:
+    The campus value.
 
   Raises:
-    ValueError: If an invalid campus value is found.
+    ArgumentTypeError: If an invalid campus value is found.
   """
-  invalid_campuses = [i for i in campuses if i not in COURSE_INDICES]
-  if invalid_campuses:
-    raise ValueError(
-        'Invalid campus selections: %s. Valid selections include: %s' %
-        (', '.join(invalid_campuses), ', '.join(COURSE_INDICES.keys())))
+  if value not in COURSE_INDICES:
+    raise argparse.ArgumentTypeError(
+        '%s is an invalid campus. Valid values include %s.' %
+        (value, COURSE_INDICES.keys()))
+
+  return value
 
 
 def parse_arguments():
@@ -205,6 +209,7 @@ def parse_arguments():
   parser = argparse.ArgumentParser()
   parser.add_argument(
       '--campus',
+      type=validate_campus,
       dest='campuses',
       action='append',
       help='A list of campuses to scan for courses.')
@@ -218,9 +223,7 @@ def parse_arguments():
 
   # args.campuses is not populated with a default because they are retained if
   # specific campuses are specified on the command line.
-  if args.campuses:
-    validate_campus_list(args.campuses)
-  else:
+  if not args.campuses:
     args.campuses = COURSE_INDICES.keys()
 
   return args
