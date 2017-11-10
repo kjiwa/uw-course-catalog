@@ -43,4 +43,4 @@ As a table, this data has this appearance:
 | Tacoma | T ACCT | 210 | Financial Accounting I: Users Approach to Accounting | 5 | | |
 | Tacoma | TWRT | 391 | Advanced Technical Communication | 5 | VLPA | TWRT 291 |
 
-The [output](uwcourses.csv) has been uploaded for those not able or not interested in running the script.
+The [output](uwcourses.csv) has been uploaded for those not able or willing to run the script.
