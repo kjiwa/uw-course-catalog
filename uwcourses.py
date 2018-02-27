@@ -21,7 +21,7 @@ COURSE_INDICES = {
 
 Course = collections.namedtuple('Course', [
     'campus', 'department', 'code', 'name', 'credits', 'knowledge_areas',
-    'prerequisites'
+    'prerequisites', 'offered'
 ])
 
 
@@ -67,6 +67,53 @@ def parse_prerequisites(course_description):
       set([k.strip() for k in re.findall(r'([A-Z& ]+ \d+)', parts[1])]))
 
 
+def parse_offered(course_description):
+  """Parses which quarters a course is offered from a course description.
+
+  Args:
+    course_description: The course description text.
+
+  Returns:
+    The quarters the course is offered.
+  """
+  if 'Offered:' not in course_description:
+    return []
+
+  parts = course_description.split('Offered: ')
+  if 'AWSpS.' in parts[1]:
+    return ['A', 'W', 'Sp', 'S']
+  elif 'AWSp.' in parts[1]:
+    return ['A', 'W', 'Sp']
+  elif 'AWS.' in parts[1]:
+    return ['A', 'W', 'S']
+  elif 'AW.' in parts[1]:
+    return ['A', 'W']
+  elif 'ASpS.' in parts[1]:
+    return ['A', 'Sp', 'S']
+  elif 'ASp.' in parts[1]:
+    return ['A', 'Sp']
+  elif 'AS.' in parts[1]:
+    return ['A', 'S']
+  elif 'A.' in parts[1]:
+    return ['A']
+  elif 'WSpS.' in parts[1]:
+    return ['W', 'Sp', 'S']
+  elif 'WSp.' in parts[1]:
+    return ['W', 'Sp']
+  elif 'WS.' in parts[1]:
+    return ['W', 'S']
+  elif 'W.' in parts[1]:
+    return ['W']
+  elif 'SpS.' in parts[1]:
+    return ['Sp', 'S']
+  elif 'Sp.' in parts[1]:
+    return ['Sp']
+  elif 'S.' in parts[1]:
+    return ['S']
+
+  return []
+
+
 def parse_course(course_node, campus):
   """Parses course attributes from a DOM node.
 
@@ -92,8 +139,9 @@ def parse_course(course_node, campus):
   knowledge_areas = sorted([j.strip() for j in re.split(',|/', m.group(5))])
   prerequisites = parse_prerequisites(
       ''.join([j for j in remaining if 'Prerequisite:' in j]))
+  offered = parse_offered(''.join([j for j in remaining if 'Offered:' in j]))
   return Course(campus, department, code, title, crs, knowledge_areas,
-                prerequisites)
+                prerequisites, offered)
 
 
 def get_department_links(url):
@@ -169,14 +217,14 @@ def export_courses(courses, output):
   writer = csv.writer(output)
   writer.writerow([
       'Campus', 'Department', 'Code', 'Name', 'Credits', 'Areas of Knowledge',
-      'Prerequisites'
+      'Prerequisites', 'Offered'
   ])
 
   for course in courses:
     writer.writerow([
         course.campus, course.department, course.code, course.name,
         course.credits, ','.join(course.knowledge_areas),
-        ','.join(course.prerequisites)
+        ','.join(course.prerequisites), ','.join(course.offered)
     ])
 
 
