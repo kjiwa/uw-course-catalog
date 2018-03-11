@@ -6,7 +6,7 @@ This script extracts courses from the University of Washington course catalog an
 * Seattle: http://www.washington.edu/students/crscat/
 * Tacoma: http://www.washington.edu/students/crscatt/
 
-Each department web page is analyzed with a DOM parser and regular expressions for course codes, names, credits, areas of knowledge, and prerequisites.
+Each department web page is analyzed with a DOM parser and regular expressions for course codes, names, credits, areas of knowledge, prerequisites, and quarters during which the course is offered.
 
 The ```--campus``` and ```--department_link``` command line flags may be used to limit the data extracted by the script. Use the ```--help``` flag for more details.
 
@@ -19,11 +19,12 @@ The CSV has the following format:
 * Credits
 * Areas of Knowledge
 * Prerequisites
+* Offered
 
 For example, the raw CSV may have data such as the following:
 
 ```
-Campus,Department,Code,Name,Credits,Areas of Knowledge,Prerequisites
+Campus,Department,Code,Name,Credits,Areas of Knowledge,Prerequisites,Offered
 Bothell,B AACT,501,Accounting Theory,4,,,
 Bothell,B BIO,232,"Embryos, Genes and Reproductive Technology",5,"I&S,NW",,
 Seattle,A A,101,Air and Space Vehicles,5,NW,,
