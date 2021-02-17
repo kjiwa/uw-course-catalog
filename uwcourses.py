@@ -14,9 +14,9 @@ import lxml.html
 import titlecase
 
 COURSE_INDICES = {
-    'Bothell': 'http://www.washington.edu/students/crscatb/',
-    'Seattle': 'http://www.washington.edu/students/crscat/',
-    'Tacoma': 'http://www.washington.edu/students/crscatt/'
+    'Bothell': 'https://www.washington.edu/students/crscatb/',
+    'Seattle': 'https://www.washington.edu/students/crscat/',
+    'Tacoma': 'https://www.washington.edu/students/crscatt/'
 }
 
 Course = collections.namedtuple('Course', [
@@ -156,7 +156,7 @@ def get_department_links(url):
   Raises:
     Exception: If an error occurred fetching the list of department links.
   """
-  client = http.client.HTTPConnection(url.netloc)
+  client = http.client.HTTPSConnection(url.netloc)
   client.request('GET', url.path)
   response = client.getresponse()
   if response.status != 200:
@@ -182,7 +182,7 @@ def get_courses(url, campus, dept_link):
   Returns:
     A list of courses offered by the department.
   """
-  client = http.client.HTTPConnection(url.netloc)
+  client = http.client.HTTPSConnection(url.netloc)
   client.request('GET', '%s%s' % (url.path, dept_link))
   response = client.getresponse()
   if response.status != 200:
